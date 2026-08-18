@@ -1,0 +1,4 @@
+node_modules
+_shot*
+.vercel
+.DS_Store

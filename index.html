@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI YouTube Radar - who posts what, and how often</title>
+<meta name="description" content="A live tracker of the AI YouTube channels worth following: their latest video, its topic, when it dropped, and how often they actually publish.">
+<meta property="og:title" content="AI YouTube Radar">
+<meta property="og:description" content="Latest video, topic, and real upload cadence for the AI channels worth following.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%230e0e11'/><circle cx='16' cy='16' r='4' fill='%23d9a441'/><circle cx='16' cy='16' r='9' fill='none' stroke='%23d9a441' stroke-opacity='.45'/></svg>">
+<style>
+:root {
+  color-scheme: dark light;
+  --bg: #0d0d10;
+  --surface: #131318;
+  --line: #23232c;
+  --line-soft: #1b1b22;
+  --ink: #edecf0;
+  --ink-2: #a3a2ad;
+  --ink-3: #6d6c78;
+  --accent: #d9a441;
+  --accent-ink: #1a1408;
+  --radius: 10px;
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg: #faf9f7;
+    --surface: #ffffff;
+    --line: #e2e0dc;
+    --line-soft: #edebe7;
+    --ink: #16151a;
+    --ink-2: #5c5a63;
+    --ink-3: #82808a;
+    --accent: #8f610f;
+    --accent-ink: #ffffff;
+  }
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: inherit; }
+.wrap { max-width: 1360px; margin: 0 auto; padding: 0 24px; }
+
+/* ---------- Header ---------- */
+header { border-bottom: 1px solid var(--line); background: var(--bg); }
+.head-inner {
+  display: flex; align-items: flex-end; justify-content: space-between;
+  gap: 32px; flex-wrap: wrap; padding: 56px 0 28px;
+}
+h1 {
+  margin: 0 0 10px;
+  font-size: clamp(30px, 5vw, 46px);
+  letter-spacing: -0.03em;
+  line-height: 1.05;
+  font-weight: 600;
+}
+h1 .mark { color: var(--accent); }
+.lede { margin: 0; max-width: 54ch; color: var(--ink-2); font-size: 16px; }
+.stats { display: flex; gap: 28px; padding-bottom: 4px; }
+.stat-n {
+  display: block; font-size: 30px; font-weight: 600; letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, monospace;
+}
+.stat-l { display: block; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--ink-3); margin-top: 2px; }
+
+/* ---------- Controls ---------- */
+.controls {
+  position: sticky; top: 0; z-index: 20;
+  background: color-mix(in srgb, var(--bg) 88%, transparent);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--line);
+}
+.controls-inner { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; padding: 14px 0; }
+.field { position: relative; flex: 1 1 260px; max-width: 380px; }
+.field label {
+  position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%);
+}
+input[type="search"] {
+  width: 100%; padding: 9px 13px; font: inherit; font-size: 14px;
+  color: var(--ink); background: var(--surface);
+  border: 1px solid var(--line); border-radius: var(--radius);
+}
+input[type="search"]::placeholder { color: var(--ink-3); }
+input[type="search"]:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; border-color: transparent; }
+.chips { display: flex; gap: 6px; flex-wrap: wrap; }
+.chip {
+  font: inherit; font-size: 12.5px; padding: 6px 12px; cursor: pointer;
+  color: var(--ink-2); background: transparent;
+  border: 1px solid var(--line); border-radius: var(--radius);
+  transition: color .15s, border-color .15s, background .15s;
+}
+.chip:hover { color: var(--ink); border-color: var(--ink-3); }
+.chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); font-weight: 500; }
+.chip:active { transform: translateY(1px); }
+
+/* ---------- Table ---------- */
+.sheet { padding: 8px 0 0; }
+table { width: 100%; border-collapse: collapse; }
+caption { text-align: left; padding: 18px 0 10px; color: var(--ink-3); font-size: 12.5px; }
+thead th {
+  position: sticky; top: 57px; z-index: 10;
+  background: var(--bg);
+  text-align: left; font-size: 11px; font-weight: 500;
+  text-transform: uppercase; letter-spacing: 0.09em; color: var(--ink-3);
+  padding: 10px 14px; white-space: nowrap;
+  border-bottom: 1px solid var(--line);
+}
+thead th button {
+  font: inherit; text-transform: inherit; letter-spacing: inherit; color: inherit;
+  background: none; border: 0; padding: 0; cursor: pointer; display: inline-flex; gap: 5px; align-items: center;
+}
+thead th button:hover { color: var(--ink); }
+thead th[aria-sort] button { color: var(--accent); }
+.arrow { opacity: 0; font-size: 9px; }
+thead th[aria-sort="ascending"] .arrow, thead th[aria-sort="descending"] .arrow { opacity: 1; }
+thead th[aria-sort="ascending"] .arrow::after { content: "\25B2"; }
+thead th[aria-sort="descending"] .arrow::after { content: "\25BC"; }
+
+tbody tr { border-bottom: 1px solid var(--line-soft); }
+tbody tr:hover { background: var(--surface); }
+td { padding: 12px 14px; vertical-align: middle; }
+.num {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, monospace;
+  font-variant-numeric: tabular-nums; font-size: 13.5px; white-space: nowrap;
+}
+.muted { color: var(--ink-2); }
+.faint { color: var(--ink-3); font-size: 12px; }
+
+.chan { display: flex; align-items: center; gap: 11px; min-width: 190px; }
+.mono-badge {
+  flex: none; width: 32px; height: 32px; border-radius: var(--radius);
+  display: grid; place-items: center;
+  background: var(--surface); border: 1px solid var(--line);
+  font-size: 13px; font-weight: 600; color: var(--ink-2); letter-spacing: -0.02em;
+}
+.chan a { font-weight: 500; text-decoration: none; }
+.chan a:hover { color: var(--accent); }
+
+.vid { display: flex; align-items: center; gap: 12px; min-width: 280px; }
+.vid img {
+  flex: none; width: 76px; height: 43px; object-fit: cover;
+  border-radius: 6px; background: var(--surface); border: 1px solid var(--line);
+}
+.vid a { text-decoration: none; display: block; max-width: 44ch; }
+.vid a:hover { color: var(--accent); }
+
+.topic {
+  display: inline-block; padding: 3px 9px; border-radius: 999px;
+  font-size: 12px; white-space: nowrap;
+  border: 1px solid var(--line); color: var(--ink-2); background: var(--surface);
+}
+.topic.beat { border-style: dashed; }
+
+.fresh-0 { color: var(--accent); font-weight: 600; }
+.fresh-1 { color: var(--ink); }
+.fresh-2 { color: var(--ink-2); }
+.fresh-3 { color: var(--ink-3); }
+
+/* Cadence bar: no filled background track, just the mark itself. */
+.cad { display: flex; align-items: center; gap: 9px; min-width: 178px; }
+.cad-bar { flex: none; height: 3px; border-radius: 2px; background: var(--accent); opacity: .8; }
+.cad .faint { white-space: nowrap; }
+
+.empty { padding: 64px 14px; text-align: center; color: var(--ink-2); }
+.empty strong { display: block; color: var(--ink); margin-bottom: 6px; font-size: 17px; }
+.skel { height: 16px; border-radius: 4px; background: var(--line-soft); animation: pulse 1.3s ease-in-out infinite; }
+@keyframes pulse { 0%,100% { opacity: 1 } 50% { opacity: .45 } }
+
+/* ---------- Method + Footer ---------- */
+.method { border-top: 1px solid var(--line); margin-top: 56px; padding: 44px 0; }
+.method h2 { margin: 0 0 14px; font-size: 15px; font-weight: 600; letter-spacing: -0.01em; }
+/* Pairs are wrapped in divs so dt and dd stay together in one grid cell. */
+.method dl { margin: 0; display: grid; gap: 20px 40px; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); max-width: 1060px; }
+.method dt { font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-3); margin-bottom: 4px; }
+.method dd { margin: 0; color: var(--ink-2); font-size: 14px; }
+
+footer { border-top: 1px solid var(--line); background: var(--surface); }
+.foot-inner {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 24px; flex-wrap: wrap; padding: 40px 0;
+}
+.foot-copy { max-width: 46ch; }
+.foot-copy p { margin: 0; color: var(--ink-2); font-size: 14px; }
+.foot-copy strong { color: var(--ink); font-weight: 600; }
+.kofi {
+  display: inline-flex; align-items: center; gap: 9px;
+  padding: 11px 20px; border-radius: var(--radius);
+  background: var(--accent); color: var(--accent-ink);
+  font-weight: 600; font-size: 14.5px; text-decoration: none; white-space: nowrap;
+  transition: filter .15s, transform .08s;
+}
+.kofi:hover { filter: brightness(1.08); }
+.kofi:active { transform: translateY(1px); }
+.built { padding: 0 0 40px; color: var(--ink-3); font-size: 12.5px; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}
+
+/* ---------- Mobile: the table collapses to labelled field rows ---------- */
+@media (max-width: 900px) {
+  .wrap { padding: 0 16px; }
+  .head-inner { padding: 36px 0 22px; }
+  thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+  table, tbody, tr, td { display: block; width: 100%; }
+  caption { display: block; width: 100%; }
+  tbody tr {
+    background: var(--surface); border: 1px solid var(--line);
+    border-radius: var(--radius); margin-bottom: 12px; padding: 6px 0;
+  }
+  td { padding: 7px 14px; display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+  td::before {
+    content: attr(data-label);
+    font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-3);
+    flex: none;
+  }
+  td[data-label="Channel"], td[data-label="Latest video"] { display: block; }
+  td[data-label="Channel"]::before, td[data-label="Latest video"]::before { display: none; }
+  .vid a { max-width: none; }
+  .cad { justify-content: flex-end; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap head-inner">
+    <div>
+      <h1>AI YouTube <span class="mark">Radar</span></h1>
+      <p class="lede">The AI channels worth following, with what they just posted and how often they really publish. Read live from each channel's upload feed.</p>
+    </div>
+    <div class="stats">
+      <div><span class="stat-n" id="s-channels">-</span><span class="stat-l">Channels</span></div>
+      <div><span class="stat-n" id="s-today">-</span><span class="stat-l">Posted in 48h</span></div>
+      <div><span class="stat-n" id="s-updated">-</span><span class="stat-l">Data age</span></div>
+    </div>
+  </div>
+</header>
+
+<div class="controls">
+  <div class="wrap controls-inner">
+    <div class="field">
+      <label for="q">Filter channels</label>
+      <input type="search" id="q" placeholder="Filter by channel, video, or topic" autocomplete="off">
+    </div>
+    <div class="chips" id="chips"></div>
+  </div>
+</div>
+
+<main class="wrap sheet">
+  <table>
+    <caption id="cap">Loading upload feeds</caption>
+    <thead>
+      <tr>
+        <th scope="col" data-key="name"><button type="button">Channel <span class="arrow"></span></button></th>
+        <th scope="col" data-key="title"><button type="button">Latest video <span class="arrow"></span></button></th>
+        <th scope="col" data-key="topic"><button type="button">Topic <span class="arrow"></span></button></th>
+        <th scope="col" data-key="daysSince" aria-sort="ascending"><button type="button">Posted <span class="arrow"></span></button></th>
+        <th scope="col" data-key="lastGap"><button type="button">Gap before it <span class="arrow"></span></button></th>
+        <th scope="col" data-key="medianGap"><button type="button">Usual cadence <span class="arrow"></span></button></th>
+        <th scope="col" data-key="last30"><button type="button">Last 30d <span class="arrow"></span></button></th>
+      </tr>
+    </thead>
+    <tbody id="rows">
+      <tr><td colspan="7" style="padding:22px 14px"><div class="skel"></div></td></tr>
+      <tr><td colspan="7" style="padding:22px 14px"><div class="skel"></div></td></tr>
+      <tr><td colspan="7" style="padding:22px 14px"><div class="skel"></div></td></tr>
+    </tbody>
+  </table>
+
+  <section class="method">
+    <h2>How to read this</h2>
+    <dl>
+      <div><dt>Posted</dt><dd>Days since the channel's most recent upload. Zero means today.</dd></div>
+      <div><dt>Gap before it</dt><dd>Days between that video and the one before it. The channel's current tempo.</dd></div>
+      <div><dt>Usual cadence</dt><dd>Median gap across the last 15 uploads, so one burst of videos does not skew it.</dd></div>
+      <div><dt>Topic</dt><dd>Read from the latest title. A dashed outline means the title was too vague, so it falls back to the channel's usual beat.</dd></div>
+      <div><dt>Last 30d</dt><dd>Uploads in the past month. A feed only carries 15 videos, so "15+" means at least that many.</dd></div>
+      <div><dt>Source</dt><dd>Each channel's public YouTube upload feed, Shorts and livestreams included. No API key, no tracking, no cookies.</dd></div>
+    </dl>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot-inner">
+    <div class="foot-copy">
+      <p><strong>Free, no signup, no ads.</strong> If this saves you time deciding what to watch, a coffee keeps it running.</p>
+    </div>
+    <!-- KO-FI LINK: replace YOURNAME with your Ko-fi handle -->
+    <a class="kofi" href="https://ko-fi.com/YOURNAME" target="_blank" rel="noopener">Buy me a coffee on Ko-fi</a>
+  </div>
+  <div class="wrap built" id="built"></div>
+</footer>
+
+<script>
+const rowsEl = document.getElementById('rows');
+const capEl = document.getElementById('cap');
+const qEl = document.getElementById('q');
+const chipsEl = document.getElementById('chips');
+
+let DATA = [];
+let topic = null;
+let sort = { key: 'daysSince', dir: 1 };
+
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const initials = n => n.replace(/\|.*/, '').trim().split(/\s+/).slice(0, 2).map(w => w[0]).join('').toUpperCase();
+const ago = d => d === 0 ? 'Today' : d === 1 ? 'Yesterday' : d + ' days ago';
+const freshClass = d => 'fresh-' + (d <= 1 ? 0 : d <= 4 ? 1 : d <= 14 ? 2 : 3);
+const gapText = g => g === null ? '-' : g < 1 ? 'same day' : g < 2 ? '1 day' : Math.round(g) + ' days';
+// Shorter bar = longer wait between uploads. Capped so a monthly channel does not blow out the column.
+const barPx = g => Math.max(4, Math.min(58, 58 - g * 3.2));
+
+function render() {
+  const q = qEl.value.trim().toLowerCase();
+  const list = DATA
+    .filter(c => !topic || c.latest.topic === topic)
+    .filter(c => !q || (c.name + ' ' + c.latest.title + ' ' + c.latest.topic).toLowerCase().includes(q))
+    .sort((a, b) => {
+      const k = sort.key;
+      const av = k === 'title' ? a.latest.title : k === 'topic' ? a.latest.topic : a[k];
+      const bv = k === 'title' ? b.latest.title : k === 'topic' ? b.latest.topic : b[k];
+      if (typeof av === 'string') return sort.dir * av.localeCompare(bv);
+      return sort.dir * ((av ?? 1e9) - (bv ?? 1e9));
+    });
+
+  const sortedBy = document.querySelector('thead th[aria-sort] button').textContent.trim().toLowerCase();
+  capEl.textContent = list.length === DATA.length
+    ? DATA.length + ' channels, sorted by ' + sortedBy
+    : list.length + ' of ' + DATA.length + ' channels';
+
+  if (!list.length) {
+    rowsEl.innerHTML = '<tr><td colspan="7"><div class="empty"><strong>No channel matches that</strong>Try a shorter search, or clear the topic filter.</div></td></tr>';
+    return;
+  }
+
+  rowsEl.innerHTML = list.map(c => `
+    <tr>
+      <td data-label="Channel">
+        <div class="chan">
+          <span class="mono-badge" aria-hidden="true">${esc(initials(c.name))}</span>
+          <a href="https://www.youtube.com/channel/${esc(c.channelId)}" target="_blank" rel="noopener">${esc(c.name)}</a>
+        </div>
+      </td>
+      <td data-label="Latest video">
+        <div class="vid">
+          <img src="https://i.ytimg.com/vi/${esc(c.latest.id)}/mqdefault.jpg" alt="" width="76" height="43" loading="lazy">
+          <a href="https://www.youtube.com/watch?v=${esc(c.latest.id)}" target="_blank" rel="noopener">${esc(c.latest.title)}</a>
+        </div>
+      </td>
+      <td data-label="Topic"><span class="topic${c.latest.topicIsBeat ? ' beat' : ''}">${esc(c.latest.topic)}</span></td>
+      <td data-label="Posted"><span class="num ${freshClass(c.daysSince)}">${ago(c.daysSince)}</span></td>
+      <td data-label="Gap before it"><span class="num muted">${gapText(c.lastGap)}</span></td>
+      <td data-label="Usual cadence">
+        <div class="cad">
+          <span class="cad-bar" style="width:${barPx(c.medianGap)}px" aria-hidden="true"></span>
+          <span class="faint">${esc(c.cadence)}</span>
+        </div>
+      </td>
+      <td data-label="Last 30d"><span class="num muted">${c.capped ? c.last30 + '+' : c.last30}</span></td>
+    </tr>`).join('');
+}
+
+document.querySelectorAll('thead th').forEach(th => th.querySelector('button').addEventListener('click', () => {
+  const key = th.dataset.key;
+  sort = { key, dir: sort.key === key ? -sort.dir : 1 };
+  document.querySelectorAll('thead th').forEach(o => o.removeAttribute('aria-sort'));
+  th.setAttribute('aria-sort', sort.dir === 1 ? 'ascending' : 'descending');
+  render();
+}));
+
+qEl.addEventListener('input', render);
+
+window.fetch('data.json').then(r => r.json()).then(d => {
+  DATA = d.channels;
+  document.getElementById('s-channels').textContent = DATA.length;
+  document.getElementById('s-today').textContent = DATA.filter(c => c.daysSince <= 1).length;
+
+  const hrs = Math.round((Date.now() - new Date(d.generated)) / 3600000);
+  document.getElementById('s-updated').textContent = hrs < 1 ? 'new' : hrs < 48 ? hrs + 'h' : Math.round(hrs / 24) + 'd';
+  document.getElementById('built').textContent =
+    'Upload feeds read ' + new Date(d.generated).toLocaleString(undefined, { dateStyle: 'medium', timeStyle: 'short' }) + '.';
+
+  const counts = {};
+  for (const c of DATA) counts[c.latest.topic] = (counts[c.latest.topic] || 0) + 1;
+  chipsEl.innerHTML = Object.entries(counts).sort((a, b) => b[1] - a[1])
+    .map(([t, n]) => '<button class="chip" type="button" aria-pressed="false" data-t="' + esc(t) + '">' + esc(t) + ' ' + n + '</button>').join('');
+  chipsEl.querySelectorAll('.chip').forEach(b => b.addEventListener('click', () => {
+    topic = topic === b.dataset.t ? null : b.dataset.t;
+    chipsEl.querySelectorAll('.chip').forEach(o => o.setAttribute('aria-pressed', String(o.dataset.t === topic)));
+    render();
+  }));
+
+  render();
+}).catch(() => {
+  capEl.textContent = '';
+  rowsEl.innerHTML = '<tr><td colspan="7"><div class="empty"><strong>Could not load the feed data</strong>Refresh the page. If it keeps failing, the data file is missing.</div></td></tr>';
+});
+</script>
+</body>
+</html>
