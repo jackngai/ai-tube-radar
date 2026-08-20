@@ -114,12 +114,23 @@ for (const c of channels) {
   })).filter(e => e.published).sort((a, b) => +new Date(b.published) - +new Date(a.published));
   if (!entries.length) { console.error(`SKIP ${c.name}: empty feed`); continue; }
 
+  // The channel page's og:image is the avatar. No API key, and re-read every run so a
+  // creator changing their picture self-heals instead of leaving a dead URL.
+  let avatar: string | null = null;
+  try {
+    const page = await fetch('https://www.youtube.com/channel/' + id, { headers: { 'user-agent': 'Mozilla/5.0' } });
+    const m = (await page.text()).match(/<meta property="og:image" content="([^"]+)"/);
+    // Default is =s900; 88px is plenty for a 34px slot on a 2x screen.
+    if (m) avatar = m[1].replace(/=s\d+-/, '=s88-');
+  } catch { /* fall back to the initials badge */ }
+
   const dates = entries.map(e => +new Date(e.published));
   const gaps = dates.slice(0, -1).map((d, i) => (d - dates[i + 1]) / day);
   const now = Date.now();
   out.push({
     name: c.name,
     channelId: id,
+    avatar,
     watched: c.watched,
     latest: { ...entries[0], topic: topicOf(entries[0].title) ?? beatOf(entries.map(e => e.title)), topicIsBeat: !topicOf(entries[0].title) },
     prev: entries[1] ?? null,

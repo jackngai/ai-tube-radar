@@ -170,11 +170,15 @@ td { padding: 13px 16px; vertical-align: middle; }
 .faint { color: var(--ink-3); font-size: 12px; }
 
 .chan { display: flex; align-items: center; gap: 11px; }
-.mono-badge {
-  flex: none; width: 34px; height: 34px; border-radius: 11px;
-  display: grid; place-items: center;
+.avatar {
+  flex: none; width: 34px; height: 34px; border-radius: 50%;
   background: var(--glass-3); border: 1px solid var(--rim);
   box-shadow: 0 4px 10px -6px rgba(64, 48, 118, .45);
+  object-fit: cover;
+}
+/* Only reached when the channel page had no og:image. */
+.initials {
+  display: grid; place-items: center;
   font-size: 13px; font-weight: 600; color: var(--ink-2); letter-spacing: -0.02em;
 }
 .chan a { font-weight: 500; text-decoration: none; }
@@ -403,7 +407,9 @@ function render() {
     <tr>
       <td data-label="Channel">
         <div class="chan">
-          <span class="mono-badge" aria-hidden="true">${esc(initials(c.name))}</span>
+          ${c.avatar
+            ? `<img class="avatar" src="${esc(c.avatar)}" alt="" width="34" height="34" loading="lazy">`
+            : `<span class="avatar initials" aria-hidden="true">${esc(initials(c.name))}</span>`}
           <a href="https://www.youtube.com/channel/${esc(c.channelId)}" target="_blank" rel="noopener">${esc(c.name)}</a>
         </div>
       </td>
