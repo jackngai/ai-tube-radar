@@ -1,6 +1,14 @@
-// Pulls each channel's real upload feed (YouTube RSS, no API key) and computes cadence.
+// Pulls each channel's real upload feed (YouTube RSS, no API key), computes cadence,
+// and summarizes each channel's latest video into bullets.
 import Database from 'better-sqlite3';
-import { writeFileSync } from 'node:fs';
+import { readFileSync, writeFileSync } from 'node:fs';
+import { config } from 'dotenv';
+import { GoogleGenAI } from '@google/genai';
+// ClaudeClaw's transcript fetcher: handles yt-dlp's auto-caption fallbacks and the
+// --no-simulate gotcha. Not worth re-implementing here.
+import { fetchVideoBundle } from '/Users/jack/ClaudeClaw/src/youtube.ts';
+
+config({ path: '/Users/jack/ClaudeClaw/.env' });
 
 const db = new Database('/Users/jack/ClaudeClaw/store/claudeclaw.db', { readonly: true });
 const channels = db.prepare(`
@@ -42,6 +50,55 @@ const beatOf = (titles: string[]) => {
 const cadenceOf = (d: number) =>
   d < 1.5 ? 'Daily' : d < 3 ? 'Every 2-3 days' : d < 5.5 ? '~2x per week' : d < 10 ? 'Weekly' : d < 18 ? 'Biweekly' : 'Monthly';
 
+const gemini = new GoogleGenAI({ apiKey: process.env.GOOGLE_API_KEY });
+
+// The only summaries worth keeping are the ones for the current latest video of each
+// channel, and those already live in the last data.json. So it doubles as the cache:
+// unchanged latest video -> no transcript pull, no model call.
+const cached: Record<string, string[]> = {};
+try {
+  for (const c of JSON.parse(readFileSync(new URL('./data.json', import.meta.url), 'utf8')).channels ?? []) {
+    if (c.latest?.id && c.latest?.bullets?.length) cached[c.latest.id] = c.latest.bullets;
+  }
+} catch { /* first run, or a hand-broken data.json: summarize everything */ }
+
+async function bulletsFor(videoId: string, title: string): Promise<string[] | null> {
+  if (cached[videoId]) return cached[videoId];
+  let transcript: string;
+  try {
+    transcript = (await fetchVideoBundle(videoId)).transcript.fullText;
+  } catch (err) {
+    console.error(`   no transcript for ${videoId}: ${(err as Error).message}`);
+    return null;
+  }
+  const prompt = [
+    'Summarize this YouTube video for someone deciding whether to watch it.',
+    '',
+    `Title: ${title}`,
+    '',
+    'Transcript:',
+    transcript.slice(0, 14000),
+    '',
+    'Return strict JSON: {"bullets": ["...", "...", "..."]}',
+    '- Exactly 2 or 3 bullets.',
+    '- Each under 110 characters, a full clause, no trailing period.',
+    '- State what the video actually shows or claims. Concrete tools, numbers, and findings.',
+    '- Never write "this video covers", "the creator explains", or any marketing language.',
+  ].join('\n');
+  try {
+    const res = await gemini.models.generateContent({
+      model: 'gemini-3-flash-preview',
+      contents: prompt,
+      config: { responseMimeType: 'application/json' },
+    });
+    const b = JSON.parse(res.text ?? '{}').bullets;
+    return Array.isArray(b) && b.length ? b.slice(0, 3).map(String) : null;
+  } catch (err) {
+    console.error(`   summary failed for ${videoId}: ${(err as Error).message}`);
+    return null;
+  }
+}
+
 const out: any[] = [];
 for (const c of channels) {
   const id = c.url.split('/channel/')[1];
@@ -67,15 +124,17 @@ for (const c of channels) {
     latest: { ...entries[0], topic: topicOf(entries[0].title) ?? beatOf(entries.map(e => e.title)), topicIsBeat: !topicOf(entries[0].title) },
     prev: entries[1] ?? null,
     daysSince: Math.floor((now - dates[0]) / day),
-    lastGap: gaps[0] != null ? Math.round(gaps[0] * 10) / 10 : null,
     medianGap: Math.round(median(gaps) * 10) / 10,
-    last30: dates.filter(d => now - d < 30 * day).length,
-    // The RSS feed only carries 15 uploads, so a full window means "at least this many".
-    capped: dates.filter(d => now - d < 30 * day).length === entries.length,
     cadence: cadenceOf(median(gaps)),
     span: entries.length,
   });
   console.error(`ok ${c.name} (${entries.length} uploads)`);
+}
+
+console.error('');
+for (const c of out) {
+  c.latest.bullets = await bulletsFor(c.latest.id, c.latest.title);
+  console.error(`${c.latest.bullets ? 'sum ' : 'NO  '}${c.name}`);
 }
 
 out.sort((a, b) => a.daysSince - b.daysSince);
