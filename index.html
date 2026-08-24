@@ -121,6 +121,30 @@ input[type="search"]:focus-visible { outline: 2px solid var(--accent); outline-o
 }
 .chip:active { transform: translateY(1px); }
 
+/* ---------- What's trending ---------- */
+.trend {
+  margin-top: 16px; padding: 18px 22px 20px;
+  background: var(--glass); backdrop-filter: var(--blur); -webkit-backdrop-filter: var(--blur);
+  border: 1px solid var(--rim); border-radius: var(--radius-lg); box-shadow: var(--shadow);
+}
+.trend h2 {
+  margin: 0 0 14px; font-size: 11px; font-weight: 500;
+  text-transform: uppercase; letter-spacing: 0.1em; color: var(--ink-3);
+}
+.trend-items { display: grid; gap: 14px 32px; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); }
+.trend-topic {
+  margin: 0 0 4px; font-size: 17px; font-weight: 600; letter-spacing: -0.02em;
+  background: linear-gradient(100deg, #5b4bd6, #8f7bee);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.trend-note { margin: 0 0 9px; color: var(--ink-2); font-size: 14px; max-width: 60ch; }
+.trend-who { display: flex; align-items: center; gap: 7px; flex-wrap: wrap; }
+.trend-who .avatar { width: 22px; height: 22px; }
+/* Overlap the faces into a stack so the row stays short with 4+ channels. */
+.trend-faces { display: flex; }
+.trend-faces .avatar + .avatar { margin-left: -8px; }
+.trend-who span { font-size: 12.5px; color: var(--ink-3); }
+
 /* ---------- Table: one floating glass sheet ---------- */
 .sheet { padding: 20px 0 0; }
 table {
@@ -290,6 +314,8 @@ footer { margin-top: 22px; padding-bottom: 40px; }
   .vid a { max-width: none; }
   .cad { justify-content: flex-end; }
   .method, .foot-inner { padding: 24px 20px; }
+  .trend { padding: 16px 18px 18px; }
+  .trend-items { grid-template-columns: 1fr; gap: 18px; }
 }
 </style>
 </head>
@@ -318,6 +344,13 @@ footer { margin-top: 22px; padding-bottom: 40px; }
     <div class="chips" id="chips"></div>
   </div>
 </div>
+
+<section class="wrap" aria-labelledby="trend-h">
+  <div class="trend" id="trend" hidden>
+    <h2 id="trend-h">What's trending</h2>
+    <div class="trend-items" id="trend-items"></div>
+  </div>
+</section>
 
 <main class="wrap sheet">
   <table>
@@ -449,6 +482,22 @@ window.fetch('data.json').then(r => r.json()).then(d => {
   document.getElementById('s-updated').textContent = hrs < 1 ? 'new' : hrs < 48 ? hrs + 'h' : Math.round(hrs / 24) + 'd';
   document.getElementById('built').textContent =
     'Upload feeds read ' + new Date(d.generated).toLocaleString(undefined, { dateStyle: 'medium', timeStyle: 'short' }) + '.';
+
+  const byName = Object.fromEntries(DATA.map(c => [c.name, c]));
+  if (d.trending?.length) {
+    document.getElementById('trend-items').innerHTML = d.trending.map(t => `
+      <article>
+        <h3 class="trend-topic">${esc(t.topic)}</h3>
+        <p class="trend-note">${esc(t.note)}</p>
+        <p class="trend-who">
+          <span class="trend-faces">${t.channels.map(n => byName[n]?.avatar
+            ? `<img class="avatar" src="${esc(byName[n].avatar)}" alt="" width="22" height="22" loading="lazy">`
+            : '').join('')}</span>
+          <span>${t.channels.map(esc).join(', ')}</span>
+        </p>
+      </article>`).join('');
+    document.getElementById('trend').hidden = false;
+  }
 
   const counts = {};
   for (const c of DATA) counts[c.latest.topic] = (counts[c.latest.topic] || 0) + 1;

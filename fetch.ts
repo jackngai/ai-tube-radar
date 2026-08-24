@@ -56,10 +56,13 @@ const gemini = new GoogleGenAI({ apiKey: process.env.GOOGLE_API_KEY });
 // channel, and those already live in the last data.json. So it doubles as the cache:
 // unchanged latest video -> no transcript pull, no model call.
 const cached: Record<string, string[]> = {};
+let prevTrending: any[] = [];
 try {
-  for (const c of JSON.parse(readFileSync(new URL('./data.json', import.meta.url), 'utf8')).channels ?? []) {
+  const prev = JSON.parse(readFileSync(new URL('./data.json', import.meta.url), 'utf8'));
+  for (const c of prev.channels ?? []) {
     if (c.latest?.id && c.latest?.bullets?.length) cached[c.latest.id] = c.latest.bullets;
   }
+  prevTrending = prev.trending ?? [];
 } catch { /* first run, or a hand-broken data.json: summarize everything */ }
 
 async function bulletsFor(videoId: string, title: string): Promise<string[] | null> {
@@ -148,6 +151,57 @@ for (const c of out) {
   console.error(`${c.latest.bullets ? 'sum ' : 'NO  '}${c.name}`);
 }
 
+// What several channels are all covering right now. Runs over the summaries, so it
+// has to come after them.
+async function trendingFrom(channels: any[]): Promise<any[]> {
+  const summarized = channels.filter(c => c.latest.bullets?.length);
+  const names = new Set(summarized.map(c => c.name));
+  const prompt = [
+    'Below are the latest videos from ' + summarized.length + ' AI YouTube channels.',
+    'Identify the 1 or 2 most specific topics that MULTIPLE channels are covering right now.',
+    '',
+    summarized.map(c => '### ' + c.name + '\n' + c.latest.title + '\n- ' + c.latest.bullets.join('\n- ')).join('\n\n'),
+    '',
+    'Return strict JSON: {"trending": [{"topic": "...", "note": "...", "channels": ["...", "..."]}]}',
+    '',
+    'topic: 2 to 6 words. It must name the specific thing being argued, tested, or demonstrated',
+    '  right now, not the product it happens to involve. A bare tool or category name is NOT a',
+    '  topic, because it says nothing about what is actually being discussed.',
+    '  GOOD: "Loop engineering", "Grok Bot\'s $200 tier", "DeepSeek agent harness benchmarks".',
+    '  BAD: "Claude Code", "AI agents", "LLMs", "automation", "n8n".',
+    '  Test it: if the same topic string would have been true six months ago, it is too generic.',
+    'Only group channels together when they are making the SAME point about the SAME development.',
+    '  Several channels each using one tool for unrelated things is not a trend.',
+    'note: one sentence under 120 characters on the specific thing they are all saying.',
+    'channels: only names copied exactly from the headings above. At least 2 per topic.',
+    'Order by how many channels cover it. Return at most 2, and always return at least 1.',
+  ].join('\n');
+  try {
+    const res = await gemini.models.generateContent({
+      model: 'gemini-3-flash-preview',
+      contents: prompt,
+      config: { responseMimeType: 'application/json' },
+    });
+    const raw = JSON.parse(res.text ?? '{}').trending;
+    if (!Array.isArray(raw)) throw new Error('no trending array');
+    // Drop channels the model invented, then any topic that no longer has the
+    // multi-channel overlap the whole feature claims.
+    const clean = raw
+      .map((t: any) => ({ ...t, channels: (t.channels ?? []).filter((n: string) => names.has(n)) }))
+      .filter((t: any) => t.topic && t.channels.length >= 2)
+      .slice(0, 2);
+    if (!clean.length) throw new Error('nothing survived validation');
+    return clean;
+  } catch (err) {
+    console.error(`   trending failed: ${(err as Error).message}` + (prevTrending.length ? ' (keeping previous)' : ''));
+    return prevTrending;
+  }
+}
+
+const trending = await trendingFrom(out);
+console.error('');
+for (const t of trending) console.error(`trend ${t.topic} (${t.channels.length} channels)`);
+
 out.sort((a, b) => a.daysSince - b.daysSince);
-writeFileSync(new URL('./data.json', import.meta.url), JSON.stringify({ generated: new Date().toISOString(), channels: out }, null, 2));
+writeFileSync(new URL('./data.json', import.meta.url), JSON.stringify({ generated: new Date().toISOString(), trending, channels: out }, null, 2));
 console.error(`\nwrote ${out.length} channels`);
