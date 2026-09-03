@@ -1,22 +1,24 @@
 {
-  "generated": "2026-09-02T10:22:07.539Z",
+  "generated": "2026-09-03T10:22:33.129Z",
   "trending": [
     {
-      "topic": "Fable 5.1 performance and pricing",
-      "note": "Anthropic's update achieves top benchmark scores and offers a significant reduction in API cache read costs.",
+      "topic": "Fable 5.1 technical deep-dives",
+      "note": "Investigating system prompt structures, watermarking signatures, and logic-based prompting for the Fable 5.1 model.",
       "channels": [
         "Matthew Berman",
-        "Nate Herk | AI Automation",
-        "Nick Saraev",
-        "Better Stack"
+        "Mark Kashef",
+        "Chase AI",
+        "Nate Herk | AI Automation"
       ]
     },
     {
-      "topic": "Grok Bot autonomous task execution",
-      "note": "xAI's new agent executes multi-step workflows using its own cloud machine, browser, and terminal.",
+      "topic": "Terminal agent workflow expansion",
+      "note": "Extending terminal-based agents to perform hardware flashing, memory distillation, and video editing workflows.",
       "channels": [
-        "Mark Kashef",
-        "Jack Roberts"
+        "Creator Magic",
+        "Austin Marchese",
+        "Jack Roberts",
+        "jaredrhod"
       ]
     }
   ],
@@ -27,27 +29,56 @@
       "avatar": "https://yt3.googleusercontent.com/1X83USLZjNCWy21jOEP9rhsLujx6airwI-ANVsBhWMoErFuUkbx6-tDBjM-OAaIwxDv8MoUlHUk=s88-c-k-c0x00ffffff-no-rj",
       "watched": 28,
       "latest": {
-        "id": "epogfA_0R4E",
-        "title": "Anthropic went CRAZY (Mythos/Fable 5.1)",
-        "published": "2026-09-01T23:57:31+00:00",
-        "views": 91453,
-        "topic": "Claude",
-        "topicIsBeat": false,
+        "id": "uPCcWfiqqEM",
+        "title": "Use Fable 5.1!!",
+        "published": "2026-09-03T07:39:16+00:00",
+        "views": 1038,
+        "topic": "AI Coding",
+        "topicIsBeat": true,
         "bullets": [
-          "Fable 5.1 and Mythos 5.1 achieve top scores on Terminal Bench Science and Cursor coding benchmarks",
-          "Cache read pricing is reduced by 75% though high token usage may increase total cost per task",
-          "New security features include enterprise frontier safeguards and watermarking for AI-generated text"
+          "Create a functional 3D Rubik's cube with Fable 5.1 to test its native coding capabilities",
+          "Convert hand-drawn website sketches into interactive sites by uploading photos to the model",
+          "Direct the model to interview the user to surface missing requirements and edge cases"
         ]
       },
       "prev": {
-        "id": "U6Ie2br8lxs",
-        "title": "Cursor just got BANNED (It's because of Elon...)",
-        "published": "2026-09-01T17:46:33+00:00",
-        "views": 62366
+        "id": "2uVH2WUYb5E",
+        "title": "GOOGLE IS BACK! (Gemini 3.8 Flash)",
+        "published": "2026-09-03T06:12:54+00:00",
+        "views": 25316
       },
       "daysSince": 0,
       "medianGap": 0.5,
       "cadence": "Daily",
+      "span": 15
+    },
+    {
+      "name": "Mark Kashef",
+      "channelId": "UCHkzp52CldSPZqU5T49mOnA",
+      "avatar": "https://yt3.googleusercontent.com/-pBSgbiB5HgpqtBg5wqvtmOkDNUQ8W82mJlAEpjpYJHV-wNp-R67eS-tE5yK5xdjTUfrIX-MxNc=s88-c-k-c0x00ffffff-no-rj",
+      "watched": 18,
+      "latest": {
+        "id": "cHVB2e-V80Y",
+        "title": "Fable 5.1 Scores Better. So Why Is Its Prompt So Much Bigger?",
+        "published": "2026-09-02T17:30:02+00:00",
+        "views": 4797,
+        "topic": "RAG & Prompting",
+        "topicIsBeat": false,
+        "bullets": [
+          "The Fable 5.1 system prompt is 2.3 times larger than its predecessor and includes 46 tools and functions",
+          "New capabilities include a persistent memory file system and specialized tools for past chat searches",
+          "The model uses 13 dedicated tools to format answers as charts, cards, and quizzes instead of text blocks"
+        ]
+      },
+      "prev": {
+        "id": "Jq3WcqtakNQ",
+        "title": "How to Use ANY AI Model in GrokBot",
+        "published": "2026-08-31T17:00:41+00:00",
+        "views": 22046
+      },
+      "daysSince": 0,
+      "medianGap": 4.5,
+      "cadence": "~2x per week",
       "span": 15
     },
     {
@@ -56,23 +87,23 @@
       "avatar": "https://yt3.googleusercontent.com/o0F_q2m371fwgW87G8R8BA8zvg5-Y5xreztte36ga2xm4uPgwByxhi1OM5UO1P8C-gSpPHzLMg=s88-c-k-c0x00ffffff-no-rj",
       "watched": 16,
       "latest": {
-        "id": "VRtD88WgaBk",
-        "title": "Top 10 NEW Github Repos Every Claude User Must Try",
-        "published": "2026-09-02T01:45:10+00:00",
-        "views": 2431,
+        "id": "r7GNqSDGn0k",
+        "title": "Fable 5.1 Is Watermarking EVERYTHING and This Is How To Fix It",
+        "published": "2026-09-03T00:00:20+00:00",
+        "views": 4579,
         "topic": "Claude",
-        "topicIsBeat": false,
+        "topicIsBeat": true,
         "bullets": [
-          "Omni Route connects users to over 300 AI models to access millions of tokens for free",
-          "Any Dock converts documents to markdown while Open Montage acts as a full AI video production studio",
-          "ArchifAI generates diagrams for complex codebases and Claw of Tanks demonstrates high-level game design"
+          "Fable 5.1 creates invisible watermarks by subtly adjusting the probability scores of chosen words",
+          "Watermarking can be bypassed by using Grok or a local model through Ollama to rewrite the text",
+          "A provided prompt automates the process of setting up local models to strip detection patterns"
         ]
       },
       "prev": {
-        "id": "A0QQYkjU9w8",
-        "title": "Fable 5.1 Is The Best Claude Model Ever",
-        "published": "2026-09-01T21:59:44+00:00",
-        "views": 7467
+        "id": "slePq-H-TMA",
+        "title": "Fable 5.1 Watermarks EVERYTHING, Here's How To Remove It",
+        "published": "2026-09-02T20:20:18+00:00",
+        "views": 29522
       },
       "daysSince": 0,
       "medianGap": 0.8,
@@ -85,23 +116,23 @@
       "avatar": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s88-c-k-c0x00ffffff-no-rj",
       "watched": 15,
       "latest": {
-        "id": "FFWtxjvW2ts",
-        "title": "Fable 5.1 FINALLY Kills AI Website Slop",
-        "published": "2026-09-02T02:28:02+00:00",
-        "views": 44731,
+        "id": "FBVNS1l5Vb8",
+        "title": "How Anthropic ACTUALLY Prompts Fable 5.1",
+        "published": "2026-09-02T21:53:38+00:00",
+        "views": 31296,
         "topic": "Claude",
-        "topicIsBeat": true,
+        "topicIsBeat": false,
         "bullets": [
-          "Fable 5.1 uses multi-layer parallax and dynamic card stacking to create premium-feeling web designs",
-          "Tools like 21st.dev and Godly.design provide specific component prompts to avoid generic AI slop",
-          "The ScrollCraft skill enables one-shot prompts for complex 3D-like scrolling effects on desktop and mobile"
+          "Define clear finish lines instead of prescriptive tasks to let the model determine its own methodology",
+          "Match effort levels to task complexity to preserve tokens and extend usage limits across sessions",
+          "Deploy parallel sub-agents for task delegation and verification to increase speed and output accuracy"
         ]
       },
       "prev": {
-        "id": "8IyORt-7rOQ",
-        "title": "Fable 5.1 Just Dropped. It Looks Unreal.",
-        "published": "2026-09-01T18:49:57+00:00",
-        "views": 78301
+        "id": "FFWtxjvW2ts",
+        "title": "Fable 5.1 FINALLY Kills AI Website Slop",
+        "published": "2026-09-02T02:28:02+00:00",
+        "views": 146073
       },
       "daysSince": 0,
       "medianGap": 0.9,
@@ -109,32 +140,32 @@
       "span": 15
     },
     {
-      "name": "Austin Marchese",
-      "channelId": "UCFeFVytEkT8kaqPCJZGFswg",
-      "avatar": "https://yt3.googleusercontent.com/zSFaH5WiyCObmCfyslDM-lI3qVt7u18IqUfHlBsa6y8jKtx4AdkcrOn5S_T0JXtI4s_23IvEOA=s88-c-k-c0x00ffffff-no-rj",
-      "watched": 9,
+      "name": "Creator Magic",
+      "channelId": "UC08Fah8EIryeOZRkjBRohcQ",
+      "avatar": "https://yt3.googleusercontent.com/xLX2aDRXU0EgpfsfVh-45qHp6zkcJJvh3itsgoqqo1AsX0dm-UkzCDYh9LogceLaNfFmqQFA2D0=s88-c-k-c0x00ffffff-no-rj",
+      "watched": 12,
       "latest": {
-        "id": "4hIvG849w4Y",
-        "title": "This Fixes Claude's Biggest Problem (Karpathy's Method)",
-        "published": "2026-09-01T17:00:03+00:00",
-        "views": 16437,
+        "id": "Zvb01TRY6UY",
+        "title": "Claude Code Turned $20 Gadgets Into Tiny Computers",
+        "published": "2026-09-02T10:32:39+00:00",
+        "views": 34485,
         "topic": "Claude",
         "topicIsBeat": false,
         "bullets": [
-          "Replicate Anthropic's Enterprise Dreams feature using custom Claude Code skills for memory distillation",
-          "Apply Andrej Karpathy's dream-state concept to merge duplicates and resolve chat history contradictions",
-          "Automate a /dream orchestration skill that updates local memory.md and Claude.md files for better context"
+          "Claude Code identifies ESP32 hardware and flashes custom firmware using natural language prompts",
+          "The agent uses vision capabilities to fix display offsets by analyzing photos of the hardware screen",
+          "A $20 Wave Share board is transformed into a real-time Bluetooth audio spectrum analyzer in minutes"
         ]
       },
       "prev": {
-        "id": "7rRVwjzVQsc",
-        "title": "17 Things You Didn't Know Claude Design Could Do",
-        "published": "2026-08-28T13:45:08+00:00",
-        "views": 24221
+        "id": "IpObINj_FPE",
+        "title": "Claude Code Just Built My Entire Zapier Workflow",
+        "published": "2026-08-26T14:14:23+00:00",
+        "views": 4478
       },
       "daysSince": 0,
-      "medianGap": 3.9,
-      "cadence": "~2x per week",
+      "medianGap": 2.1,
+      "cadence": "Every 2-3 days",
       "span": 15
     },
     {
@@ -143,27 +174,56 @@
       "avatar": "https://yt3.googleusercontent.com/hypu_gAVvu_zrtDWjVw833AeSwI2OwJSJ5ZSy1QAhgbIPs1qmNnKreOnHMhaU55bBRLMA47E=s88-c-k-c0x00ffffff-no-rj",
       "watched": 5,
       "latest": {
-        "id": "UbylWXukvR8",
-        "title": "11 Tiny Coding Agent Fixes With A Stupid Amount Of Payoff",
-        "published": "2026-09-01T17:06:40+00:00",
-        "views": 15357,
+        "id": "DcLj_SO8JNk",
+        "title": "AI Software Factories Are the Next Big Thing (And I'm Building You One)",
+        "published": "2026-09-03T00:00:14+00:00",
+        "views": 13400,
         "topic": "Agents",
-        "topicIsBeat": false,
+        "topicIsBeat": true,
         "bullets": [
-          "Use deterministic hooks instead of probabilistic rules to ensure critical tasks like test runs execute",
-          "Limit global rule files to under 300 lines to prevent performance degradation from excessive context",
-          "Avoid conversation compression features which studies show lose up to 90% of specific technical details"
+          "The AI software factory uses Archon workflows to automate development from PRD to production-ready code",
+          "A prototype system successfully built the DynaChat AI tutor app without any manual code intervention",
+          "Future stress tests involve using the system to build video games to evaluate agent reliability"
         ]
       },
       "prev": {
-        "id": "t-EsObfyxzo",
-        "title": "The Hidden Flaw of EVERY Coding Agent Now Has a Solution",
-        "published": "2026-08-30T14:37:02+00:00",
-        "views": 4239
+        "id": "UbylWXukvR8",
+        "title": "11 Tiny Coding Agent Fixes With A Stupid Amount Of Payoff",
+        "published": "2026-09-01T17:06:40+00:00",
+        "views": 28093
       },
       "daysSince": 0,
-      "medianGap": 2,
+      "medianGap": 1.8,
       "cadence": "Every 2-3 days",
+      "span": 15
+    },
+    {
+      "name": "AI For Humans",
+      "channelId": "UCghJTNTO9kcDeUFXMuSDGLQ",
+      "avatar": "https://yt3.googleusercontent.com/N7gHh80WiWb3kE6tSz3WusSAgrHAI8BSk8dKM3a2aNHyM-nkAhkBju6LehXkoEKrHVaYItimBk8=s88-c-k-c0x00ffffff-no-rj",
+      "watched": 6,
+      "latest": {
+        "id": "viV9ZXSYyjY",
+        "title": "We Watched Infinite AI Video... And We're Zombies Now",
+        "published": "2026-09-02T13:45:16+00:00",
+        "views": 9685,
+        "topic": "AI Coding",
+        "topicIsBeat": false,
+        "bullets": [
+          "MiniMax H3 Max generates clips in seconds to enable real-time interactive video streams",
+          "Users can influence live AI sitcoms on platforms like Fal.live through voting and text chat",
+          "High inference costs mean complex interactive AI video experiments can currently cost up to $15 per run"
+        ]
+      },
+      "prev": {
+        "id": "DQkf0XprG6c",
+        "title": "We Tested The Mystery AI That Showed Up Out Of Nowhere",
+        "published": "2026-08-26T13:45:21+00:00",
+        "views": 11019
+      },
+      "daysSince": 0,
+      "medianGap": 5,
+      "cadence": "~2x per week",
       "span": 15
     },
     {
@@ -172,56 +232,27 @@
       "avatar": "https://yt3.googleusercontent.com/DNqB1hIwioWT2PYkLGHuFtnfUnx11uE-35XmQqOXJBwyy7sZuBUiTQRySnHoCGP9Wj-0GNGaOQ=s88-c-k-c0x00ffffff-no-rj",
       "watched": 3,
       "latest": {
-        "id": "o58t3Tkc2qs",
-        "title": "xAI just launched Grok Bot, an agent that works while you sleep",
-        "published": "2026-09-01T22:02:18+00:00",
-        "views": 4959,
-        "topic": "Agents",
-        "topicIsBeat": false,
-        "bullets": [
-          "xAI launched Grok Bot as a 24/7 autonomous agent that executes tasks using its own cloud machine",
-          "The bot utilizes a built-in browser and terminal to perform work and report back results for review",
-          "Users can automate workflows by recording them once for the bot to learn and replicate on demand"
-        ]
-      },
-      "prev": {
-        "id": "w3Lb7N3MxIg",
-        "title": "How to use Claude Code For Free in 2026",
-        "published": "2026-09-01T20:27:05+00:00",
-        "views": 18516
-      },
-      "daysSince": 0,
-      "medianGap": 0.3,
-      "cadence": "Daily",
-      "span": 15
-    },
-    {
-      "name": "Derek Cheung | AI Agents Automation",
-      "channelId": "UCINkul2kgQYqt4GuD-352DQ",
-      "avatar": "https://yt3.googleusercontent.com/pD4zIbKgDPxU0Vlln2nIlArU7GJQJbmsvTL2T9OmIybZUUsKiOL_QLCEeaoj6R2OReeumPCQyA=s88-c-k-c0x00ffffff-no-rj",
-      "watched": 3,
-      "latest": {
-        "id": "PX9d3CUwFoc",
-        "title": "The Escape Room Puzzle Revealed: 'Key in the Past'! 🗝️🕰️ #FlovaAI #AIVideoGenerator #EscapeRoom",
-        "published": "2026-09-01T16:52:41+00:00",
-        "views": 197,
+        "id": "8oZP9PsRKZ8",
+        "title": "Never Edit Your Videos Manually Again",
+        "published": "2026-09-03T02:18:27+00:00",
+        "views": 536,
         "topic": "AI Coding",
         "topicIsBeat": false,
         "bullets": [
-          "The puzzle features a four-dial door solved by a misdirect involving a physical key and a clock cabinet",
-          "Players combine the 8:40 time from a grandfather clock with the year '26 from a portrait to get the code 8426",
-          "The design process involves entering clues, ordering, and visual specs into the AI generator as a full spec"
+          "Chat Cut serves as an AI video editor within Cloud Code that edits footage via natural language prompts",
+          "The tool includes a manual timeline and can automatically generate AI b-roll or motion graphics",
+          "Specific editing workflows can be saved as skills to automate the processing of future video projects"
         ]
       },
       "prev": {
-        "id": "iEV5FC6sQpY",
-        "title": "Hermes Agent Bot Mode: 3 AIs Fact-Check Each Other #HermesAgent #BotMode #AIAgents #DeepResearch",
-        "published": "2026-09-01T03:15:40+00:00",
-        "views": 514
+        "id": "X2PARg8ErvY",
+        "title": "Fable 5.1 Just Solved AI Slop... I'm Done",
+        "published": "2026-09-02T22:10:59+00:00",
+        "views": 13762
       },
       "daysSince": 0,
-      "medianGap": 3.9,
-      "cadence": "~2x per week",
+      "medianGap": 0.2,
+      "cadence": "Daily",
       "span": 15
     },
     {
@@ -230,23 +261,77 @@
       "avatar": "https://yt3.googleusercontent.com/Nhub0TMCZUFjPrr7PZDvKuv6O2zICq7Yfi5Ah6P0OdTq_iaoZJ0zM8uMB4pKuEmc7XWpbrxa=s88-c-k-c0x00ffffff-no-rj",
       "watched": 3,
       "latest": {
-        "id": "PjBgS57Hwtc",
-        "title": "Vibe Coding With Claude Fable 5.1",
-        "published": "2026-09-01T23:42:45+00:00",
-        "views": 110963,
+        "id": "1Kongqi_HDs",
+        "title": "Spending $5,000 Vibe Coding With Claude Fable 5.1",
+        "published": "2026-09-02T19:48:48+00:00",
+        "views": 76743,
         "topic": "Claude",
         "topicIsBeat": false,
         "bullets": null
       },
       "prev": {
-        "id": "rHbWBc34-SI",
-        "title": "Day 223 – Vibe Coding an App Until I Make $1,000,000 | ARR: $188,550",
-        "published": "2026-09-01T18:07:53+00:00",
-        "views": 25810
+        "id": "PjBgS57Hwtc",
+        "title": "Vibe Coding With Claude Fable 5.1",
+        "published": "2026-09-01T23:42:45+00:00",
+        "views": 118626
       },
       "daysSince": 0,
-      "medianGap": 1.1,
+      "medianGap": 0.9,
       "cadence": "Daily",
+      "span": 15
+    },
+    {
+      "name": "Agrici Daniel",
+      "channelId": "UCuCpyjRfW157950O5VBaWlw",
+      "avatar": "https://yt3.googleusercontent.com/8nAFN6DNigTbf83pZ4fcfIQfKUEP3VUDMOGy1qVM0oowp_sIGTalmuhXJJ2ntAO9hMEwr13-Ag=s88-c-k-c0x00ffffff-no-rj",
+      "watched": 3,
+      "latest": {
+        "id": "KfrKGx2AmIE",
+        "title": "we build something live with our ai agents, chat picks what",
+        "published": "2026-09-02T23:55:26+00:00",
+        "views": 0,
+        "topic": "Agents",
+        "topicIsBeat": false,
+        "bullets": null
+      },
+      "prev": {
+        "id": "UVSPZw7k1oA",
+        "title": "redeem your free credits in google ai studio 🙂‍↕️ #goohle #aistudio #freecreditsfromgooglewhoopwhoop",
+        "published": "2026-09-02T23:40:42+00:00",
+        "views": 62
+      },
+      "daysSince": 0,
+      "medianGap": 0.6,
+      "cadence": "Daily",
+      "span": 15
+    },
+    {
+      "name": "Paul J Lipsky",
+      "channelId": "UCmeU2DYiVy80wMBGZzEWnbw",
+      "avatar": "https://yt3.googleusercontent.com/ABQ6aFf51m-8plR4kJ-pJNUOrVf_X5OISauKR7XVS56EBriwvKj4aQus5X1cHHjLLCcqPE-LsA=s88-c-k-c0x00ffffff-no-rj",
+      "watched": 2,
+      "latest": {
+        "id": "oe0KXL7nPds",
+        "title": "Claude Cowork Browser vs ChatGPT Work Browser (Surprising Results)",
+        "published": "2026-09-02T13:00:06+00:00",
+        "views": 24464,
+        "topic": "Claude",
+        "topicIsBeat": false,
+        "bullets": [
+          "Claude Co-work completes complex web tasks faster and with more autonomy than ChatGPT in head-to-head tests",
+          "ChatGPT Work provides superior browser features like history, autofill, and a built-in password manager",
+          "Testing shows Claude handles nuanced search requests in one minute while ChatGPT Soul takes over five minutes"
+        ]
+      },
+      "prev": {
+        "id": "Dkdgut6i2xY",
+        "title": "The 7 ChatGPT Work Skills I Use Every Day (Copy Them)",
+        "published": "2026-08-31T13:00:04+00:00",
+        "views": 101720
+      },
+      "daysSince": 0,
+      "medianGap": 2,
+      "cadence": "Every 2-3 days",
       "span": 15
     },
     {
@@ -255,23 +340,23 @@
       "avatar": "https://yt3.googleusercontent.com/molHXVKVHeiHHsYtXrxCZNrwfKitFmAoXZ03CNngHmQSRiW9DAjiOYBxQTYiGuXbnLSQnoRa=s88-c-k-c0x00ffffff-no-rj",
       "watched": 2,
       "latest": {
-        "id": "yeWi6YdDOMM",
-        "title": "Fable 5.1 Just Dropped. It's Not Even Close.",
-        "published": "2026-09-01T18:21:44+00:00",
-        "views": 59117,
-        "topic": "Claude",
-        "topicIsBeat": true,
+        "id": "QLLuZbuTIRc",
+        "title": "How to Think Clearly In The Era Of AI: Full Course (5 Hours)",
+        "published": "2026-09-02T14:32:06+00:00",
+        "views": 43287,
+        "topic": "AI Business",
+        "topicIsBeat": false,
         "bullets": [
-          "Fable 5.1 doubles business workflow automation success to 31.4% and exceeds 50% on scientific research",
-          "The update offers 2.5x better cost efficiency per task and reduces cache read expenses by up to 45 percent",
-          "False positive safeguard flags for biology and medical prompts are reduced by 85% to minimize refusals"
+          "The brain uses 20% of body energy and defaults to habits over calculations to minimize metabolic cost",
+          "Cognition is attention as a gatekeeper, working memory as a workbench, and executive function as a foreman",
+          "Tactical models include Bayesian probability, Fermi approximations, and the Chesterton’s fence framework"
         ]
       },
       "prev": {
-        "id": "DJZISqryDfw",
-        "title": "The Only Codex Course You Need in 2026 (4.5 Hours)",
-        "published": "2026-08-23T14:30:07+00:00",
-        "views": 39172
+        "id": "yeWi6YdDOMM",
+        "title": "Fable 5.1 Just Dropped. It's Not Even Close.",
+        "published": "2026-09-01T18:21:44+00:00",
+        "views": 70391
       },
       "daysSince": 0,
       "medianGap": 2.3,
@@ -284,27 +369,85 @@
       "avatar": "https://yt3.googleusercontent.com/CoQXQKlzRpBxtXwiSWvu_ho0VZTo6k4u50fwVd65ni_o6padwctoRxJvAExmTLVesmSKinPm2g=s88-c-k-c0x00ffffff-no-rj",
       "watched": 2,
       "latest": {
-        "id": "0lBvjhcRqyU",
-        "title": "Anthropic did it again, the best model ever (Fable 5.1)",
-        "published": "2026-09-02T03:30:36+00:00",
-        "views": 13756,
-        "topic": "Claude",
-        "topicIsBeat": false,
+        "id": "uIqjWeO91p4",
+        "title": "Mojo Is Finally Open Source... So I Tested It",
+        "published": "2026-09-02T12:00:30+00:00",
+        "views": 30028,
+        "topic": "Models",
+        "topicIsBeat": true,
         "bullets": [
-          "Fable 5.1 outperforms GPT 5.6 Soul on benchmarks but often requires much longer processing times",
-          "Coding tests show Fable 5.1 produces more bug-free web games than rivals but at a higher token cost",
-          "API pricing for cache reads dropped from $1.00 to $0.25 per million tokens to assist agentic workflows"
+          "Mojo released version 1.0 and open-sourced its compiler under Apache 2.0 following a Qualcomm acquisition",
+          "Performance tests on an M4 Pro show Mojo is 26 times faster than pure Python and twice as fast as NumPy",
+          "Version 1.0 includes over 40 unstable API warnings for core functions and restricts outside contributions"
         ]
       },
       "prev": {
-        "id": "O4TMwZlUJvQ",
-        "title": "This Local AI Can Invent Any Voice From Text (VoxCPM)",
-        "published": "2026-09-01T11:30:22+00:00",
-        "views": 16810
+        "id": "spQE4s7tMzY",
+        "title": "Nvidia Could Own Hugging Face... This Is Huge. #nvidia #huggingface #ai",
+        "published": "2026-09-02T11:00:07+00:00",
+        "views": 7469
       },
       "daysSince": 0,
-      "medianGap": 0.4,
+      "medianGap": 0.3,
       "cadence": "Daily",
+      "span": 15
+    },
+    {
+      "name": "Austin Marchese",
+      "channelId": "UCFeFVytEkT8kaqPCJZGFswg",
+      "avatar": "https://yt3.googleusercontent.com/zSFaH5WiyCObmCfyslDM-lI3qVt7u18IqUfHlBsa6y8jKtx4AdkcrOn5S_T0JXtI4s_23IvEOA=s88-c-k-c0x00ffffff-no-rj",
+      "watched": 9,
+      "latest": {
+        "id": "4hIvG849w4Y",
+        "title": "This Fixes Claude's Biggest Problem (Karpathy's Method)",
+        "published": "2026-09-01T17:00:03+00:00",
+        "views": 30427,
+        "topic": "Claude",
+        "topicIsBeat": false,
+        "bullets": [
+          "Replicate Anthropic's Enterprise Dreams feature using custom Claude Code skills for memory distillation",
+          "Apply Andrej Karpathy's dream-state concept to merge duplicates and resolve chat history contradictions",
+          "Automate a /dream orchestration skill that updates local memory.md and Claude.md files for better context"
+        ]
+      },
+      "prev": {
+        "id": "7rRVwjzVQsc",
+        "title": "17 Things You Didn't Know Claude Design Could Do",
+        "published": "2026-08-28T13:45:08+00:00",
+        "views": 26794
+      },
+      "daysSince": 1,
+      "medianGap": 3.9,
+      "cadence": "~2x per week",
+      "span": 15
+    },
+    {
+      "name": "Derek Cheung | AI Agents Automation",
+      "channelId": "UCINkul2kgQYqt4GuD-352DQ",
+      "avatar": "https://yt3.googleusercontent.com/pD4zIbKgDPxU0Vlln2nIlArU7GJQJbmsvTL2T9OmIybZUUsKiOL_QLCEeaoj6R2OReeumPCQyA=s88-c-k-c0x00ffffff-no-rj",
+      "watched": 3,
+      "latest": {
+        "id": "PX9d3CUwFoc",
+        "title": "The Escape Room Puzzle Revealed: 'Key in the Past'! 🗝️🕰️ #FlovaAI #AIVideoGenerator #EscapeRoom",
+        "published": "2026-09-01T16:52:41+00:00",
+        "views": 396,
+        "topic": "AI Coding",
+        "topicIsBeat": false,
+        "bullets": [
+          "The puzzle features a four-dial door solved by a misdirect involving a physical key and a clock cabinet",
+          "Players combine the 8:40 time from a grandfather clock with the year '26 from a portrait to get the code 8426",
+          "The design process involves entering clues, ordering, and visual specs into the AI generator as a full spec"
+        ]
+      },
+      "prev": {
+        "id": "iEV5FC6sQpY",
+        "title": "Hermes Agent Bot Mode: 3 AIs Fact-Check Each Other #HermesAgent #BotMode #AIAgents #DeepResearch",
+        "published": "2026-09-01T03:15:40+00:00",
+        "views": 930
+      },
+      "daysSince": 1,
+      "medianGap": 3.9,
+      "cadence": "~2x per week",
       "span": 15
     },
     {
@@ -316,7 +459,7 @@
         "id": "DPNpYObX4ps",
         "title": "Gemini Notebook’s HUGE Upgrade: Create Fully Editable Branded PowerPoints!",
         "published": "2026-09-01T13:40:36+00:00",
-        "views": 2464,
+        "views": 5790,
         "topic": "Models",
         "topicIsBeat": false,
         "bullets": [
@@ -329,9 +472,9 @@
         "id": "90UscKAvHIc",
         "title": "How to Create Vox-Style Explainer Videos with Google Flow - No Animation Skills Needed!",
         "published": "2026-08-23T12:00:24+00:00",
-        "views": 2553
+        "views": 2753
       },
-      "daysSince": 0,
+      "daysSince": 1,
       "medianGap": 6,
       "cadence": "Weekly",
       "span": 15
@@ -345,7 +488,7 @@
         "id": "tE2z8-hqoLY",
         "title": "Beyond the Lethal Trifecta: Agentic Commerce on the Open Internet — David Levine, Kiduna Club",
         "published": "2026-09-01T20:30:27+00:00",
-        "views": 4755,
+        "views": 7848,
         "topic": "Agents",
         "topicIsBeat": false,
         "bullets": [
@@ -358,98 +501,11 @@
         "id": "QrMcNe2jjt8",
         "title": "The End of the Static Screen: Architecting Intent-Driven UX — Gus Iwanaga, commercetools",
         "published": "2026-09-01T20:00:01+00:00",
-        "views": 4476
+        "views": 8821
       },
-      "daysSince": 0,
+      "daysSince": 1,
       "medianGap": 0,
       "cadence": "Daily",
-      "span": 15
-    },
-    {
-      "name": "Mark Kashef",
-      "channelId": "UCHkzp52CldSPZqU5T49mOnA",
-      "avatar": "https://yt3.googleusercontent.com/-pBSgbiB5HgpqtBg5wqvtmOkDNUQ8W82mJlAEpjpYJHV-wNp-R67eS-tE5yK5xdjTUfrIX-MxNc=s88-c-k-c0x00ffffff-no-rj",
-      "watched": 18,
-      "latest": {
-        "id": "Jq3WcqtakNQ",
-        "title": "How to Use ANY AI Model in GrokBot",
-        "published": "2026-08-31T17:00:41+00:00",
-        "views": 21512,
-        "topic": "Models",
-        "topicIsBeat": false,
-        "bullets": [
-          "Swaps GrokBot’s decision layer with external providers like Open Router and Codex to save credits",
-          "Retains native features like file access and screen control while using custom models for synthesis",
-          "Requires a minimum $20 monthly plan and local setup using a provided open-source GitHub repository"
-        ]
-      },
-      "prev": {
-        "id": "mAWT1HCBgbQ",
-        "title": "Cursor Accidentally Exposed Grok Bot’s Blueprint",
-        "published": "2026-08-26T14:00:25+00:00",
-        "views": 15386
-      },
-      "daysSince": 1,
-      "medianGap": 4.5,
-      "cadence": "~2x per week",
-      "span": 15
-    },
-    {
-      "name": "Agrici Daniel",
-      "channelId": "UCuCpyjRfW157950O5VBaWlw",
-      "avatar": "https://yt3.googleusercontent.com/8nAFN6DNigTbf83pZ4fcfIQfKUEP3VUDMOGy1qVM0oowp_sIGTalmuhXJJ2ntAO9hMEwr13-Ag=s88-c-k-c0x00ffffff-no-rj",
-      "watched": 3,
-      "latest": {
-        "id": "i7dggzKIA7o",
-        "title": "i built an open source keyword research tool",
-        "published": "2026-08-31T20:57:40+00:00",
-        "views": 10088,
-        "topic": "Claude",
-        "topicIsBeat": true,
-        "bullets": [
-          "Keyword Pro is an open-source local app using DataForSEO API to generate keyword and trend reports",
-          "The dashboard displays search intent, difficulty spreads, opportunity maps, and audience demographics",
-          "Research sessions can be exported as CSV or PDF files and integrated directly with AI coding agents"
-        ]
-      },
-      "prev": {
-        "id": "Tpc-mDJA3co",
-        "title": "this app makes keyword research and website audits easy #shorts #claude #codex #ai #seo",
-        "published": "2026-08-30T18:53:43+00:00",
-        "views": 356
-      },
-      "daysSince": 1,
-      "medianGap": 0.6,
-      "cadence": "Daily",
-      "span": 15
-    },
-    {
-      "name": "Paul J Lipsky",
-      "channelId": "UCmeU2DYiVy80wMBGZzEWnbw",
-      "avatar": "https://yt3.googleusercontent.com/ABQ6aFf51m-8plR4kJ-pJNUOrVf_X5OISauKR7XVS56EBriwvKj4aQus5X1cHHjLLCcqPE-LsA=s88-c-k-c0x00ffffff-no-rj",
-      "watched": 2,
-      "latest": {
-        "id": "Dkdgut6i2xY",
-        "title": "The 7 ChatGPT Work Skills I Use Every Day (Copy Them)",
-        "published": "2026-08-31T13:00:04+00:00",
-        "views": 87420,
-        "topic": "Models",
-        "topicIsBeat": false,
-        "bullets": [
-          "Custom skills like visualize generate interactive charts while lmk sends push notifications via Pushover",
-          "Handoff skills package project data for other models and the ask skill uses browser automation to query Grok",
-          "The grill me skill forces ChatGPT to interview the user for clarity before starting multi-step workflows"
-        ]
-      },
-      "prev": {
-        "id": "2RbFft-4PG4",
-        "title": "AI News: Omni 1.1, Claude Cowork Browser, Agentic Gemini Live, ChatGPT Stickers & More!",
-        "published": "2026-08-28T13:00:20+00:00",
-        "views": 126733
-      },
-      "daysSince": 1,
-      "medianGap": 2,
-      "cadence": "Every 2-3 days",
       "span": 15
     },
     {
@@ -458,21 +514,25 @@
       "avatar": "https://yt3.googleusercontent.com/MopgmVAFV9BqlzOJ-UINtmutvEPcNe5IbKMmP_4vZZo3vnJXcZGtybUBsXaEVxkmxKyGqX9R=s88-c-k-c0x00ffffff-no-rj",
       "watched": 3,
       "latest": {
-        "id": "S6TIVzqTmu8",
-        "title": "Magic Manga Girl (:30)",
-        "published": "2026-08-29T05:22:53+00:00",
-        "views": 38988,
+        "id": "981SivztzOc",
+        "title": "Use Your Computer and Browser",
+        "published": "2026-08-28T20:51:46+00:00",
+        "views": 76410,
         "topic": "Models",
         "topicIsBeat": true,
-        "bullets": null
+        "bullets": [
+          "ChatGPT Work uses Computer use and Chrome use to automate desktop apps and signed-in websites",
+          "The Command Command shortcut captures an Appshot to give ChatGPT visual context of the active screen",
+          "ChatGPT integrates browser automation with plugins to draft Workday PTO requests and calendar events"
+        ]
       },
       "prev": {
-        "id": "IEpTT48oW5Y",
-        "title": "Tennis (:30)",
-        "published": "2026-08-29T05:22:32+00:00",
-        "views": 28096
+        "id": "DLcQSp_CIIc",
+        "title": "Talk to ChatGPT Work",
+        "published": "2026-08-28T20:51:46+00:00",
+        "views": 8805
       },
-      "daysSince": 4,
+      "daysSince": 5,
       "medianGap": 0,
       "cadence": "Daily",
       "span": 15
@@ -486,7 +546,7 @@
         "id": "jPSirKTGTfo",
         "title": "If You Don't Understand First Principles, You Can't Think Clearly",
         "published": "2026-08-27T12:30:31+00:00",
-        "views": 339237,
+        "views": 404352,
         "topic": "Claude",
         "topicIsBeat": true,
         "bullets": [
@@ -499,69 +559,11 @@
         "id": "p8V9ERTyh1Q",
         "title": "Sometimes You Just Need To Go Into Crisis Mode",
         "published": "2026-08-27T12:00:37+00:00",
-        "views": 20947
+        "views": 21741
       },
-      "daysSince": 5,
+      "daysSince": 6,
       "medianGap": 1.2,
       "cadence": "Daily",
-      "span": 15
-    },
-    {
-      "name": "Creator Magic",
-      "channelId": "UC08Fah8EIryeOZRkjBRohcQ",
-      "avatar": "https://yt3.googleusercontent.com/xLX2aDRXU0EgpfsfVh-45qHp6zkcJJvh3itsgoqqo1AsX0dm-UkzCDYh9LogceLaNfFmqQFA2D0=s88-c-k-c0x00ffffff-no-rj",
-      "watched": 12,
-      "latest": {
-        "id": "IpObINj_FPE",
-        "title": "Claude Code Just Built My Entire Zapier Workflow",
-        "published": "2026-08-26T14:14:23+00:00",
-        "views": 3767,
-        "topic": "Claude",
-        "topicIsBeat": false,
-        "bullets": [
-          "Claude Code uses the Zapier MCP to build and deploy multi-step automation via natural language prompts",
-          "The resulting workflow costs 27 cents per run versus 81 cents for a full autonomous AI agent build",
-          "The system successfully manages API authentication and resolves sandbox network errors during deployment"
-        ]
-      },
-      "prev": {
-        "id": "oVGC9Zixz48",
-        "title": "My Hermes Agent Finally Works While I Sleep",
-        "published": "2026-08-24T12:00:17+00:00",
-        "views": 6916
-      },
-      "daysSince": 6,
-      "medianGap": 2.1,
-      "cadence": "Every 2-3 days",
-      "span": 15
-    },
-    {
-      "name": "AI For Humans",
-      "channelId": "UCghJTNTO9kcDeUFXMuSDGLQ",
-      "avatar": "https://yt3.googleusercontent.com/N7gHh80WiWb3kE6tSz3WusSAgrHAI8BSk8dKM3a2aNHyM-nkAhkBju6LehXkoEKrHVaYItimBk8=s88-c-k-c0x00ffffff-no-rj",
-      "watched": 6,
-      "latest": {
-        "id": "DQkf0XprG6c",
-        "title": "We Tested The Mystery AI That Showed Up Out Of Nowhere",
-        "published": "2026-08-26T13:45:21+00:00",
-        "views": 10846,
-        "topic": "Claude",
-        "topicIsBeat": true,
-        "bullets": [
-          "Mystery AI model Ox Alpha provides premium performance for free and has served 17 trillion tokens",
-          "Highlights from the World Humanoid Robot Games in China showcase advanced machines frequently falling down",
-          "Minimax H3 creates realistic AI video in less time than the length of the actual footage produced"
-        ]
-      },
-      "prev": {
-        "id": "dMWQflqutR0",
-        "title": "AI Got Weird. So We're Changing The Show.",
-        "published": "2026-08-21T13:45:38+00:00",
-        "views": 12299
-      },
-      "daysSince": 6,
-      "medianGap": 5,
-      "cadence": "~2x per week",
       "span": 15
     },
     {
@@ -573,7 +575,7 @@
         "id": "_CuibYl_Fh0",
         "title": "Is Linux the perfect operating system? - Omarchy interview with DHH",
         "published": "2026-08-25T18:03:38+00:00",
-        "views": 234328,
+        "views": 245118,
         "topic": "News & Talk",
         "topicIsBeat": false,
         "bullets": [
@@ -586,9 +588,9 @@
         "id": "5zyujD1gDc4",
         "title": "I had to assemble this laptop. Then I  installed #omarchy on it.",
         "published": "2026-08-23T13:45:16+00:00",
-        "views": 943529
+        "views": 960740
       },
-      "daysSince": 7,
+      "daysSince": 8,
       "medianGap": 3.1,
       "cadence": "~2x per week",
       "span": 15
@@ -602,7 +604,7 @@
         "id": "bakCpppEJN8",
         "title": "How to get paid for your AI building skills",
         "published": "2026-08-25T11:00:19+00:00",
-        "views": 1939,
+        "views": 1942,
         "topic": "Agents",
         "topicIsBeat": true,
         "bullets": [
@@ -615,9 +617,9 @@
         "id": "TjvxkDVsQKk",
         "title": "Stop connecting apps the wrong way",
         "published": "2026-08-25T08:00:19+00:00",
-        "views": 3088
+        "views": 3098
       },
-      "daysSince": 7,
+      "daysSince": 8,
       "medianGap": 0.1,
       "cadence": "Daily",
       "span": 15
@@ -631,7 +633,7 @@
         "id": "FiOTrxq9ckM",
         "title": "[Free on Github] My Jarvis AI Assistant",
         "published": "2026-08-20T15:00:02+00:00",
-        "views": 150674,
+        "views": 167092,
         "topic": "AI Business",
         "topicIsBeat": true,
         "bullets": [
@@ -644,9 +646,9 @@
         "id": "BeWeyhpzIBk",
         "title": "Making Money with AI",
         "published": "2026-08-19T06:00:45+00:00",
-        "views": 2541
+        "views": 2621
       },
-      "daysSince": 12,
+      "daysSince": 13,
       "medianGap": 0.9,
       "cadence": "Daily",
       "span": 15
