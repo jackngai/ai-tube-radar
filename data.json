@@ -1,21 +1,22 @@
 {
-  "generated": "2026-09-25T10:22:35.637Z",
+  "generated": "2026-09-26T10:22:05.671Z",
   "trending": [
     {
-      "topic": "Jev classification performance and cost",
-      "note": "Channels are testing Jev for extreme speed and cost-efficiency in structured classification and logic-based tasks.",
+      "topic": "Building autonomous Claude Code agents",
+      "note": "Creators are using the CLI tool to deploy fully autonomous trading, shopping, and file-system management agents.",
       "channels": [
-        "Matthew Berman",
-        "Mark Kashef",
-        "Better Stack"
+        "Creator Magic",
+        "Derek Cheung | AI Agents Automation",
+        "jaredrhod"
       ]
     },
     {
-      "topic": "Autonomous marketplace shopping agents",
-      "note": "Creators are building multi-agent systems to scrape Amazon and Walmart to autonomously source and analyze products.",
+      "topic": "Claude Opus 5.5 performance benchmarking",
+      "note": "The new model is being tested for superiority in creative coding, motion graphics, and automated model selection.",
       "channels": [
-        "Creator Magic",
-        "Derek Cheung | AI Agents Automation"
+        "Matthew Berman",
+        "Mark Kashef",
+        "Paul J Lipsky"
       ]
     }
   ],
@@ -26,26 +27,26 @@
       "avatar": "https://yt3.googleusercontent.com/1X83USLZjNCWy21jOEP9rhsLujx6airwI-ANVsBhWMoErFuUkbx6-tDBjM-OAaIwxDv8MoUlHUk=s88-c-k-c0x00ffffff-no-rj",
       "watched": 36,
       "latest": {
-        "id": "jGD_UR4wMJc",
-        "title": "8 Jev Use Cases That Feel Like Cheating",
-        "published": "2026-09-24T18:37:13+00:00",
-        "views": 102464,
-        "topic": "Models",
-        "topicIsBeat": true,
+        "id": "rgO5v8MFtFg",
+        "title": "What People Are Building With Opus 5.5",
+        "published": "2026-09-26T01:30:30+00:00",
+        "views": 18137,
+        "topic": "Claude",
+        "topicIsBeat": false,
         "bullets": [
-          "Jev costs 4.2 cents per million input tokens and performs thousands of logic-based decisions per second",
-          "Applications include a real-time ad blocker, an AI slop detector, and an instant 90-minute video clipper",
-          "The system sorts hundreds of emails in under 0.5 seconds and assembles dynamic UI from component libraries"
+          "Opus 5.5 claims to be the best model globally while maintaining lower costs than Fable",
+          "Users built a Dark Souls clone and recreated San Francisco in Unreal Engine powered by Jev",
+          "Showcased projects include 3D animations, flight simulators, and a multiplayer lawn mower simulator"
         ]
       },
       "prev": {
-        "id": "Ima_AVPyQ9E",
-        "title": "GPT-6 Sol and Luna Are HERE!",
-        "published": "2026-09-23T20:19:04+00:00",
-        "views": 56122
+        "id": "zICv3IJaAfQ",
+        "title": "DeepSeek is CRAZY",
+        "published": "2026-09-25T21:05:41+00:00",
+        "views": 16835
       },
       "daysSince": 0,
-      "medianGap": 0.4,
+      "medianGap": 0.3,
       "cadence": "Daily",
       "span": 15
     },
@@ -55,22 +56,22 @@
       "avatar": "https://yt3.googleusercontent.com/o0F_q2m371fwgW87G8R8BA8zvg5-Y5xreztte36ga2xm4uPgwByxhi1OM5UO1P8C-gSpPHzLMg=s88-c-k-c0x00ffffff-no-rj",
       "watched": 17,
       "latest": {
-        "id": "tW738kiZLgA",
-        "title": "Jev + Claude OS Is An INSANE Combo",
-        "published": "2026-09-25T08:30:39+00:00",
-        "views": 380,
-        "topic": "Claude",
+        "id": "-_S3KD0ZIfI",
+        "title": "GPT 6 Astra Turned Me Into A Blender Expert (Ive Never Used Blender)",
+        "published": "2026-09-25T22:04:00+00:00",
+        "views": 2567,
+        "topic": "Models",
         "topicIsBeat": false,
         "bullets": null
       },
       "prev": {
-        "id": "EOdXR6lU5ZA",
-        "title": "This NEW Jev + Claude OS Just Changed Every AI Workflow",
-        "published": "2026-09-25T00:47:11+00:00",
-        "views": 35803
+        "id": "tW738kiZLgA",
+        "title": "Jev + Claude OS Is An INSANE Combo",
+        "published": "2026-09-25T08:30:39+00:00",
+        "views": 7914
       },
       "daysSince": 0,
-      "medianGap": 1.1,
+      "medianGap": 1,
       "cadence": "Daily",
       "span": 15
     },
@@ -80,19 +81,19 @@
       "avatar": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s88-c-k-c0x00ffffff-no-rj",
       "watched": 17,
       "latest": {
-        "id": "QCkHIyEPIYo",
-        "title": "I Tested Opus 5.5 at Every Effort Level. What You Need to Know.",
-        "published": "2026-09-24T20:35:45+00:00",
-        "views": 60287,
+        "id": "7jHXoPGnA4c",
+        "title": "Opus 5.5 Just Changed Video Editing Forever (free skills)",
+        "published": "2026-09-25T23:54:59+00:00",
+        "views": 44266,
         "topic": "Claude",
         "topicIsBeat": false,
         "bullets": null
       },
       "prev": {
-        "id": "GmLcJVzkxPA",
-        "title": "I Tested Opus 5.5 vs. GPT-6 Astra on 12 Real Use Cases",
-        "published": "2026-09-23T23:33:40+00:00",
-        "views": 89729
+        "id": "QCkHIyEPIYo",
+        "title": "I Had Opus 5.5 Build me the Same App at Every Effort Level",
+        "published": "2026-09-24T20:35:45+00:00",
+        "views": 118517
       },
       "daysSince": 0,
       "medianGap": 0.9,
@@ -105,27 +106,27 @@
       "avatar": "https://yt3.googleusercontent.com/xLX2aDRXU0EgpfsfVh-45qHp6zkcJJvh3itsgoqqo1AsX0dm-UkzCDYh9LogceLaNfFmqQFA2D0=s88-c-k-c0x00ffffff-no-rj",
       "watched": 13,
       "latest": {
-        "id": "8kJPzkPm2Zc",
-        "title": "My AI Agents Shopped Amazon for ESP32 Devices",
-        "published": "2026-09-24T16:21:52+00:00",
-        "views": 6450,
-        "topic": "Agents",
-        "topicIsBeat": false,
+        "id": "8ijN8LGljKg",
+        "title": "I Gave 3 AI Trading Bots $1,000 (Jev)",
+        "published": "2026-09-25T17:02:21+00:00",
+        "views": 52921,
+        "topic": "Claude",
+        "topicIsBeat": true,
         "bullets": [
-          "A five-agent team in Hyperagent scrapes X, Reddit, and Amazon to identify trending ESP32 hardware deals",
-          "Autonomous agents analyze sentiment and generate custom product images and promotional videos",
-          "The workflow produces functional C code to flash a physical notification device for new product finds"
+          "Three AI agents use the Jev API to make 300 automated trading decisions per minute across 537 assets",
+          "Claude Code generates a TypeScript engine and React dashboard to manage $1,000 in live capital",
+          "Dockerized bots deploy to a VPS for 24/7 high-frequency trading costing roughly $3 to $5 in daily API fees"
         ]
       },
       "prev": {
-        "id": "-k-P8D3z-n4",
-        "title": "I Made an AI Calorie Tracker iOS App in MINUTES",
-        "published": "2026-09-23T12:47:05+00:00",
-        "views": 5691
+        "id": "8kJPzkPm2Zc",
+        "title": "My AI Agents Shopped Amazon for ESP32 Devices",
+        "published": "2026-09-24T16:21:52+00:00",
+        "views": 9271
       },
       "daysSince": 0,
-      "medianGap": 1.6,
-      "cadence": "Every 2-3 days",
+      "medianGap": 1.1,
+      "cadence": "Daily",
       "span": 15
     },
     {
@@ -134,22 +135,22 @@
       "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_k01-_GpvVZW8w4ULtaQaa55ls8aMf2a5dXhIe56pjMvG0=s88-c-k-c0x00ffffff-no-rj",
       "watched": 9,
       "latest": {
-        "id": "7RVf25Rg0Mc",
-        "title": "you need to try Paperclip RIGHT NOW!",
-        "published": "2026-09-24T13:00:30+00:00",
-        "views": 488282,
-        "topic": "News & Talk",
-        "topicIsBeat": true,
+        "id": "d1i1V4StMVI",
+        "title": "Your AI App Works. Can You Sell It?",
+        "published": "2026-09-25T14:00:04+00:00",
+        "views": 31581,
+        "topic": "AI Business",
+        "topicIsBeat": false,
         "bullets": null
       },
       "prev": {
-        "id": "CbWySQdAM60",
-        "title": "i got one....and it's FAST!!!",
-        "published": "2026-09-23T14:05:28+00:00",
-        "views": 376675
+        "id": "7RVf25Rg0Mc",
+        "title": "you need to try Paperclip RIGHT NOW!",
+        "published": "2026-09-24T13:00:30+00:00",
+        "views": 678416
       },
       "daysSince": 0,
-      "medianGap": 2.1,
+      "medianGap": 1.8,
       "cadence": "Every 2-3 days",
       "span": 15
     },
@@ -159,26 +160,184 @@
       "avatar": "https://yt3.googleusercontent.com/mIeH8O3QffYUPITAAhUGoeUhN_4fTWnVRdZvSThNYyrXc4R17LPNclHNoQ6fEX68lTOIxRo-OQ=s88-c-k-c0x00ffffff-no-rj",
       "watched": 6,
       "latest": {
-        "id": "XlRZ3tL_l9I",
-        "title": "3 plugins that turn Claude Code into an SEO expert #shorts",
-        "published": "2026-09-25T07:00:27+00:00",
-        "views": 128,
+        "id": "zzAP6vxftaw",
+        "title": "4 GPT-6 prompts that can run parts of your business #shorts",
+        "published": "2026-09-26T07:00:32+00:00",
+        "views": 204,
+        "topic": "Models",
+        "topicIsBeat": false,
+        "bullets": null
+      },
+      "prev": {
+        "id": "bZVEpSIwKpI",
+        "title": "OpenAI just built ChatGPT for finance teams #shorts",
+        "published": "2026-09-26T03:00:34+00:00",
+        "views": 721
+      },
+      "daysSince": 0,
+      "medianGap": 0.2,
+      "cadence": "Daily",
+      "span": 15
+    },
+    {
+      "name": "Cole Medin",
+      "channelId": "UCMwVTLZIRRUyyVrkjDpn4pA",
+      "avatar": "https://yt3.googleusercontent.com/hypu_gAVvu_zrtDWjVw833AeSwI2OwJSJ5ZSy1QAhgbIPs1qmNnKreOnHMhaU55bBRLMA47E=s88-c-k-c0x00ffffff-no-rj",
+      "watched": 5,
+      "latest": {
+        "id": "td52e2tQFIU",
+        "title": "The Biggest AI Coding Agent Upgrade Is Already on Your Machine?!",
+        "published": "2026-09-25T14:00:08+00:00",
+        "views": 14469,
+        "topic": "Agents",
+        "topicIsBeat": false,
+        "bullets": null
+      },
+      "prev": {
+        "id": "NZq88JAJSag",
+        "title": "AI Coding Rate Limits are RIDICULOUS Now - Here's How You Keep Scaling Anyway",
+        "published": "2026-09-24T00:00:38+00:00",
+        "views": 18545
+      },
+      "daysSince": 0,
+      "medianGap": 1.9,
+      "cadence": "Every 2-3 days",
+      "span": 15
+    },
+    {
+      "name": "BridgeMind",
+      "channelId": "UCwaTGE53GLGC3fDClVl_7TA",
+      "avatar": "https://yt3.googleusercontent.com/Nhub0TMCZUFjPrr7PZDvKuv6O2zICq7Yfi5Ah6P0OdTq_iaoZJ0zM8uMB4pKuEmc7XWpbrxa=s88-c-k-c0x00ffffff-no-rj",
+      "watched": 3,
+      "latest": {
+        "id": "I3Rr9zza2X0",
+        "title": "Why Opus Clip Is Expensive: Server Costs Behind Video Clipping",
+        "published": "2026-09-26T01:01:18+00:00",
+        "views": 1515,
+        "topic": "Claude",
+        "topicIsBeat": false,
+        "bullets": null
+      },
+      "prev": {
+        "id": "9V3mkXz5Yss",
+        "title": "Nobody Cares About Your Product: Key Marketing Tips for Building Your Brand",
+        "published": "2026-09-25T23:01:15+00:00",
+        "views": 636
+      },
+      "daysSince": 0,
+      "medianGap": 0.1,
+      "cadence": "Daily",
+      "span": 15
+    },
+    {
+      "name": "Paul J Lipsky",
+      "channelId": "UCmeU2DYiVy80wMBGZzEWnbw",
+      "avatar": "https://yt3.googleusercontent.com/vvdXULk0z9-eMHaEV8y2hkduCb8cjcF5zQD6puFRPaaNnPHhbSFn8nKfkLPVSmiHcnfPxS093w=s88-c-k-c0x00ffffff-no-rj",
+      "watched": 2,
+      "latest": {
+        "id": "Q6uuvZmb0t8",
+        "title": "Big AI News: Opus 5.5 vs GPT-6 Sol, NotebookLM Updates, Muse Charm & More!",
+        "published": "2026-09-25T13:00:31+00:00",
+        "views": 87506,
         "topic": "Claude",
         "topicIsBeat": false,
         "bullets": [
-          "GEO Optimizer checks website compliance with AI search rules and provides a performance score out of 100",
-          "Search Console MCP connects Claude to Google Search Console to analyze keywords and suggest ranking fixes",
-          "Open SEO offers an open-source alternative for keyword research, rank tracking, and backlink management"
+          "Claude Opus 5.5 produces more human-like writing and higher quality motion graphics than GPT6 Soul",
+          "Opus 5.5 completed video editing tasks in half the time of GPT6 Soul with significantly better accuracy",
+          "Gemini Notebook now features live voice chat for Ultra subscribers and integration with Google Docs"
         ]
       },
       "prev": {
-        "id": "4Lg1cQtOjJc",
-        "title": "3 free Claude Code plugins to install first #shorts",
-        "published": "2026-09-25T03:00:26+00:00",
-        "views": 1175
+        "id": "lPNgeaF2Nk4",
+        "title": "GPT-6 Sol Is Here (50% Cheaper!)",
+        "published": "2026-09-22T19:01:53+00:00",
+        "views": 71331
       },
       "daysSince": 0,
-      "medianGap": 0.4,
+      "medianGap": 2,
+      "cadence": "Every 2-3 days",
+      "span": 15
+    },
+    {
+      "name": "Better Stack",
+      "channelId": "UCkVfrGwV-iG9bSsgCbrNPxQ",
+      "avatar": "https://yt3.googleusercontent.com/CoQXQKlzRpBxtXwiSWvu_ho0VZTo6k4u50fwVd65ni_o6padwctoRxJvAExmTLVesmSKinPm2g=s88-c-k-c0x00ffffff-no-rj",
+      "watched": 2,
+      "latest": {
+        "id": "NMJk6CO9vos",
+        "title": "Why You Can't Trust Vector Database Benchmarks",
+        "published": "2026-09-25T22:00:36+00:00",
+        "views": 3309,
+        "topic": "Models",
+        "topicIsBeat": false,
+        "bullets": [
+          "Benchmarking vector search requires expensive ground truth computations that most vendor tests avoid",
+          "Elasticsearch provides the fastest results for 95% recall while Qdrant and Milvus reach 98% accuracy",
+          "Qdrant generated a 24TB dataset of 10 billion vectors to enable more accurate database comparisons"
+        ]
+      },
+      "prev": {
+        "id": "De9OigyLipg",
+        "title": "Microsoft’s AI just banned a game with no game in it #microsoft #ai #programming",
+        "published": "2026-09-25T19:00:39+00:00",
+        "views": 23855
+      },
+      "daysSince": 0,
+      "medianGap": 0.2,
+      "cadence": "Daily",
+      "span": 15
+    },
+    {
+      "name": "AI News & Strategy Daily | Nate B Jones",
+      "channelId": "UC0C-17n9iuUQPylguM1d-lQ",
+      "avatar": "https://yt3.googleusercontent.com/ZSLf5xrM_VEcshgKYQ-UA8sWOpK1YB1R99_Rdqoln7fVcFW_HfyFCRI1R175YS0M1WGUbmmYvs8=s88-c-k-c0x00ffffff-no-rj",
+      "watched": 2,
+      "latest": {
+        "id": "V2LM98zJlko",
+        "title": "Is your AI smart? Use this simple trick to find out #AI #ChatGPT #taxes #money #personalfinance",
+        "published": "2026-09-26T03:00:29+00:00",
+        "views": 1638,
+        "topic": "Models",
+        "topicIsBeat": false,
+        "bullets": [
+          "AI models like ChatGPT and Claude can analyze past tax returns and emails to find missed deductions",
+          "Comparing historical tax laws against expenses via AI can identify filing errors worth thousands",
+          "Connecting AI to local files and emails allows it to verify deductions and suggest corrected returns"
+        ]
+      },
+      "prev": {
+        "id": "Risal7sjYms",
+        "title": "How To Use ChatGPT Work: The Complete Beginner's Guide (2026)",
+        "published": "2026-09-25T15:30:23+00:00",
+        "views": 19173
+      },
+      "daysSince": 0,
+      "medianGap": 0.5,
+      "cadence": "Daily",
+      "span": 15
+    },
+    {
+      "name": "AI Engineer",
+      "channelId": "UCLKPca3kwwd-B59HNr-_lvA",
+      "avatar": "https://yt3.googleusercontent.com/ajVemEB89DAOemsbfuMY6ZOWXJAACx3cbty9z21jeqRKODaVkDBSRun1b1xfQJljEsziOWS_Mg=s88-c-k-c0x00ffffff-no-rj",
+      "watched": 2,
+      "latest": {
+        "id": "2LRIAfng7eA",
+        "title": "Teaching LLMs to Speak Spotify — Yves Raimond & Jacqueline Wood, Spotify",
+        "published": "2026-09-25T14:30:25+00:00",
+        "views": 5222,
+        "topic": "Models",
+        "topicIsBeat": true,
+        "bullets": null
+      },
+      "prev": {
+        "id": "lIgdnF0s0kQ",
+        "title": "Why LLM Recommenders Will Be AI's Biggest Consumer App — Devansh Tandon, Meta",
+        "published": "2026-09-25T14:00:27+00:00",
+        "views": 5443
+      },
+      "daysSince": 0,
+      "medianGap": 0,
       "cadence": "Daily",
       "span": 15
     },
@@ -191,7 +350,7 @@
         "id": "hKYFw_p8ejU",
         "title": "opus 5.5 is our favorite ai model (so far)",
         "published": "2026-09-24T13:45:14+00:00",
-        "views": 9708,
+        "views": 12058,
         "topic": "Claude",
         "topicIsBeat": false,
         "bullets": null
@@ -200,9 +359,9 @@
         "id": "-VL4VKHrnpU",
         "title": "Instinct & Muse AI Agents Can Run Your Life. We Let One Try.",
         "published": "2026-09-18T13:45:17+00:00",
-        "views": 18414
+        "views": 18735
       },
-      "daysSince": 0,
+      "daysSince": 1,
       "medianGap": 7,
       "cadence": "Weekly",
       "span": 15
@@ -216,7 +375,7 @@
         "id": "HOXrLsVqinY",
         "title": "Opus 5.5 Just 10X'd Claude Design…",
         "published": "2026-09-24T19:41:21+00:00",
-        "views": 24105,
+        "views": 35600,
         "topic": "Claude",
         "topicIsBeat": false,
         "bullets": null
@@ -225,39 +384,10 @@
         "id": "XFt1DyasjOc",
         "title": "This Claude Skill Replaced My Motion Graphics Designer",
         "published": "2026-09-24T15:31:33+00:00",
-        "views": 10825
+        "views": 18891
       },
-      "daysSince": 0,
+      "daysSince": 1,
       "medianGap": 0.4,
-      "cadence": "Daily",
-      "span": 15
-    },
-    {
-      "name": "BridgeMind",
-      "channelId": "UCwaTGE53GLGC3fDClVl_7TA",
-      "avatar": "https://yt3.googleusercontent.com/Nhub0TMCZUFjPrr7PZDvKuv6O2zICq7Yfi5Ah6P0OdTq_iaoZJ0zM8uMB4pKuEmc7XWpbrxa=s88-c-k-c0x00ffffff-no-rj",
-      "watched": 3,
-      "latest": {
-        "id": "w0pleSC4pCg",
-        "title": "Day 232 – Vibe Coding an App Until I Make $1,000,000 | ARR: $231,482",
-        "published": "2026-09-24T19:41:58+00:00",
-        "views": 49472,
-        "topic": "AI Coding",
-        "topicIsBeat": false,
-        "bullets": [
-          "Bridge Clip is shown as an open-source tool claiming to reduce video clipping costs to 1/30th of competitors",
-          "The developer reaches $231,482 ARR using AI sub-agents to generate code and conduct security reviews",
-          "Live testing on Bridgebench compares the latency and UI design capabilities of Mimo V2.6 and Opus 5.5"
-        ]
-      },
-      "prev": {
-        "id": "wvGUrBPdBLw",
-        "title": "Elon Calls to Clarify Opus 5.5, Not Slop 4.7, Behind the Rocket",
-        "published": "2026-09-24T18:31:15+00:00",
-        "views": 2355
-      },
-      "daysSince": 0,
-      "medianGap": 0.2,
       "cadence": "Daily",
       "span": 15
     },
@@ -270,7 +400,7 @@
         "id": "_8N4QHrAlF4",
         "title": "I run an AI agent team. Wrong picks cost me time and tokens",
         "published": "2026-09-24T20:30:31+00:00",
-        "views": 80,
+        "views": 96,
         "topic": "Agents",
         "topicIsBeat": false,
         "bullets": [
@@ -283,9 +413,9 @@
         "id": "Ky2WtsS6HcE",
         "title": "This AI can't invent answers. It only picks from your options",
         "published": "2026-09-24T18:30:26+00:00",
-        "views": 732
+        "views": 886
       },
-      "daysSince": 0,
+      "daysSince": 1,
       "medianGap": 0.6,
       "cadence": "Daily",
       "span": 15
@@ -299,7 +429,7 @@
         "id": "-wreCvpBdso",
         "title": "Everyone Can Spot AI Writing, Here's How To Fix It",
         "published": "2026-09-24T13:00:20+00:00",
-        "views": 93699,
+        "views": 134898,
         "topic": "AI Business",
         "topicIsBeat": true,
         "bullets": null
@@ -308,9 +438,9 @@
         "id": "45oG6w7bvtM",
         "title": "Once You Get Money, Upgrade These 8 Things Immediately",
         "published": "2026-09-17T13:00:35+00:00",
-        "views": 2526827
+        "views": 2663140
       },
-      "daysSince": 0,
+      "daysSince": 1,
       "medianGap": 1,
       "cadence": "Daily",
       "span": 15
@@ -322,9 +452,9 @@
       "watched": 2,
       "latest": {
         "id": "45K3zHckCnQ",
-        "title": "I Spent $31,141 And 1,000 Hrs On Claude Code To Learn This",
+        "title": "I Spent $31,141 & 1,000 Hours On Claude Code To Learn This",
         "published": "2026-09-25T06:42:57+00:00",
-        "views": 5009,
+        "views": 60173,
         "topic": "Claude",
         "topicIsBeat": false,
         "bullets": null
@@ -333,9 +463,9 @@
         "id": "DtfwNoL7Ndw",
         "title": "I Love AI, But GPT-6-Astra Terrifies Me",
         "published": "2026-09-20T12:00:25+00:00",
-        "views": 37109
+        "views": 37734
       },
-      "daysSince": 0,
+      "daysSince": 1,
       "medianGap": 3.7,
       "cadence": "~2x per week",
       "span": 15
@@ -347,9 +477,9 @@
       "watched": 2,
       "latest": {
         "id": "84q4WA3kA8Q",
-        "title": "Meta Muse AI Connectors: The Next App Store Moment?",
+        "title": "Meta Muse AI Connectors: The App Store for AI?",
         "published": "2026-09-24T18:45:00+00:00",
-        "views": 63654,
+        "views": 85086,
         "topic": "Agents",
         "topicIsBeat": true,
         "bullets": [
@@ -360,11 +490,11 @@
       },
       "prev": {
         "id": "e7s7jRgHWsg",
-        "title": "Astra + 50 Models: This Is the New SaaS",
+        "title": "Take Upwork jobs, let AI do them (Astra etc). It's absurd.",
         "published": "2026-09-23T18:27:51+00:00",
-        "views": 67972
+        "views": 78038
       },
-      "daysSince": 0,
+      "daysSince": 1,
       "medianGap": 2.5,
       "cadence": "Every 2-3 days",
       "span": 15
@@ -378,7 +508,7 @@
         "id": "TMW8wot2sd4",
         "title": "A Developer’s Guide to Gemini 3.5 Transcribe",
         "published": "2026-09-24T23:00:04+00:00",
-        "views": 7332,
+        "views": 12323,
         "topic": "AI Coding",
         "topicIsBeat": false,
         "bullets": null
@@ -387,97 +517,10 @@
         "id": "r2xhPB-wWIQ",
         "title": "Turn Audio into Action with Gemini 3.5 Transcribe",
         "published": "2026-09-24T19:00:30+00:00",
-        "views": 10682
+        "views": 15564
       },
-      "daysSince": 0,
+      "daysSince": 1,
       "medianGap": 0.2,
-      "cadence": "Daily",
-      "span": 15
-    },
-    {
-      "name": "Better Stack",
-      "channelId": "UCkVfrGwV-iG9bSsgCbrNPxQ",
-      "avatar": "https://yt3.googleusercontent.com/CoQXQKlzRpBxtXwiSWvu_ho0VZTo6k4u50fwVd65ni_o6padwctoRxJvAExmTLVesmSKinPm2g=s88-c-k-c0x00ffffff-no-rj",
-      "watched": 2,
-      "latest": {
-        "id": "9ywqgu3R_mw",
-        "title": "This $40M Startup Was Replaced After Just 3 Days!",
-        "published": "2026-09-25T06:00:35+00:00",
-        "views": 15345,
-        "topic": "Models",
-        "topicIsBeat": true,
-        "bullets": [
-          "Jev performs classification tasks up to 200 times faster and 400 times cheaper than traditional LLMs",
-          "Open-source alternative Layer surpassed Jev's 0.727 accuracy score with a 0.766 benchmark performance",
-          "These smart if statements provide guaranteed structured output for tasks like automated email spam detection"
-        ]
-      },
-      "prev": {
-        "id": "6hhaYUy2lFc",
-        "title": "AWS just admitted the data is gone... #aws #database #programming",
-        "published": "2026-09-24T20:00:36+00:00",
-        "views": 23986
-      },
-      "daysSince": 0,
-      "medianGap": 0.2,
-      "cadence": "Daily",
-      "span": 15
-    },
-    {
-      "name": "AI News & Strategy Daily | Nate B Jones",
-      "channelId": "UC0C-17n9iuUQPylguM1d-lQ",
-      "avatar": "https://yt3.googleusercontent.com/ZSLf5xrM_VEcshgKYQ-UA8sWOpK1YB1R99_Rdqoln7fVcFW_HfyFCRI1R175YS0M1WGUbmmYvs8=s88-c-k-c0x00ffffff-no-rj",
-      "watched": 2,
-      "latest": {
-        "id": "8B6KuqZuHng",
-        "title": "Why world models matter #nvidia #ai #physicalai #robots",
-        "published": "2026-09-25T03:00:28+00:00",
-        "views": 1116,
-        "topic": "Models",
-        "topicIsBeat": false,
-        "bullets": [
-          "World models allow developers to trade compute power for increased development velocity",
-          "Physical agents scale training by interacting with thousands of simulated environments like kitchens",
-          "Virtual world models replace the manual construction of diverse physical testing locations"
-        ]
-      },
-      "prev": {
-        "id": "ry9J1i3krIY",
-        "title": "When Will AI Make Me Scrambled Eggs? I Went To NVIDIA To Find Out.",
-        "published": "2026-09-24T14:00:11+00:00",
-        "views": 15040
-      },
-      "daysSince": 0,
-      "medianGap": 0.5,
-      "cadence": "Daily",
-      "span": 15
-    },
-    {
-      "name": "AI Engineer",
-      "channelId": "UCLKPca3kwwd-B59HNr-_lvA",
-      "avatar": "https://yt3.googleusercontent.com/ajVemEB89DAOemsbfuMY6ZOWXJAACx3cbty9z21jeqRKODaVkDBSRun1b1xfQJljEsziOWS_Mg=s88-c-k-c0x00ffffff-no-rj",
-      "watched": 2,
-      "latest": {
-        "id": "g0vqT_wZtXA",
-        "title": "AI Engineer Paris 2026 Main Stage: Google DeepMind, ElevenLabs, Hugging Face & Stripe | Day 2",
-        "published": "2026-09-24T16:16:54+00:00",
-        "views": 20827,
-        "topic": "Models",
-        "topicIsBeat": true,
-        "bullets": [
-          "Black Forest Labs details a six-step pipeline to customize Flux models via prompt upsampling and fine-tuning",
-          "Prompt upsampling uses LLMs to bridge vague user intent with design requirements without model retraining",
-          "Flux 3 Action serves as an intelligence backbone for controlling robots and playing interactive video games"
-        ]
-      },
-      "prev": {
-        "id": "jgWY66RaSrQ",
-        "title": "I Gave an AI a Body — Cyrus Clarke, MIT Media Lab",
-        "published": "2026-09-24T15:30:06+00:00",
-        "views": 4243
-      },
-      "daysSince": 0,
-      "medianGap": 0,
       "cadence": "Daily",
       "span": 15
     },
@@ -490,7 +533,7 @@
         "id": "z8My0bX2-ZU",
         "title": "Build Your Own Jev With Claude Opus 5.5",
         "published": "2026-09-23T22:19:16+00:00",
-        "views": 39960,
+        "views": 41158,
         "topic": "Claude",
         "topicIsBeat": false,
         "bullets": [
@@ -503,9 +546,9 @@
         "id": "zZNm4zP_lEE",
         "title": "Jev Fully Explained: 10 Practical Ways to Use It",
         "published": "2026-09-18T01:31:30+00:00",
-        "views": 48543
+        "views": 49321
       },
-      "daysSince": 1,
+      "daysSince": 2,
       "medianGap": 3.6,
       "cadence": "~2x per week",
       "span": 15
@@ -519,7 +562,7 @@
         "id": "rmDu2sSBIrw",
         "title": "Today’s forecast? Nothing but 80s, baby.",
         "published": "2026-09-23T18:48:52+00:00",
-        "views": 6204,
+        "views": 7921,
         "topic": "Models",
         "topicIsBeat": true,
         "bullets": [
@@ -531,36 +574,11 @@
         "id": "96ogPwN9ykM",
         "title": "Get Stuff Done with ChatGPT Voice",
         "published": "2026-09-23T17:11:13+00:00",
-        "views": 93263
+        "views": 109982
       },
-      "daysSince": 1,
+      "daysSince": 2,
       "medianGap": 0,
       "cadence": "Daily",
-      "span": 15
-    },
-    {
-      "name": "Cole Medin",
-      "channelId": "UCMwVTLZIRRUyyVrkjDpn4pA",
-      "avatar": "https://yt3.googleusercontent.com/hypu_gAVvu_zrtDWjVw833AeSwI2OwJSJ5ZSy1QAhgbIPs1qmNnKreOnHMhaU55bBRLMA47E=s88-c-k-c0x00ffffff-no-rj",
-      "watched": 5,
-      "latest": {
-        "id": "NZq88JAJSag",
-        "title": "AI Coding Rate Limits are RIDICULOUS Now - Here's How You Keep Scaling Anyway",
-        "published": "2026-09-24T00:00:38+00:00",
-        "views": 16788,
-        "topic": "AI Coding",
-        "topicIsBeat": false,
-        "bullets": null
-      },
-      "prev": {
-        "id": "i2TQy33mYhE",
-        "title": "Bring Your MCP Server to Amazon's $190K Hackathon!",
-        "published": "2026-09-23T13:54:24+00:00",
-        "views": 1638
-      },
-      "daysSince": 1,
-      "medianGap": 2,
-      "cadence": "Every 2-3 days",
       "span": 15
     },
     {
@@ -572,7 +590,7 @@
         "id": "4QWGsnBMVqI",
         "title": "I Built an AI Agent That Shops the Internet For You (Claude Code Tutorial)",
         "published": "2026-09-24T00:23:32+00:00",
-        "views": 4887,
+        "views": 10602,
         "topic": "Claude",
         "topicIsBeat": false,
         "bullets": [
@@ -585,9 +603,9 @@
         "id": "OhhpzgD2wes",
         "title": "Why I canceled every SaaS subscription I owned #money #hacks #server",
         "published": "2026-09-23T02:47:00+00:00",
-        "views": 243
+        "views": 256
       },
-      "daysSince": 1,
+      "daysSince": 2,
       "medianGap": 2.6,
       "cadence": "Every 2-3 days",
       "span": 15
@@ -599,9 +617,9 @@
       "watched": 3,
       "latest": {
         "id": "e-fqJcs4V3o",
-        "title": "How I Got My First Client with AI ($3K/mon)",
+        "title": "How to Make Money Online Without Social Media (use AI)",
         "published": "2026-09-23T14:24:48+00:00",
-        "views": 3193,
+        "views": 3568,
         "topic": "AI Business",
         "topicIsBeat": false,
         "bullets": null
@@ -610,9 +628,9 @@
         "id": "FMwDzevv35g",
         "title": "This Mom Found the Fastest Way to Make Money with AI (No Testimonials Needed)",
         "published": "2026-09-16T14:46:02+00:00",
-        "views": 28245
+        "views": 29230
       },
-      "daysSince": 1,
+      "daysSince": 2,
       "medianGap": 2.6,
       "cadence": "Every 2-3 days",
       "span": 15
@@ -624,9 +642,9 @@
       "watched": 11,
       "latest": {
         "id": "g6tmqwTULk8",
-        "title": "How I'd Rebuild My Claude Setup From Scratch (80/20 Rule)",
+        "title": "How to Rebuild Your Claude Setup From Scratch (80/20 Rule)",
         "published": "2026-09-22T16:00:24+00:00",
-        "views": 26896,
+        "views": 29889,
         "topic": "Claude",
         "topicIsBeat": false,
         "bullets": null
@@ -635,40 +653,11 @@
         "id": "kCUZqM8-Z-4",
         "title": "The REAL Reason The Creator of Claude Code Told You To Delete Everything",
         "published": "2026-09-15T18:00:27+00:00",
-        "views": 33225
+        "views": 33409
       },
-      "daysSince": 2,
+      "daysSince": 3,
       "medianGap": 4,
       "cadence": "~2x per week",
-      "span": 15
-    },
-    {
-      "name": "Paul J Lipsky",
-      "channelId": "UCmeU2DYiVy80wMBGZzEWnbw",
-      "avatar": "https://yt3.googleusercontent.com/vvdXULk0z9-eMHaEV8y2hkduCb8cjcF5zQD6puFRPaaNnPHhbSFn8nKfkLPVSmiHcnfPxS093w=s88-c-k-c0x00ffffff-no-rj",
-      "watched": 2,
-      "latest": {
-        "id": "lPNgeaF2Nk4",
-        "title": "GPT-6 Sol Is Here (50% Cheaper!)",
-        "published": "2026-09-22T19:01:53+00:00",
-        "views": 68692,
-        "topic": "Models",
-        "topicIsBeat": false,
-        "bullets": [
-          "GPT-6 Sol is 50% cheaper than GPT-5.6 Sol while offering intelligence closer to the top-tier Astra model",
-          "Benchmarks show GPT-6 Sol outperforms GPT-5.6 in professional workflows and complex agent performance tests",
-          "The models are live for ChatGPT Plus, Pro, and Enterprise users with an included banked usage reset"
-        ]
-      },
-      "prev": {
-        "id": "xY5E1AY4hJA",
-        "title": "Opus 5.5 Is Here - Claude Is So Back!",
-        "published": "2026-09-22T17:25:58+00:00",
-        "views": 110562
-      },
-      "daysSince": 2,
-      "medianGap": 2,
-      "cadence": "Every 2-3 days",
       "span": 15
     },
     {
@@ -680,7 +669,7 @@
         "id": "e9tCxsMvECs",
         "title": "How to Build a Personalized Learning Plan with Claude Cowork!",
         "published": "2026-09-21T12:00:21+00:00",
-        "views": 1615,
+        "views": 1696,
         "topic": "Claude",
         "topicIsBeat": false,
         "bullets": [
@@ -693,9 +682,9 @@
         "id": "XoTyQa270no",
         "title": "Gemini Notebook’s HUGE Upgrade: Build Custom Data Tables in Minutes!",
         "published": "2026-09-15T14:35:49+00:00",
-        "views": 3306
+        "views": 3350
       },
-      "daysSince": 3,
+      "daysSince": 4,
       "medianGap": 5.4,
       "cadence": "~2x per week",
       "span": 15
@@ -709,7 +698,7 @@
         "id": "FiOTrxq9ckM",
         "title": "[Free on Github] My Jarvis AI Assistant",
         "published": "2026-08-20T15:00:02+00:00",
-        "views": 336484,
+        "views": 340408,
         "topic": "AI Business",
         "topicIsBeat": true,
         "bullets": [
@@ -722,9 +711,9 @@
         "id": "BeWeyhpzIBk",
         "title": "Making Money with AI",
         "published": "2026-08-19T06:00:45+00:00",
-        "views": 3215
+        "views": 3233
       },
-      "daysSince": 35,
+      "daysSince": 36,
       "medianGap": 0.9,
       "cadence": "Daily",
       "span": 15
