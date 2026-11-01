@@ -2,13 +2,12 @@
 // and summarizes each channel's latest video into bullets.
 import Database from 'better-sqlite3';
 import { readFileSync, writeFileSync } from 'node:fs';
-import { config } from 'dotenv';
 import { GoogleGenAI } from '@google/genai';
 // ClaudeClaw's transcript fetcher: handles yt-dlp's auto-caption fallbacks and the
 // --no-simulate gotcha. Not worth re-implementing here.
 import { fetchVideoBundle } from '/Users/jack/ClaudeClaw/src/youtube.ts';
-
-config({ path: '/Users/jack/ClaudeClaw/.env' });
+// Secrets live in ClaudeClaw's encrypted .env.enc now; there is no plaintext .env to load.
+import { readEnvFile } from '/Users/jack/ClaudeClaw/src/env.ts';
 
 const db = new Database('/Users/jack/ClaudeClaw/store/claudeclaw.db', { readonly: true });
 const channels = db.prepare(`
@@ -50,7 +49,7 @@ const beatOf = (titles: string[]) => {
 const cadenceOf = (d: number) =>
   d < 1.5 ? 'Daily' : d < 3 ? 'Every 2-3 days' : d < 5.5 ? '~2x per week' : d < 10 ? 'Weekly' : d < 18 ? 'Biweekly' : 'Monthly';
 
-const gemini = new GoogleGenAI({ apiKey: process.env.GOOGLE_API_KEY });
+const gemini = new GoogleGenAI({ apiKey: process.env.GOOGLE_API_KEY || readEnvFile(['GOOGLE_API_KEY']).GOOGLE_API_KEY });
 
 // The only summaries worth keeping are the ones for the current latest video of each
 // channel, and those already live in the last data.json. So it doubles as the cache:
