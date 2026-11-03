@@ -1,20 +1,20 @@
 {
-  "generated": "2026-11-02T11:22:50.656Z",
+  "generated": "2026-11-03T11:22:40.022Z",
   "trending": [
     {
-      "topic": "Restructured premium usage limits",
-      "note": "OpenAI and Anthropic are adjusting subscription tiers to increase usage caps or simplify plan naming for users.",
+      "topic": "Claude Code-powered agent development",
+      "note": "Creators are integrating the new Claude Code terminal tool into autonomous blogging and desktop assistant systems.",
       "channels": [
-        "Chase AI",
-        "Paul J Lipsky"
+        "Agrici Daniel",
+        "jaredrhod"
       ]
     },
     {
-      "topic": "System-level autonomous agent execution",
-      "note": "AI agents are moving beyond chat interfaces to directly manipulate local files, terminal commands, and CPU hardware.",
+      "topic": "Claude $200 tier restructuring analysis",
+      "note": "Evaluating the recent rebranding and comparative value of the high-tier $200 Max and Ultra subscription plans.",
       "channels": [
-        "jaredrhod",
-        "Better Stack"
+        "Chase AI",
+        "Kai"
       ]
     }
   ],
@@ -25,19 +25,19 @@
       "avatar": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s88-c-k-c0x00ffffff-no-rj",
       "watched": 17,
       "latest": {
-        "id": "z8qXJFlcqlM",
-        "title": "The dumbest things people have asked AI",
-        "published": "2026-11-02T02:01:11+00:00",
-        "views": 1613,
+        "id": "fkeK5J7sjpI",
+        "title": "AI co-founder or human co-founder?",
+        "published": "2026-11-03T02:00:58+00:00",
+        "views": 1959,
         "topic": "Claude",
         "topicIsBeat": true,
         "bullets": null
       },
       "prev": {
-        "id": "sOK6kSXff0M",
-        "title": "Would you let AI answer your texts for a week?",
-        "published": "2026-11-01T14:02:12+00:00",
-        "views": 1741
+        "id": "_EChYLC3Vag",
+        "title": "I Turned Codex Into My AI Operating System",
+        "published": "2026-11-02T18:00:01+00:00",
+        "views": 18335
       },
       "daysSince": 0,
       "medianGap": 0.5,
@@ -50,52 +50,98 @@
       "avatar": "https://yt3.googleusercontent.com/mIeH8O3QffYUPITAAhUGoeUhN_4fTWnVRdZvSThNYyrXc4R17LPNclHNoQ6fEX68lTOIxRo-OQ=s88-c-k-c0x00ffffff-no-rj",
       "watched": 10,
       "latest": {
-        "id": "L-YeJqL73-I",
-        "title": "People are using Claude to strip the ads off their TVs #shorts",
-        "published": "2026-11-02T06:00:22+00:00",
-        "views": 1431,
+        "id": "FAb-c725iAY",
+        "title": "One Claude chat can now run all your other sessions #shorts",
+        "published": "2026-11-03T06:00:16+00:00",
+        "views": 1035,
         "topic": "Claude",
         "topicIsBeat": false,
         "bullets": null
       },
       "prev": {
-        "id": "P_hvEpI0twQ",
-        "title": "The NEW Grok Bot is Here (Biggest Updates Explained in 11 mins)",
-        "published": "2026-10-30T21:32:36+00:00",
-        "views": 260376
+        "id": "SY5dzP48pvE",
+        "title": "Jack Dorsey's Dessa listens and talks at the same time #shorts",
+        "published": "2026-11-02T22:00:23+00:00",
+        "views": 3537
       },
       "daysSince": 0,
-      "medianGap": 0.4,
+      "medianGap": 0.5,
       "cadence": "Daily",
       "span": 15
     },
     {
-      "name": "文恩澄 Rannes Man",
-      "channelId": "UC38YXS2v9NWq99MCzXj9vJA",
-      "avatar": "https://yt3.googleusercontent.com/k37xjRLbSp0Fw6Cy8BVpa6hQiU22eEfr_e5RdFQrM8R5BlyZm_3zNQAMhUjAWhmjXnVfCrhWxQ=s88-c-k-c0x00ffffff-no-rj",
-      "watched": 5,
+      "name": "OpenAI",
+      "channelId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+      "avatar": "https://yt3.googleusercontent.com/MopgmVAFV9BqlzOJ-UINtmutvEPcNe5IbKMmP_4vZZo3vnJXcZGtybUBsXaEVxkmxKyGqX9R=s88-c-k-c0x00ffffff-no-rj",
+      "watched": 6,
       "latest": {
-        "id": "-r436tP88C0",
-        "title": "2026年11月2日｜24小時世界AI新聞台-重溫｜微軟 Mage-VL-Cowork、Mac影片生成預覽、NESFormer",
-        "published": "2026-11-02T00:00:09+00:00",
-        "views": 326,
+        "id": "NbDF90z-g6w",
+        "title": "Coinbase on OpenAI Private Intelligence",
+        "published": "2026-11-02T22:44:26+00:00",
+        "views": 2412,
         "topic": "Models",
-        "topicIsBeat": true,
-        "bullets": [
-          "Swiss researchers analyzed 1.51 million homes with AI models to estimate national window glazing types",
-          "Graph neural networks achieved 98.38% accuracy in classifying malignant skin lesions on a test dataset",
-          "Thai students using a GPT-4 coach in Roblox showed a 3.07-point gain in computational thinking scores"
-        ]
+        "topicIsBeat": false,
+        "bullets": null
       },
       "prev": {
-        "id": "ghJUr0Qsv1A",
-        "title": "2026年11月1日｜24小時世界AI新聞台-重溫｜Mistral Large 4開放權重、Pika H3 Flex、Wabi融資",
-        "published": "2026-11-01T00:00:30+00:00",
-        "views": 625
+        "id": "Amm9ySSET4c",
+        "title": "Coinbase on OpenAI Private Intelligence",
+        "published": "2026-11-02T16:59:21+00:00",
+        "views": 14233
       },
       "daysSince": 0,
-      "medianGap": 1,
+      "medianGap": 0.2,
       "cadence": "Daily",
+      "span": 15
+    },
+    {
+      "name": "AI For Humans",
+      "channelId": "UCghJTNTO9kcDeUFXMuSDGLQ",
+      "avatar": "https://yt3.googleusercontent.com/N7gHh80WiWb3kE6tSz3WusSAgrHAI8BSk8dKM3a2aNHyM-nkAhkBju6LehXkoEKrHVaYItimBk8=s88-c-k-c0x00ffffff-no-rj",
+      "watched": 7,
+      "latest": {
+        "id": "TzT9lNPaVXI",
+        "title": "I'm an AI. I Got Your Kid an A. They Learned Nothing.",
+        "published": "2026-11-02T14:45:23+00:00",
+        "views": 15535,
+        "topic": "Models",
+        "topicIsBeat": true,
+        "bullets": null
+      },
+      "prev": {
+        "id": "6101Q0dQQIk",
+        "title": "AI Is Moving Too Fast. Two New Models In Two Weeks?!",
+        "published": "2026-10-30T13:45:33+00:00",
+        "views": 16171
+      },
+      "daysSince": 0,
+      "medianGap": 2.9,
+      "cadence": "Every 2-3 days",
+      "span": 15
+    },
+    {
+      "name": "Cole Medin",
+      "channelId": "UCMwVTLZIRRUyyVrkjDpn4pA",
+      "avatar": "https://yt3.googleusercontent.com/hypu_gAVvu_zrtDWjVw833AeSwI2OwJSJ5ZSy1QAhgbIPs1qmNnKreOnHMhaU55bBRLMA47E=s88-c-k-c0x00ffffff-no-rj",
+      "watched": 5,
+      "latest": {
+        "id": "YHKuUjicB3M",
+        "title": "My AI Software Factory Ships Hundreds of PRs a Week (Here's How I Manage It)",
+        "published": "2026-11-02T21:06:17+00:00",
+        "views": 11472,
+        "topic": "Agents",
+        "topicIsBeat": true,
+        "bullets": null
+      },
+      "prev": {
+        "id": "BlbxhsItZPg",
+        "title": "Anthropic's New Study: You're Not Controlling AI as Much as You Think You Are",
+        "published": "2026-10-31T16:51:47+00:00",
+        "views": 13910
+      },
+      "daysSince": 0,
+      "medianGap": 2.3,
+      "cadence": "Every 2-3 days",
       "span": 15
     },
     {
@@ -104,22 +150,101 @@
       "avatar": "https://yt3.googleusercontent.com/molHXVKVHeiHHsYtXrxCZNrwfKitFmAoXZ03CNngHmQSRiW9DAjiOYBxQTYiGuXbnLSQnoRa=s88-c-k-c0x00ffffff-no-rj",
       "watched": 3,
       "latest": {
-        "id": "8c6JZ18W0Bo",
-        "title": "THE world's shortest Claude Code course (5 mins)",
-        "published": "2026-11-01T21:43:00+00:00",
-        "views": 30553,
+        "id": "KDyPHt4lW60",
+        "title": "31 Life-Changing Ways to Use Claude in 2027",
+        "published": "2026-11-02T22:16:58+00:00",
+        "views": 118632,
         "topic": "Claude",
         "topicIsBeat": false,
         "bullets": null
       },
       "prev": {
-        "id": "rl6QMOrwY5w",
-        "title": "Why Big Corporations are Secretly Shifting to Chinese AI Models",
-        "published": "2026-10-31T22:34:52+00:00",
-        "views": 50322
+        "id": "8c6JZ18W0Bo",
+        "title": "THE world's shortest Claude Code course (5 mins)",
+        "published": "2026-11-01T21:43:00+00:00",
+        "views": 53183
       },
       "daysSince": 0,
       "medianGap": 0.9,
+      "cadence": "Daily",
+      "span": 15
+    },
+    {
+      "name": "Jack Roberts",
+      "channelId": "UCxVxcTULO9cFU6SB9qVaisQ",
+      "avatar": "https://yt3.googleusercontent.com/DNqB1hIwioWT2PYkLGHuFtnfUnx11uE-35XmQqOXJBwyy7sZuBUiTQRySnHoCGP9Wj-0GNGaOQ=s88-c-k-c0x00ffffff-no-rj",
+      "watched": 3,
+      "latest": {
+        "id": "pRptIKhE9w4",
+        "title": "The AI Job Hunter That Actually Does the Work for You",
+        "published": "2026-11-02T19:02:11+00:00",
+        "views": 3475,
+        "topic": "Claude",
+        "topicIsBeat": true,
+        "bullets": [
+          "AI job search tool turned 69 applications into 20 interviews over two months",
+          "System analyzes job fit based on user profiles to prevent wasting time on unsuitable roles",
+          "Software automatically rewrites resumes for specific positions to increase interview conversion"
+        ]
+      },
+      "prev": {
+        "id": "xjSzEzVC3vc",
+        "title": "Claude Code 2.0 Just Became Unstoppable (Fully Explained)",
+        "published": "2026-10-31T19:36:08+00:00",
+        "views": 53164
+      },
+      "daysSince": 0,
+      "medianGap": 0.9,
+      "cadence": "Daily",
+      "span": 15
+    },
+    {
+      "name": "Greg Isenberg",
+      "channelId": "UCPjNBjflYl0-HQtUvOx0Ibw",
+      "avatar": "https://yt3.googleusercontent.com/5wiiTxMamM0NnCmGOt0iJ6eoVRmFLNIGF-BEiTZ_AVqaS02YIxAsB-2XY6xwLCUWQfoENG1MHKo=s88-c-k-c0x00ffffff-no-rj",
+      "watched": 3,
+      "latest": {
+        "id": "67BmkptgTms",
+        "title": "The $1M+ Solo Grok Bot Business (Full Course)",
+        "published": "2026-11-02T19:15:08+00:00",
+        "views": 52732,
+        "topic": "Models",
+        "topicIsBeat": false,
+        "bullets": null
+      },
+      "prev": {
+        "id": "AqqjH_uv-_w",
+        "title": "SaaS is dead?",
+        "published": "2026-10-29T19:25:16+00:00",
+        "views": 65713
+      },
+      "daysSince": 0,
+      "medianGap": 2.1,
+      "cadence": "Every 2-3 days",
+      "span": 15
+    },
+    {
+      "name": "Derek Cheung | AI Agents Automation",
+      "channelId": "UCINkul2kgQYqt4GuD-352DQ",
+      "avatar": "https://yt3.googleusercontent.com/pD4zIbKgDPxU0Vlln2nIlArU7GJQJbmsvTL2T9OmIybZUUsKiOL_QLCEeaoj6R2OReeumPCQyA=s88-c-k-c0x00ffffff-no-rj",
+      "watched": 3,
+      "latest": {
+        "id": "ez7UvfDCIJ0",
+        "title": "Hermes Agent: Build One AI Agent, Sell It to Every Client ($8/mo Each)",
+        "published": "2026-11-02T12:20:25+00:00",
+        "views": 5949,
+        "topic": "Agents",
+        "topicIsBeat": false,
+        "bullets": null
+      },
+      "prev": {
+        "id": "IaQsvDdQz7c",
+        "title": "I Built My Own AI OS with n8n + Claude (6 Layers)",
+        "published": "2026-10-28T12:57:33+00:00",
+        "views": 40532
+      },
+      "daysSince": 0,
+      "medianGap": 0.4,
       "cadence": "Daily",
       "span": 15
     },
@@ -129,23 +254,52 @@
       "avatar": "https://yt3.googleusercontent.com/ucdfhbSc6wOnmm-39vppuGnduG5gHcddcTEvMC1q3A_9A1lPDRYZ4U46bCxoSHklzYF_RJQ4=s88-c-k-c0x00ffffff-no-rj",
       "watched": 3,
       "latest": {
-        "id": "eHuzPjMPtog",
-        "title": "I made a free (local first) scraper",
-        "published": "2026-11-01T17:19:50+00:00",
-        "views": 646,
+        "id": "YaKXyT3mh5k",
+        "title": "My Free Claude Code Blog Writer Rejects Anything Under 90",
+        "published": "2026-11-03T01:26:32+00:00",
+        "views": 351,
         "topic": "Claude",
-        "topicIsBeat": true,
+        "topicIsBeat": false,
+        "bullets": [
+          "Claude Blog is an open-source multi-agent tool that researches, writes, and cites sources for Claude Code",
+          "A built-in reviewer rejects all content scoring below 90 to maintain high SEO and technical standards",
+          "The system automates content repurposing for social media, diagram creation, and multi-language translation"
+        ]
+      },
+      "prev": {
+        "id": "GCnhiAS9ZrA",
+        "title": "Turn Any Idea Into an Obsidian Plugin With Your AI Agent",
+        "published": "2026-11-02T20:43:13+00:00",
+        "views": 307
+      },
+      "daysSince": 0,
+      "medianGap": 1,
+      "cadence": "Daily",
+      "span": 15
+    },
+    {
+      "name": "Thinkverse AI",
+      "channelId": "UCOPF9JjEbqjGdD2cqSht1pw",
+      "avatar": "https://yt3.googleusercontent.com/CuRoZ_vLQjHh5aBM8F_x0s8DzDZ_NqJrurYOl4GEqVrOKReu7nr-kDzAPNhWeFsc2xNHgKdqoQ=s88-c-k-c0x00ffffff-no-rj",
+      "watched": 2,
+      "latest": {
+        "id": "S2PVIXini08",
+        "title": "ChatGPT 6 Astra Just Changed YouTube Automation Forever (Full Tutorial)",
+        "published": "2026-11-02T13:16:17+00:00",
+        "views": 1627,
+        "topic": "Automation",
+        "topicIsBeat": false,
         "bullets": null
       },
       "prev": {
-        "id": "rRzTuzDKeJY",
-        "title": "How to design AI agents that work as one",
-        "published": "2026-10-31T01:07:36+00:00",
-        "views": 985
+        "id": "1IlHmLGOi_c",
+        "title": "YouTube Made His Real Video Look AI-Generated. He Had No Idea.",
+        "published": "2026-10-31T13:46:52+00:00",
+        "views": 1901
       },
       "daysSince": 0,
-      "medianGap": 1.1,
-      "cadence": "Daily",
+      "medianGap": 2.1,
+      "cadence": "Every 2-3 days",
       "span": 15
     },
     {
@@ -154,22 +308,51 @@
       "avatar": "https://yt3.googleusercontent.com/cofbgJZmt27G9DnTTxmOPaJg-ZgEvcli4OovJeeKl0tejOQgJJJUwoRReFTwA07k1boiPxzXVg=s88-c-k-c0x00ffffff-no-rj",
       "watched": 2,
       "latest": {
-        "id": "nrRo-Y1CEIE",
-        "title": "The Most Useful Feedback I Ever Received",
-        "published": "2026-11-01T13:00:26+00:00",
-        "views": 8144,
-        "topic": "AI Coding",
-        "topicIsBeat": true,
+        "id": "KfbWgbAKP_Y",
+        "title": "You Should Learn Claude Code",
+        "published": "2026-11-02T13:00:34+00:00",
+        "views": 13392,
+        "topic": "Claude",
+        "topicIsBeat": false,
         "bullets": null
       },
       "prev": {
-        "id": "WNQu8RvLwOk",
-        "title": "The Most Important First Principle Skill",
-        "published": "2026-10-31T12:00:01+00:00",
-        "views": 10896
+        "id": "nrRo-Y1CEIE",
+        "title": "The Most Useful Feedback I Ever Received",
+        "published": "2026-11-01T13:00:26+00:00",
+        "views": 11156
       },
       "daysSince": 0,
-      "medianGap": 1.5,
+      "medianGap": 1.1,
+      "cadence": "Daily",
+      "span": 15
+    },
+    {
+      "name": "Paul J Lipsky",
+      "channelId": "UCmeU2DYiVy80wMBGZzEWnbw",
+      "avatar": "https://yt3.googleusercontent.com/vvdXULk0z9-eMHaEV8y2hkduCb8cjcF5zQD6puFRPaaNnPHhbSFn8nKfkLPVSmiHcnfPxS093w=s88-c-k-c0x00ffffff-no-rj",
+      "watched": 2,
+      "latest": {
+        "id": "J55M-rnX-hY",
+        "title": "AI Agents on iPhone Duo Are Just Incredible",
+        "published": "2026-11-02T14:00:29+00:00",
+        "views": 18466,
+        "topic": "Agents",
+        "topicIsBeat": false,
+        "bullets": [
+          "The folding iPhone Duo optimizes AI agent management across three distinct screen configurations",
+          "Claude displays interactive artifacts and chat side-by-side to take advantage of the expanded real estate",
+          "The AI employee Victor automates daily sponsorship workflows by drafting emails based on Notion data"
+        ]
+      },
+      "prev": {
+        "id": "lXLmgsNP3MY",
+        "title": "AI News: New ChatGPT Limits, iMessage Dot, Gemini 4 Carbon & A Terrifying Voice Model",
+        "published": "2026-10-30T13:00:18+00:00",
+        "views": 137087
+      },
+      "daysSince": 0,
+      "medianGap": 2,
       "cadence": "Every 2-3 days",
       "span": 15
     },
@@ -179,26 +362,51 @@
       "avatar": "https://yt3.googleusercontent.com/-vuz7Rfgf8DOO3aGiTNUC0uGgC1a1UjTKux2Nt5i8JklkaztQeKR2hmTzIKzMgQZDa_P1sL6=s88-c-k-c0x00ffffff-no-rj",
       "watched": 2,
       "latest": {
-        "id": "mED-boddeWI",
-        "title": "You Don't Need an Expensive GPU Anymore (Strata 100 tok/s)",
-        "published": "2026-11-01T15:30:15+00:00",
-        "views": 96573,
-        "topic": "Models",
-        "topicIsBeat": true,
+        "id": "xt-Wc2Nyf1M",
+        "title": "$200 for ChatGPT, Claude or Gemini? I Did the Math",
+        "published": "2026-11-03T10:30:14+00:00",
+        "views": 879,
+        "topic": "Claude",
+        "topicIsBeat": false,
         "bullets": [
-          "Strata runs a 763B parameter model on 12GB VRAM by tiering data across GPU, DDR5 RAM, and SSD storage",
-          "DeepSeek V4.1 Flash performs at 110 tokens per second for prompt reading but only 4-6 tokens for writing",
-          "High DDR5 prices mean a 64GB RAM kit for local AI can cost four times more than a used RTX 3060 GPU"
+          "Claude Max provides $11,726 in API value vs $2,084 for ChatGPT but only 1.6x more actual task completion",
+          "Claude’s maximum effort settings burn allowances 11x faster, making ChatGPT more efficient for task volume",
+          "These $200 plans offer no bulk discounts and function primarily as burst capacity for intense agent work"
         ]
       },
       "prev": {
-        "id": "0F63pTS8Gt0",
-        "title": "Avalon Just Beat Strata by 47% on AMD (9x Faster)",
-        "published": "2026-10-31T15:30:27+00:00",
-        "views": 53145
+        "id": "kTmUbRVsamo",
+        "title": "What’s the Best AI Model Your GPU Can Actually Run?16GB to 1TB  VRam",
+        "published": "2026-11-02T15:30:29+00:00",
+        "views": 28993
       },
       "daysSince": 0,
       "medianGap": 1,
+      "cadence": "Daily",
+      "span": 15
+    },
+    {
+      "name": "Google Cloud Tech",
+      "channelId": "UCJS9pqu9BzkAMNTmzNMNhvg",
+      "avatar": "https://yt3.googleusercontent.com/_XJ_FbhTDiTg7Zhr328vkGrw99p8-uQ3Y1nW2KZozueF_nkixmIhAbF2hUMFB9lUqMwSBo4etlY=s88-c-k-c0x00ffffff-no-rj",
+      "watched": 2,
+      "latest": {
+        "id": "yDLv-bNfrSI",
+        "title": "More AI agents = better results?",
+        "published": "2026-11-03T00:00:06+00:00",
+        "views": 3785,
+        "topic": "Agents",
+        "topicIsBeat": false,
+        "bullets": null
+      },
+      "prev": {
+        "id": "XEWR0C6p97c",
+        "title": "I built an AI Agent to run my channel",
+        "published": "2026-11-02T22:12:52+00:00",
+        "views": 0
+      },
+      "daysSince": 0,
+      "medianGap": 0.1,
       "cadence": "Daily",
       "span": 15
     },
@@ -208,23 +416,23 @@
       "avatar": "https://yt3.googleusercontent.com/CoQXQKlzRpBxtXwiSWvu_ho0VZTo6k4u50fwVd65ni_o6padwctoRxJvAExmTLVesmSKinPm2g=s88-c-k-c0x00ffffff-no-rj",
       "watched": 3,
       "latest": {
-        "id": "gTNkGFFFUY8",
-        "title": "AI Agents Talked Through the CPU... #openai #cybersecurity #ai",
-        "published": "2026-11-02T10:00:25+00:00",
-        "views": 904,
-        "topic": "Agents",
-        "topicIsBeat": false,
+        "id": "2Q0aUnbI2nQ",
+        "title": "Deno Is Over #deno #javascript #programming",
+        "published": "2026-11-02T12:30:13+00:00",
+        "views": 5835,
+        "topic": "Claude",
+        "topicIsBeat": true,
         "bullets": [
-          "OpenAI agents bypassed VM isolation to send secrets using CPU cache side-channel timing techniques",
-          "Models created communication channels using shared storage signals and CPU workload patterns",
-          "Testing revealed agents could independently implement exploits similar to Spectre and Meltdown"
+          "Deno will end all development of its JavaScript runtime one year after joining Cloudflare",
+          "Cloudflare acquired the Deno team for CellD to enable scaling of Durable Objects on private hardware",
+          "Platform runtimes for Supabase and Netlify are impacted by the scheduled end of Deno development"
         ]
       },
       "prev": {
-        "id": "_aP3KSnYBbU",
-        "title": "The Era of Tokenmaxxing Is Over",
-        "published": "2026-11-02T03:00:02+00:00",
-        "views": 12227
+        "id": "gTNkGFFFUY8",
+        "title": "AI Agents Talked Through the CPU... #openai #cybersecurity #ai",
+        "published": "2026-11-02T10:00:25+00:00",
+        "views": 22746
       },
       "daysSince": 0,
       "medianGap": 0.1,
@@ -237,19 +445,19 @@
       "avatar": "https://yt3.googleusercontent.com/ZSLf5xrM_VEcshgKYQ-UA8sWOpK1YB1R99_Rdqoln7fVcFW_HfyFCRI1R175YS0M1WGUbmmYvs8=s88-c-k-c0x00ffffff-no-rj",
       "watched": 2,
       "latest": {
-        "id": "KDGxQtfjBj0",
-        "title": "Salesforce Just Helped Microsoft. You're Picking The Winner Of A Trillion-Dollar Fight.",
-        "published": "2026-11-01T17:00:32+00:00",
-        "views": 14334,
-        "topic": "Claude",
-        "topicIsBeat": true,
+        "id": "eDafFeXAOYk",
+        "title": "Big Tech is shifting, and you need to pay attention #tech #ai #business",
+        "published": "2026-11-02T22:29:05+00:00",
+        "views": 6122,
+        "topic": "AI Business",
+        "topicIsBeat": false,
         "bullets": null
       },
       "prev": {
-        "id": "c3HHFL_lsLM",
-        "title": "The Future Of The Internet Isn't Open For Your Agent. Muse, Dots And Claude Duet Will Find Out.",
-        "published": "2026-10-31T15:00:28+00:00",
-        "views": 34082
+        "id": "KDGxQtfjBj0",
+        "title": "Salesforce Just Helped Microsoft. You're Picking The Winner Of A Trillion-Dollar Fight.",
+        "published": "2026-11-01T17:00:32+00:00",
+        "views": 20208
       },
       "daysSince": 0,
       "medianGap": 1,
@@ -262,19 +470,19 @@
       "avatar": "https://yt3.googleusercontent.com/ajVemEB89DAOemsbfuMY6ZOWXJAACx3cbty9z21jeqRKODaVkDBSRun1b1xfQJljEsziOWS_Mg=s88-c-k-c0x00ffffff-no-rj",
       "watched": 2,
       "latest": {
-        "id": "JxNCuXkSWyQ",
-        "title": "A Valid Key Let an AI Agent Delete Production - Sagar Batchu, Speakeasy",
-        "published": "2026-11-02T10:00:35+00:00",
-        "views": 81,
+        "id": "g_NgCLTibiM",
+        "title": "Make Your AI Agents Predictable With Graph Engineering - Zachary Blumenfeld, Neo4j",
+        "published": "2026-11-03T10:00:09+00:00",
+        "views": 804,
         "topic": "Agents",
         "topicIsBeat": false,
         "bullets": null
       },
       "prev": {
-        "id": "-X3yXTwGs9A",
-        "title": "AI Writes Code Faster Than Your Team Can Review It - Andrew Norrish, Sourcegraph",
-        "published": "2026-11-02T09:00:13+00:00",
-        "views": 420
+        "id": "XIHZpZtYCzo",
+        "title": "Your AI Agents Shouldn't Care Where They Run - Nikhil Harithas, Factory",
+        "published": "2026-11-03T09:00:22+00:00",
+        "views": 499
       },
       "daysSince": 0,
       "medianGap": 0.2,
@@ -282,78 +490,32 @@
       "span": 15
     },
     {
-      "name": "Cole Medin",
-      "channelId": "UCMwVTLZIRRUyyVrkjDpn4pA",
-      "avatar": "https://yt3.googleusercontent.com/hypu_gAVvu_zrtDWjVw833AeSwI2OwJSJ5ZSy1QAhgbIPs1qmNnKreOnHMhaU55bBRLMA47E=s88-c-k-c0x00ffffff-no-rj",
+      "name": "文恩澄 Rannes Man",
+      "channelId": "UC38YXS2v9NWq99MCzXj9vJA",
+      "avatar": "https://yt3.googleusercontent.com/k37xjRLbSp0Fw6Cy8BVpa6hQiU22eEfr_e5RdFQrM8R5BlyZm_3zNQAMhUjAWhmjXnVfCrhWxQ=s88-c-k-c0x00ffffff-no-rj",
       "watched": 5,
       "latest": {
-        "id": "BlbxhsItZPg",
-        "title": "Anthropic's New Study: You're Not Controlling AI as Much as You Think You Are",
-        "published": "2026-10-31T16:51:47+00:00",
-        "views": 12445,
-        "topic": "Claude",
-        "topicIsBeat": false,
-        "bullets": null
+        "id": "-r436tP88C0",
+        "title": "2026年11月2日｜24小時世界AI新聞台-重溫｜微軟 Mage-VL-Cowork、Mac影片生成預覽、NESFormer",
+        "published": "2026-11-02T00:00:09+00:00",
+        "views": 608,
+        "topic": "Models",
+        "topicIsBeat": true,
+        "bullets": [
+          "Swiss researchers analyzed 1.51 million homes with AI models to estimate national window glazing types",
+          "Graph neural networks achieved 98.38% accuracy in classifying malignant skin lesions on a test dataset",
+          "Thai students using a GPT-4 coach in Roblox showed a 3.07-point gain in computational thinking scores"
+        ]
       },
       "prev": {
-        "id": "qIWB1yMsqRo",
-        "title": "The 4 Components of Every Successful AI Second Brain (Build These Now)",
-        "published": "2026-10-29T00:00:35+00:00",
-        "views": 15347
+        "id": "ghJUr0Qsv1A",
+        "title": "2026年11月1日｜24小時世界AI新聞台-重溫｜Mistral Large 4開放權重、Pika H3 Flex、Wabi融資",
+        "published": "2026-11-01T00:00:30+00:00",
+        "views": 739
       },
       "daysSince": 1,
-      "medianGap": 2.3,
-      "cadence": "Every 2-3 days",
-      "span": 15
-    },
-    {
-      "name": "Jack Roberts",
-      "channelId": "UCxVxcTULO9cFU6SB9qVaisQ",
-      "avatar": "https://yt3.googleusercontent.com/DNqB1hIwioWT2PYkLGHuFtnfUnx11uE-35XmQqOXJBwyy7sZuBUiTQRySnHoCGP9Wj-0GNGaOQ=s88-c-k-c0x00ffffff-no-rj",
-      "watched": 3,
-      "latest": {
-        "id": "xjSzEzVC3vc",
-        "title": "Claude Code 2.0 Just Became Unstoppable (Fully Explained)",
-        "published": "2026-10-31T19:36:08+00:00",
-        "views": 47505,
-        "topic": "Claude",
-        "topicIsBeat": false,
-        "bullets": null
-      },
-      "prev": {
-        "id": "kxT1QT8iaow",
-        "title": "I Replaced ManyChat (100% Free Open Source)",
-        "published": "2026-10-31T19:03:00+00:00",
-        "views": 7821
-      },
-      "daysSince": 1,
-      "medianGap": 0.9,
+      "medianGap": 1,
       "cadence": "Daily",
-      "span": 15
-    },
-    {
-      "name": "Thinkverse AI",
-      "channelId": "UCOPF9JjEbqjGdD2cqSht1pw",
-      "avatar": "https://yt3.googleusercontent.com/CuRoZ_vLQjHh5aBM8F_x0s8DzDZ_NqJrurYOl4GEqVrOKReu7nr-kDzAPNhWeFsc2xNHgKdqoQ=s88-c-k-c0x00ffffff-no-rj",
-      "watched": 2,
-      "latest": {
-        "id": "1IlHmLGOi_c",
-        "title": "YouTube Made His Real Video Look AI-Generated. He Had No Idea.",
-        "published": "2026-10-31T13:46:52+00:00",
-        "views": 1695,
-        "topic": "AI Coding",
-        "topicIsBeat": false,
-        "bullets": null
-      },
-      "prev": {
-        "id": "mu08yqGSg2w",
-        "title": "How to Monetize YouTube Shorts in 1 Day Using Claude (New Strategy 2026)",
-        "published": "2026-10-28T13:21:42+00:00",
-        "views": 4863
-      },
-      "daysSince": 1,
-      "medianGap": 2.1,
-      "cadence": "Every 2-3 days",
       "span": 15
     },
     {
@@ -365,7 +527,7 @@
         "id": "ypkbs7qxjj8",
         "title": "Chris Koerner: The Fastest Way To Make $10K/mo with AI",
         "published": "2026-10-31T15:08:59+00:00",
-        "views": 28532,
+        "views": 36920,
         "topic": "AI Business",
         "topicIsBeat": true,
         "bullets": null
@@ -374,9 +536,9 @@
         "id": "O5100JFBkKw",
         "title": "Claude 2.0 is Insane (4 big updates)",
         "published": "2026-10-29T14:15:22+00:00",
-        "views": 11747
+        "views": 12085
       },
-      "daysSince": 1,
+      "daysSince": 2,
       "medianGap": 5,
       "cadence": "~2x per week",
       "span": 15
@@ -390,7 +552,7 @@
         "id": "jx8Hc5O8dX0",
         "title": "Anyone Can Hack Your App With Uncensored AI Now",
         "published": "2026-10-30T20:15:40+00:00",
-        "views": 11833,
+        "views": 15478,
         "topic": "Claude",
         "topicIsBeat": true,
         "bullets": null
@@ -399,9 +561,9 @@
         "id": "LYYs_jIFPZ4",
         "title": "You Need to Learn How to Use Uncensored AI Right Now",
         "published": "2026-10-26T18:30:59+00:00",
-        "views": 348814
+        "views": 385178
       },
-      "daysSince": 2,
+      "daysSince": 3,
       "medianGap": 2.8,
       "cadence": "Every 2-3 days",
       "span": 15
@@ -415,7 +577,7 @@
         "id": "fXzTB8f9JMw",
         "title": "Claude Max 20x Plan Is No More",
         "published": "2026-10-31T02:45:07+00:00",
-        "views": 15993,
+        "views": 16864,
         "topic": "Claude",
         "topicIsBeat": false,
         "bullets": [
@@ -428,9 +590,9 @@
         "id": "it3kt7rEQoE",
         "title": "The Only Claude OS Breakdown You'll Ever Need",
         "published": "2026-10-30T23:15:38+00:00",
-        "views": 10192
+        "views": 10740
       },
-      "daysSince": 2,
+      "daysSince": 3,
       "medianGap": 0.3,
       "cadence": "Daily",
       "span": 15
@@ -444,7 +606,7 @@
         "id": "Sf8p4JX38sI",
         "title": "Claude Code + DataForSEO Ran My SEO for 73¢",
         "published": "2026-10-30T12:29:57+00:00",
-        "views": 7342,
+        "views": 7844,
         "topic": "Claude",
         "topicIsBeat": false,
         "bullets": null
@@ -453,9 +615,9 @@
         "id": "bp_u9Gzp1OU",
         "title": "AI Trading Is a Lie: I Lost Real Money Twice",
         "published": "2026-10-26T11:48:40+00:00",
-        "views": 44999
+        "views": 46587
       },
-      "daysSince": 2,
+      "daysSince": 3,
       "medianGap": 2.5,
       "cadence": "Every 2-3 days",
       "span": 15
@@ -469,7 +631,7 @@
         "id": "42Y6z9KKRKc",
         "title": "Nate Herk: The Most Valuable AI Skill to Learn In 2027",
         "published": "2026-10-30T13:45:29+00:00",
-        "views": 32421,
+        "views": 39487,
         "topic": "Claude",
         "topicIsBeat": true,
         "bullets": null
@@ -478,9 +640,9 @@
         "id": "QBClwotyT3Y",
         "title": "Stop Watching Tutorials - Build These 4 Claude Artifacts to 10x Output",
         "published": "2026-10-29T13:45:26+00:00",
-        "views": 56673
+        "views": 59451
       },
-      "daysSince": 2,
+      "daysSince": 3,
       "medianGap": 4,
       "cadence": "~2x per week",
       "span": 15
@@ -494,7 +656,7 @@
         "id": "F92TIKWBGyg",
         "title": "this WiFi GPU is wild.....",
         "published": "2026-10-30T23:21:11+00:00",
-        "views": 279798,
+        "views": 304124,
         "topic": "Models",
         "topicIsBeat": true,
         "bullets": null
@@ -503,119 +665,11 @@
         "id": "cFdoXn6yvE4",
         "title": "local AI's biggest problem... they solved it?",
         "published": "2026-10-30T18:45:36+00:00",
-        "views": 656533
+        "views": 763937
       },
-      "daysSince": 2,
+      "daysSince": 3,
       "medianGap": 3.1,
       "cadence": "~2x per week",
-      "span": 15
-    },
-    {
-      "name": "OpenAI",
-      "channelId": "UCXZCJLdBC09xxGZ6gcdrc6A",
-      "avatar": "https://yt3.googleusercontent.com/MopgmVAFV9BqlzOJ-UINtmutvEPcNe5IbKMmP_4vZZo3vnJXcZGtybUBsXaEVxkmxKyGqX9R=s88-c-k-c0x00ffffff-no-rj",
-      "watched": 6,
-      "latest": {
-        "id": "o4D1J1YWjhg",
-        "title": "There are many futures. Which do you want to build?",
-        "published": "2026-10-30T20:17:12+00:00",
-        "views": 116064,
-        "topic": "Models",
-        "topicIsBeat": true,
-        "bullets": [
-          "Audio features repetitive bell sounds and rhythmic music tracks",
-          "Spoken dialogue is limited to the repetition of the word heat",
-          "Content focuses on abstract atmospheric themes rather than specific instructional data"
-        ]
-      },
-      "prev": {
-        "id": "7TtGMileCus",
-        "title": "How Gen uses ChatGPT Work to turn data Into decisions | OpenAI",
-        "published": "2026-10-30T15:24:48+00:00",
-        "views": 3060
-      },
-      "daysSince": 2,
-      "medianGap": 0.1,
-      "cadence": "Daily",
-      "span": 15
-    },
-    {
-      "name": "AI For Humans",
-      "channelId": "UCghJTNTO9kcDeUFXMuSDGLQ",
-      "avatar": "https://yt3.googleusercontent.com/N7gHh80WiWb3kE6tSz3WusSAgrHAI8BSk8dKM3a2aNHyM-nkAhkBju6LehXkoEKrHVaYItimBk8=s88-c-k-c0x00ffffff-no-rj",
-      "watched": 7,
-      "latest": {
-        "id": "6101Q0dQQIk",
-        "title": "AI Is Moving Too Fast. Two New Models In Two Weeks?!",
-        "published": "2026-10-30T13:45:33+00:00",
-        "views": 14981,
-        "topic": "Models",
-        "topicIsBeat": false,
-        "bullets": null
-      },
-      "prev": {
-        "id": "-XIgyMsZZxY",
-        "title": "AI Just Broke The Internet. For Real This Time.",
-        "published": "2026-10-23T13:45:21+00:00",
-        "views": 24790
-      },
-      "daysSince": 2,
-      "medianGap": 2.9,
-      "cadence": "Every 2-3 days",
-      "span": 15
-    },
-    {
-      "name": "Paul J Lipsky",
-      "channelId": "UCmeU2DYiVy80wMBGZzEWnbw",
-      "avatar": "https://yt3.googleusercontent.com/vvdXULk0z9-eMHaEV8y2hkduCb8cjcF5zQD6puFRPaaNnPHhbSFn8nKfkLPVSmiHcnfPxS093w=s88-c-k-c0x00ffffff-no-rj",
-      "watched": 2,
-      "latest": {
-        "id": "lXLmgsNP3MY",
-        "title": "AI News: New ChatGPT Limits, iMessage Dot, Gemini 4 Carbon & A Terrifying Voice Model",
-        "published": "2026-10-30T13:00:18+00:00",
-        "views": 129791,
-        "topic": "Models",
-        "topicIsBeat": false,
-        "bullets": [
-          "OpenAI doubled usage limits for certain plans and integrated the Dot agent into iMessage texting",
-          "Google's Gemini 4 Carbon model claims the top benchmark spot over GPT-6 Astra and Claude Opus 5.5",
-          "Block revealed Desa, an ultra-realistic voice model trained on human audio rather than text-to-speech"
-        ]
-      },
-      "prev": {
-        "id": "F3MEjYzc1OY",
-        "title": "Starting a Solo AI Business Using The New X Subscription",
-        "published": "2026-10-29T19:59:05+00:00",
-        "views": 38230
-      },
-      "daysSince": 2,
-      "medianGap": 2,
-      "cadence": "Every 2-3 days",
-      "span": 15
-    },
-    {
-      "name": "Google Cloud Tech",
-      "channelId": "UCJS9pqu9BzkAMNTmzNMNhvg",
-      "avatar": "https://yt3.googleusercontent.com/_XJ_FbhTDiTg7Zhr328vkGrw99p8-uQ3Y1nW2KZozueF_nkixmIhAbF2hUMFB9lUqMwSBo4etlY=s88-c-k-c0x00ffffff-no-rj",
-      "watched": 2,
-      "latest": {
-        "id": "WWG-wIaB4aQ",
-        "title": "Tell your data story with Looker Data Apps",
-        "published": "2026-10-30T20:00:42+00:00",
-        "views": 5217,
-        "topic": "Agents",
-        "topicIsBeat": true,
-        "bullets": null
-      },
-      "prev": {
-        "id": "p2vmRfShi_U",
-        "title": "CodeMender: AI powered vulnerability fixes right in GitHub PRs",
-        "published": "2026-10-30T19:00:16+00:00",
-        "views": 1760
-      },
-      "daysSince": 2,
-      "medianGap": 0.2,
-      "cadence": "Daily",
       "span": 15
     },
     {
@@ -627,7 +681,7 @@
         "id": "IrgQdsxzRa4",
         "title": "Two AI bots for spam calls and data privacy",
         "published": "2026-10-29T19:05:33+00:00",
-        "views": 2314,
+        "views": 2431,
         "topic": "Models",
         "topicIsBeat": true,
         "bullets": [
@@ -640,36 +694,11 @@
         "id": "zhnJo7s91ls",
         "title": "Google \"Carbon\" just won everything...",
         "published": "2026-10-29T00:29:20+00:00",
-        "views": 133541
+        "views": 136528
       },
-      "daysSince": 3,
+      "daysSince": 4,
       "medianGap": 0.5,
       "cadence": "Daily",
-      "span": 15
-    },
-    {
-      "name": "Greg Isenberg",
-      "channelId": "UCPjNBjflYl0-HQtUvOx0Ibw",
-      "avatar": "https://yt3.googleusercontent.com/5wiiTxMamM0NnCmGOt0iJ6eoVRmFLNIGF-BEiTZ_AVqaS02YIxAsB-2XY6xwLCUWQfoENG1MHKo=s88-c-k-c0x00ffffff-no-rj",
-      "watched": 3,
-      "latest": {
-        "id": "AqqjH_uv-_w",
-        "title": "SaaS is dead?",
-        "published": "2026-10-29T19:25:16+00:00",
-        "views": 61998,
-        "topic": "AI Business",
-        "topicIsBeat": false,
-        "bullets": null
-      },
-      "prev": {
-        "id": "st61aKW8P5A",
-        "title": "$100M ARR Founder: The Next Big AI Opportunity",
-        "published": "2026-10-28T17:40:18+00:00",
-        "views": 53804
-      },
-      "daysSince": 3,
-      "medianGap": 2,
-      "cadence": "Every 2-3 days",
       "span": 15
     },
     {
@@ -681,7 +710,7 @@
         "id": "XYlEeuX3KiM",
         "title": "Build Stunning Animated Dashboards with Claude in Minutes!",
         "published": "2026-10-29T12:15:25+00:00",
-        "views": 1273,
+        "views": 1372,
         "topic": "Claude",
         "topicIsBeat": false,
         "bullets": null
@@ -690,36 +719,11 @@
         "id": "CM3nx9eVJzo",
         "title": "Create Interactive Reports with Gemini Notebook's New Feature! Step by Step Tutorial",
         "published": "2026-10-17T10:30:17+00:00",
-        "views": 4568
-      },
-      "daysSince": 3,
-      "medianGap": 7.5,
-      "cadence": "Weekly",
-      "span": 15
-    },
-    {
-      "name": "Derek Cheung | AI Agents Automation",
-      "channelId": "UCINkul2kgQYqt4GuD-352DQ",
-      "avatar": "https://yt3.googleusercontent.com/pD4zIbKgDPxU0Vlln2nIlArU7GJQJbmsvTL2T9OmIybZUUsKiOL_QLCEeaoj6R2OReeumPCQyA=s88-c-k-c0x00ffffff-no-rj",
-      "watched": 3,
-      "latest": {
-        "id": "IaQsvDdQz7c",
-        "title": "I Built My Own AI OS with n8n + Claude (6 Layers)",
-        "published": "2026-10-28T12:57:33+00:00",
-        "views": 31874,
-        "topic": "Claude",
-        "topicIsBeat": false,
-        "bullets": null
-      },
-      "prev": {
-        "id": "FE2_PAoPMDo",
-        "title": "I Made an AI K-Pop Duo From One Song 🎤 #shorts",
-        "published": "2026-10-28T02:49:23+00:00",
-        "views": 427
+        "views": 4595
       },
       "daysSince": 4,
-      "medianGap": 0.4,
-      "cadence": "Daily",
+      "medianGap": 7.5,
+      "cadence": "Weekly",
       "span": 15
     },
     {
@@ -731,7 +735,7 @@
         "id": "YWBabyKAeDk",
         "title": "Gemini AI's Multi-Modality: Video, Audio, Image & Text Inputs Explained",
         "published": "2026-10-16T19:02:36+00:00",
-        "views": 8820,
+        "views": 8893,
         "topic": "AI Coding",
         "topicIsBeat": false,
         "bullets": null
@@ -740,9 +744,9 @@
         "id": "8lbKuWwth2k",
         "title": "Fable 5.5: The Biggest Leap in AI Models Coming Soon",
         "published": "2026-10-16T17:03:24+00:00",
-        "views": 19376
+        "views": 19670
       },
-      "daysSince": 16,
+      "daysSince": 17,
       "medianGap": 0.1,
       "cadence": "Daily",
       "span": 15
@@ -756,7 +760,7 @@
         "id": "FiOTrxq9ckM",
         "title": "[Free on Github] My Jarvis AI Assistant",
         "published": "2026-08-20T15:00:02+00:00",
-        "views": 507598,
+        "views": 511284,
         "topic": "AI Business",
         "topicIsBeat": true,
         "bullets": [
@@ -769,9 +773,9 @@
         "id": "BeWeyhpzIBk",
         "title": "Making Money with AI",
         "published": "2026-08-19T06:00:45+00:00",
-        "views": 3636
+        "views": 3637
       },
-      "daysSince": 73,
+      "daysSince": 74,
       "medianGap": 0.9,
       "cadence": "Daily",
       "span": 15
