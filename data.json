@@ -1,46 +1,150 @@
 {
-  "generated": "2026-11-23T11:22:18.139Z",
+  "generated": "2026-11-24T11:22:57.829Z",
   "trending": [
     {
-      "topic": "Anthropic's aggressive corporate expansion",
-      "note": "Analysis of the company's shift toward public IPOs, trillion-dollar valuations, and restrictive lobbying.",
+      "topic": "AI agent orchestration within Obsidian",
+      "note": "Using Obsidian as a local environment and persistent memory for autonomous AI agent workflows.",
       "channels": [
-        "Matthew Berman",
-        "Paul J Lipsky"
+        "Agrici Daniel",
+        "jaredrhod"
       ]
     },
     {
-      "topic": "Discoverability for AI search agents",
-      "note": "Strategies for indexing business data and configuring crawlers to prioritize search visibility over training.",
+      "topic": "Extending Claude via MCP",
+      "note": "Using Model Context Protocol to grant Claude models direct control over local files and media generation tools.",
       "channels": [
-        "OpenAI",
-        "Agrici Daniel"
+        "Agrici Daniel",
+        "Paul J Lipsky"
       ]
     }
   ],
   "channels": [
+    {
+      "name": "Matthew Berman",
+      "channelId": "UCawZsQWqfGSbCI5yjkdVkTA",
+      "avatar": "https://yt3.googleusercontent.com/1X83USLZjNCWy21jOEP9rhsLujx6airwI-ANVsBhWMoErFuUkbx6-tDBjM-OAaIwxDv8MoUlHUk=s88-c-k-c0x00ffffff-no-rj",
+      "watched": 47,
+      "latest": {
+        "id": "MkeKXJzJo98",
+        "title": "Did AI JUST Solve Mathematics?",
+        "published": "2026-11-24T02:30:08+00:00",
+        "views": 76056,
+        "topic": "Claude",
+        "topicIsBeat": true,
+        "bullets": [
+          "Anthropic's Claude model reportedly solved the Riemann Hypothesis using 17 million lines of Lean formal proof",
+          "The solution spans 250,000 pages of documentation, exceeding a human's capacity to read or verify easily",
+          "AI is now tackling other Millennium Prize problems like Navier-Stokes and P vs NP through complex chaining"
+        ]
+      },
+      "prev": {
+        "id": "I0Fasi1-teQ",
+        "title": "I’m Crashing Out About Anthropic",
+        "published": "2026-11-21T21:23:31+00:00",
+        "views": 150966
+      },
+      "daysSince": 0,
+      "medianGap": 0.4,
+      "cadence": "Daily",
+      "span": 15
+    },
     {
       "name": "Nate Herk | AI Automation",
       "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
       "avatar": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s88-c-k-c0x00ffffff-no-rj",
       "watched": 17,
       "latest": {
-        "id": "sVrmhD99BJk",
-        "title": "30 Everyday Ways to Use Grok Bot That Feel Like Cheating",
-        "published": "2026-11-23T01:52:25+00:00",
-        "views": 16570,
-        "topic": "Models",
+        "id": "RFfaZMSWG6w",
+        "title": "Jensen is back",
+        "published": "2026-11-23T20:14:44+00:00",
+        "views": 12824,
+        "topic": "Claude",
+        "topicIsBeat": true,
+        "bullets": null
+      },
+      "prev": {
+        "id": "QTJIj5Zb-Cc",
+        "title": "$1 vs $1,000 Video Game",
+        "published": "2026-11-23T17:41:14+00:00",
+        "views": 6309
+      },
+      "daysSince": 0,
+      "medianGap": 0.4,
+      "cadence": "Daily",
+      "span": 15
+    },
+    {
+      "name": "Creator Magic",
+      "channelId": "UC08Fah8EIryeOZRkjBRohcQ",
+      "avatar": "https://yt3.googleusercontent.com/xLX2aDRXU0EgpfsfVh-45qHp6zkcJJvh3itsgoqqo1AsX0dm-UkzCDYh9LogceLaNfFmqQFA2D0=s88-c-k-c0x00ffffff-no-rj",
+      "watched": 14,
+      "latest": {
+        "id": "4C7x1jpQa-E",
+        "title": "I Let Claude Make a Real Phone Call: AI vs AI",
+        "published": "2026-11-23T21:50:19+00:00",
+        "views": 2465,
+        "topic": "Claude",
         "topicIsBeat": false,
         "bullets": null
       },
       "prev": {
-        "id": "0RF9ml43ups",
-        "title": "Anthropic Engineer Explains: How to Stop Hitting Claude's Token Limit",
-        "published": "2026-11-22T15:39:28+00:00",
-        "views": 45030
+        "id": "0iZ8k6E5zUI",
+        "title": "Claude Code Built My Newsletter: No More $169 Kit",
+        "published": "2026-11-20T15:00:16+00:00",
+        "views": 3901
       },
       "daysSince": 0,
-      "medianGap": 0.3,
+      "medianGap": 3.3,
+      "cadence": "~2x per week",
+      "span": 15
+    },
+    {
+      "name": "Austin Marchese",
+      "channelId": "UCFeFVytEkT8kaqPCJZGFswg",
+      "avatar": "https://yt3.googleusercontent.com/zSFaH5WiyCObmCfyslDM-lI3qVt7u18IqUfHlBsa6y8jKtx4AdkcrOn5S_T0JXtI4s_23IvEOA=s88-c-k-c0x00ffffff-no-rj",
+      "watched": 11,
+      "latest": {
+        "id": "7697mRwbgk0",
+        "title": "Claude Duet vs Grok Bot: Which Should You ACTUALLY Use?",
+        "published": "2026-11-23T14:45:32+00:00",
+        "views": 16905,
+        "topic": "Claude",
+        "topicIsBeat": false,
+        "bullets": null
+      },
+      "prev": {
+        "id": "UUg5oij7ptw",
+        "title": "How To Build Self-Improving AI Agents with Claude (Stanford's Method)",
+        "published": "2026-11-21T14:45:00+00:00",
+        "views": 96029
+      },
+      "daysSince": 0,
+      "medianGap": 3.6,
+      "cadence": "~2x per week",
+      "span": 15
+    },
+    {
+      "name": "Jay E | RoboNuggets",
+      "channelId": "UCgscS8mBsQZ5sFRkJIFWD7Q",
+      "avatar": "https://yt3.googleusercontent.com/mIeH8O3QffYUPITAAhUGoeUhN_4fTWnVRdZvSThNYyrXc4R17LPNclHNoQ6fEX68lTOIxRo-OQ=s88-c-k-c0x00ffffff-no-rj",
+      "watched": 10,
+      "latest": {
+        "id": "IMSYKloMFrE",
+        "title": "Anthropic's Engineers Stopped Building AI Agents (Here's What They Build Instead)",
+        "published": "2026-11-23T23:02:47+00:00",
+        "views": 205757,
+        "topic": "Claude",
+        "topicIsBeat": false,
+        "bullets": null
+      },
+      "prev": {
+        "id": "OMfU5iq8Eik",
+        "title": "Anthropic Just Dropped 7 MASSIVE Claude Features (Master them in 15 mins)",
+        "published": "2026-11-22T00:50:09+00:00",
+        "views": 595718
+      },
+      "daysSince": 0,
+      "medianGap": 0.6,
       "cadence": "Daily",
       "span": 15
     },
@@ -50,22 +154,97 @@
       "avatar": "https://yt3.googleusercontent.com/k37xjRLbSp0Fw6Cy8BVpa6hQiU22eEfr_e5RdFQrM8R5BlyZm_3zNQAMhUjAWhmjXnVfCrhWxQ=s88-c-k-c0x00ffffff-no-rj",
       "watched": 6,
       "latest": {
-        "id": "i1qSEyZ1KWo",
-        "title": "2026年11月23日｜24小時世界AI新聞台-重溫｜Inkling 2 Mini、騰訊 Hy4、C2PA 圖像調查",
-        "published": "2026-11-23T00:00:37+00:00",
-        "views": 333,
+        "id": "9yl-l1KswIk",
+        "title": "2026年11月24日｜24小時世界AI新聞台-重溫｜鋼柱AI測試陷阱、腦電研究、室內空氣原型",
+        "published": "2026-11-24T00:00:12+00:00",
+        "views": 264,
         "topic": "Models",
         "topicIsBeat": true,
         "bullets": null
       },
       "prev": {
-        "id": "JDcDvmadw10",
-        "title": "2026年11月22日｜24小時世界AI新聞台-重溫｜Gemini Mac、Google Flow、歐盟AI素養",
-        "published": "2026-11-22T00:00:24+00:00",
-        "views": 854
+        "id": "i1qSEyZ1KWo",
+        "title": "2026年11月23日｜24小時世界AI新聞台-重溫｜Inkling 2 Mini、騰訊 Hy4、C2PA 圖像調查",
+        "published": "2026-11-23T00:00:37+00:00",
+        "views": 649
       },
       "daysSince": 0,
       "medianGap": 1,
+      "cadence": "Daily",
+      "span": 15
+    },
+    {
+      "name": "OpenAI",
+      "channelId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+      "avatar": "https://yt3.googleusercontent.com/MopgmVAFV9BqlzOJ-UINtmutvEPcNe5IbKMmP_4vZZo3vnJXcZGtybUBsXaEVxkmxKyGqX9R=s88-c-k-c0x00ffffff-no-rj",
+      "watched": 6,
+      "latest": {
+        "id": "asUuxCqj0GE",
+        "title": "Waiting for a better price on that gift? Use ChatGPT.",
+        "published": "2026-11-24T01:36:38+00:00",
+        "views": 1845,
+        "topic": "Models",
+        "topicIsBeat": false,
+        "bullets": null
+      },
+      "prev": {
+        "id": "w-ltt0Np2cY",
+        "title": "Investigating Linux Vulnerabilities with GPT-6 Cyber",
+        "published": "2026-11-23T20:03:11+00:00",
+        "views": 3250
+      },
+      "daysSince": 0,
+      "medianGap": 0.1,
+      "cadence": "Daily",
+      "span": 15
+    },
+    {
+      "name": "Cole Medin",
+      "channelId": "UCMwVTLZIRRUyyVrkjDpn4pA",
+      "avatar": "https://yt3.googleusercontent.com/hypu_gAVvu_zrtDWjVw833AeSwI2OwJSJ5ZSy1QAhgbIPs1qmNnKreOnHMhaU55bBRLMA47E=s88-c-k-c0x00ffffff-no-rj",
+      "watched": 5,
+      "latest": {
+        "id": "0q0UbO4oqgQ",
+        "title": "Hackers Are Coming for Your AI Coding Agent (Lock It Down Now)",
+        "published": "2026-11-23T15:23:29+00:00",
+        "views": 13458,
+        "topic": "Agents",
+        "topicIsBeat": false,
+        "bullets": null
+      },
+      "prev": {
+        "id": "IsWEWB-Ownk",
+        "title": "Watch My AI Software Factory Ship Your Ideas LIVE",
+        "published": "2026-11-20T23:08:43+00:00",
+        "views": 0
+      },
+      "daysSince": 0,
+      "medianGap": 1.8,
+      "cadence": "Every 2-3 days",
+      "span": 15
+    },
+    {
+      "name": "Jack Roberts",
+      "channelId": "UCxVxcTULO9cFU6SB9qVaisQ",
+      "avatar": "https://yt3.googleusercontent.com/DNqB1hIwioWT2PYkLGHuFtnfUnx11uE-35XmQqOXJBwyy7sZuBUiTQRySnHoCGP9Wj-0GNGaOQ=s88-c-k-c0x00ffffff-no-rj",
+      "watched": 3,
+      "latest": {
+        "id": "V7qaWI_1uPA",
+        "title": "I Tested Google’s “Claude Killer”… Here’s What Happened.",
+        "published": "2026-11-23T21:38:03+00:00",
+        "views": 14649,
+        "topic": "Claude",
+        "topicIsBeat": false,
+        "bullets": null
+      },
+      "prev": {
+        "id": "SNTZgpEhBzA",
+        "title": "This Claude Skill Replaced My GitHub Searches",
+        "published": "2026-11-21T21:00:37+00:00",
+        "views": 5863
+      },
+      "daysSince": 0,
+      "medianGap": 0.4,
       "cadence": "Daily",
       "span": 15
     },
@@ -75,48 +254,77 @@
       "avatar": "https://yt3.googleusercontent.com/5wiiTxMamM0NnCmGOt0iJ6eoVRmFLNIGF-BEiTZ_AVqaS02YIxAsB-2XY6xwLCUWQfoENG1MHKo=s88-c-k-c0x00ffffff-no-rj",
       "watched": 3,
       "latest": {
-        "id": "LrJ4RYRQSpk",
-        "title": "How to design an agent harness",
-        "published": "2026-11-22T18:12:28+00:00",
-        "views": 6872,
-        "topic": "Agents",
-        "topicIsBeat": false,
+        "id": "RV9JbYtfCOo",
+        "title": "$1.1B robotics founder: millions of robots will exist in 10 years",
+        "published": "2026-11-24T04:43:29+00:00",
+        "views": 373,
+        "topic": "Models",
+        "topicIsBeat": true,
         "bullets": null
       },
       "prev": {
-        "id": "tCY7zMknCJQ",
-        "title": "Gemini 4 Neon: the most underrated model of the year",
-        "published": "2026-11-20T23:45:43+00:00",
-        "views": 61940
+        "id": "TXzJ4pGW59o",
+        "title": "Robots are the new apps (and you’re early)",
+        "published": "2026-11-23T18:45:05+00:00",
+        "views": 13824
       },
       "daysSince": 0,
-      "medianGap": 1.8,
-      "cadence": "Every 2-3 days",
+      "medianGap": 1.4,
+      "cadence": "Daily",
       "span": 15
     },
     {
-      "name": "Derek Cheung | AI Agents Automation",
-      "channelId": "UCINkul2kgQYqt4GuD-352DQ",
-      "avatar": "https://yt3.googleusercontent.com/pD4zIbKgDPxU0Vlln2nIlArU7GJQJbmsvTL2T9OmIybZUUsKiOL_QLCEeaoj6R2OReeumPCQyA=s88-c-k-c0x00ffffff-no-rj",
+      "name": "Agrici Daniel",
+      "channelId": "UCuCpyjRfW157950O5VBaWlw",
+      "avatar": "https://yt3.googleusercontent.com/ucdfhbSc6wOnmm-39vppuGnduG5gHcddcTEvMC1q3A_9A1lPDRYZ4U46bCxoSHklzYF_RJQ4=s88-c-k-c0x00ffffff-no-rj",
       "watched": 3,
       "latest": {
-        "id": "FjPtjZfXpW4",
-        "title": "ChatGPT Video Editing: Turn a Long Video into a Short with CapCut",
-        "published": "2026-11-22T14:02:51+00:00",
-        "views": 923,
-        "topic": "AI Coding",
+        "id": "MmGdnLxJCW8",
+        "title": "I Gave Claude, Gemini and Codex Control of Obsidian",
+        "published": "2026-11-23T22:49:02+00:00",
+        "views": 313,
+        "topic": "Claude",
+        "topicIsBeat": false,
+        "bullets": [
+          "The Herdr plugin and MCP allow multiple AI agents like Claude and Gemini to control Obsidian in parallel",
+          "Agents demonstrate autonomous UI control by splitting panes, managing canvases, and generating blog content",
+          "Users can orchestrate over a dozen different AI models to read, edit, and organize notes within a local vault"
+        ]
+      },
+      "prev": {
+        "id": "1OtATcJTfWo",
+        "title": "6 Steps to a Profitable Black Friday Deal (No Guessing)",
+        "published": "2026-11-23T12:57:38+00:00",
+        "views": 309
+      },
+      "daysSince": 0,
+      "medianGap": 0.9,
+      "cadence": "Daily",
+      "span": 15
+    },
+    {
+      "name": "Thinkverse AI",
+      "channelId": "UCOPF9JjEbqjGdD2cqSht1pw",
+      "avatar": "https://yt3.googleusercontent.com/CuRoZ_vLQjHh5aBM8F_x0s8DzDZ_NqJrurYOl4GEqVrOKReu7nr-kDzAPNhWeFsc2xNHgKdqoQ=s88-c-k-c0x00ffffff-no-rj",
+      "watched": 2,
+      "latest": {
+        "id": "LQsvG2RzdVs",
+        "title": "Everyone Will Copy This New Claude Strategy by 2027 (Do It Now)",
+        "published": "2026-11-23T14:17:41+00:00",
+        "views": 6878,
+        "topic": "Claude",
         "topicIsBeat": false,
         "bullets": null
       },
       "prev": {
-        "id": "rAAg3tSGYdY",
-        "title": "I Built a Competitor Price Tracker in n8n + ScrapingBee (Free)",
-        "published": "2026-11-19T12:16:18+00:00",
-        "views": 22213
+        "id": "fmuMztc9wYg",
+        "title": "He Posted Sleeping Videos for 30 Days Using AI to Make Generational Wealth",
+        "published": "2026-11-22T11:08:34+00:00",
+        "views": 14013
       },
       "daysSince": 0,
-      "medianGap": 1.3,
-      "cadence": "Daily",
+      "medianGap": 2,
+      "cadence": "Every 2-3 days",
       "span": 15
     },
     {
@@ -125,23 +333,77 @@
       "avatar": "https://yt3.googleusercontent.com/Tg3J3l38zTlpSMmFXlEvOThBPyiRo1ipdxRs33bwaihXHrGHFD9tCPiUKR9IZFTh1i323DN5=s88-c-k-c0x00ffffff-no-rj",
       "watched": 3,
       "latest": {
-        "id": "yx_oOptEBG8",
-        "title": "If You Have A Job, You NEED To Start A YouTube Channel Now",
-        "published": "2026-11-22T22:00:03+00:00",
-        "views": 7223,
+        "id": "U_y6h1rrbPY",
+        "title": "Top 5 Claude AI Side Hustles for People Who Don’t Want Another Job",
+        "published": "2026-11-24T00:00:18+00:00",
+        "views": 7717,
         "topic": "Claude",
-        "topicIsBeat": true,
+        "topicIsBeat": false,
         "bullets": [
-          "Job expertise can be turned into digital real estate that provides a safety net against sudden layoffs",
-          "Real-world examples show professionals like nurses and doctors earning over $10,000 monthly via AdSense",
-          "Professionals can use the notes app to track common workplace questions for high-value video ideas"
+          "Expert networks pay $100 to $500 per hour while Claude handles expert bio creation and outreach pitches",
+          "Self-publishing on Amazon KDP can yield $97,000 annually with Claude acting as a book editor and interviewer",
+          "Consultants earn $100 per hour on YT Jobs helping creators verify niche content and refine video scripts"
         ]
       },
       "prev": {
-        "id": "kFp13rld2DA",
-        "title": "Top 10 Side Hustles You Can Do In Retirement (That Actually Work)",
-        "published": "2026-11-22T00:00:02+00:00",
-        "views": 18904
+        "id": "yx_oOptEBG8",
+        "title": "If You Have A Job, You NEED To Start A YouTube Channel Now",
+        "published": "2026-11-22T22:00:03+00:00",
+        "views": 10054
+      },
+      "daysSince": 0,
+      "medianGap": 1,
+      "cadence": "Daily",
+      "span": 15
+    },
+    {
+      "name": "Sandy Lee AI",
+      "channelId": "UCcrH_UUxL4KFjS3pwaXvMXA",
+      "avatar": "https://yt3.googleusercontent.com/UKXg15_RbE6H9WkIXbLu3MSOCKTUdyc9aOnsbkm5j2MtGqKVyghp3HvgEfTRR1I6kgnZaBl3vw=s88-c-k-c0x00ffffff-no-rj",
+      "watched": 3,
+      "latest": {
+        "id": "TRrKRC3kU00",
+        "title": "AI Insider: AI Companies Are Hiring Right Now",
+        "published": "2026-11-23T15:22:40+00:00",
+        "views": 694,
+        "topic": "AI Coding",
+        "topicIsBeat": false,
+        "bullets": null
+      },
+      "prev": {
+        "id": "OMTHLX-1k_Y",
+        "title": "Anthropic will pay $73K in 4 months",
+        "published": "2026-11-20T17:29:57+00:00",
+        "views": 4220
+      },
+      "daysSince": 0,
+      "medianGap": 5,
+      "cadence": "~2x per week",
+      "span": 15
+    },
+    {
+      "name": "Paul J Lipsky",
+      "channelId": "UCmeU2DYiVy80wMBGZzEWnbw",
+      "avatar": "https://yt3.googleusercontent.com/vvdXULk0z9-eMHaEV8y2hkduCb8cjcF5zQD6puFRPaaNnPHhbSFn8nKfkLPVSmiHcnfPxS093w=s88-c-k-c0x00ffffff-no-rj",
+      "watched": 2,
+      "latest": {
+        "id": "VJOG2tis9eE",
+        "title": "Fable 5.2 vs Opus 5.5 with Creative Work (Higgsfield MCP)",
+        "published": "2026-11-23T16:00:20+00:00",
+        "views": 8385,
+        "topic": "Claude",
+        "topicIsBeat": false,
+        "bullets": [
+          "Opus 5.5 matches Fable 5.2 performance on basic image ads when provided with specific, detailed prompts",
+          "Fable 5.2 demonstrates superior creative planning and aesthetic layout for complex website generation",
+          "Using the Higgsfield MCP allows both models to generate AI video and images directly inside the Claude chat"
+        ]
+      },
+      "prev": {
+        "id": "gxoKLsWRRxs",
+        "title": "Big AI News: OpenAI Fumbled but Google Won The Week (Again)",
+        "published": "2026-11-20T14:00:15+00:00",
+        "views": 125332
       },
       "daysSince": 0,
       "medianGap": 1,
@@ -154,26 +416,51 @@
       "avatar": "https://yt3.googleusercontent.com/-vuz7Rfgf8DOO3aGiTNUC0uGgC1a1UjTKux2Nt5i8JklkaztQeKR2hmTzIKzMgQZDa_P1sL6=s88-c-k-c0x00ffffff-no-rj",
       "watched": 2,
       "latest": {
-        "id": "1IxyDY94vLE",
-        "title": "llama.cpp 1.0 Is Out Can It Finally Catch Strata?",
-        "published": "2026-11-22T15:30:27+00:00",
-        "views": 26361,
+        "id": "W9-fXb1lqos",
+        "title": "Radiance Made AMD's 32GB GPU Run LLM 4x Faster!",
+        "published": "2026-11-23T15:30:20+00:00",
+        "views": 40981,
         "topic": "Models",
-        "topicIsBeat": false,
+        "topicIsBeat": true,
         "bullets": [
-          "Llama.cpp 1.0 adds an MOE cache that boosts writing speeds by 60% when using the correct manual flags",
-          "Strata remains 12 times faster than Llama.cpp at reading large prompts due to its superior data streaming",
-          "Performance gains in 1.0 are highly dependent on running the repository's MOE cache tuning script"
+          "Radiance uses hand-tuned RDNA4 kernels to increase LLM prompt reading speeds by up to 4.2x on AMD hardware",
+          "Prefill times for 100,000 tokens drop from over two minutes to 47 seconds using the new software stack",
+          "Speculative decoding improves generation efficiency by checking seven tokens in a single memory pass"
         ]
       },
       "prev": {
-        "id": "vVxujZS4hFA",
-        "title": "Local AI is No Longer an Option. Here is Why",
-        "published": "2026-11-22T10:30:18+00:00",
-        "views": 70480
+        "id": "1IxyDY94vLE",
+        "title": "llama.cpp 1.0 Is Out Can It Finally Catch Strata?",
+        "published": "2026-11-22T15:30:27+00:00",
+        "views": 45016
       },
       "daysSince": 0,
       "medianGap": 1,
+      "cadence": "Daily",
+      "span": 15
+    },
+    {
+      "name": "Google Cloud Tech",
+      "channelId": "UCJS9pqu9BzkAMNTmzNMNhvg",
+      "avatar": "https://yt3.googleusercontent.com/_XJ_FbhTDiTg7Zhr328vkGrw99p8-uQ3Y1nW2KZozueF_nkixmIhAbF2hUMFB9lUqMwSBo4etlY=s88-c-k-c0x00ffffff-no-rj",
+      "watched": 2,
+      "latest": {
+        "id": "3yAeHR5r9pE",
+        "title": "Is AGENTS.md always faster?",
+        "published": "2026-11-24T00:00:38+00:00",
+        "views": 1784,
+        "topic": "Agents",
+        "topicIsBeat": false,
+        "bullets": null
+      },
+      "prev": {
+        "id": "gau6i7AJ6jw",
+        "title": "Why naive RAG fails as agent memory (and what to use instead)",
+        "published": "2026-11-23T20:00:07+00:00",
+        "views": 1841
+      },
+      "daysSince": 0,
+      "medianGap": 0.2,
       "cadence": "Daily",
       "span": 15
     },
@@ -183,23 +470,23 @@
       "avatar": "https://yt3.googleusercontent.com/CoQXQKlzRpBxtXwiSWvu_ho0VZTo6k4u50fwVd65ni_o6padwctoRxJvAExmTLVesmSKinPm2g=s88-c-k-c0x00ffffff-no-rj",
       "watched": 3,
       "latest": {
-        "id": "JicC_f6jzJ4",
-        "title": "TanStack Just Shipped a React Replacement #tanstack #react #javascript",
-        "published": "2026-11-23T10:00:34+00:00",
-        "views": 896,
-        "topic": "Claude",
+        "id": "7Yjdk18T6LI",
+        "title": "NCM Is 30x Faster At Generating Text (New AI Architecture)",
+        "published": "2026-11-24T03:00:27+00:00",
+        "views": 8597,
+        "topic": "Agents",
         "topicIsBeat": true,
         "bullets": [
-          "TanStack Redact replaces React in the browser to reduce bundle sizes by up to 70% for simple applications",
-          "Removing React's concurrent scheduler can double interaction latency and cause search input delays",
-          "Testing shows large apps gain smaller size reductions while failing roughly 34% of existing test suites"
+          "Stanford researchers developed Next-Scale Modeling to generate text up to 31 times faster than LLMs",
+          "NCM encodes text into a hierarchy of numerical codes to predict representations at different detail levels",
+          "The model predicts a coarse representation first and then progressively adds details to reconstruct tokens"
         ]
       },
       "prev": {
-        "id": "MwOYrNAX1Ig",
-        "title": "TanStack Just Shrunk React by 70%",
-        "published": "2026-11-22T21:30:12+00:00",
-        "views": 38837
+        "id": "MhKevtf5CF0",
+        "title": "Shadcn Rebuilt UI for AI Agents #shadcn #aiagents #programming",
+        "published": "2026-11-23T21:30:10+00:00",
+        "views": 13924
       },
       "daysSince": 0,
       "medianGap": 0.2,
@@ -212,19 +499,19 @@
       "avatar": "https://yt3.googleusercontent.com/ZSLf5xrM_VEcshgKYQ-UA8sWOpK1YB1R99_Rdqoln7fVcFW_HfyFCRI1R175YS0M1WGUbmmYvs8=s88-c-k-c0x00ffffff-no-rj",
       "watched": 2,
       "latest": {
-        "id": "fFeyE4nINqs",
-        "title": "Microsoft, The FAA And Even The NSA Had Outages In One Week. What Is Happening?",
-        "published": "2026-11-22T17:00:15+00:00",
-        "views": 43363,
-        "topic": "Claude",
-        "topicIsBeat": true,
+        "id": "y0WVOisJ6Js",
+        "title": "GPT-6.2 Astra got brutal reviews. Gemini 4 Neon got raves. Here's why both are right.",
+        "published": "2026-11-23T15:00:17+00:00",
+        "views": 58747,
+        "topic": "Models",
+        "topicIsBeat": false,
         "bullets": null
       },
       "prev": {
-        "id": "lcl9nu98AYI",
-        "title": "When the fix makes the outage worse #microsoft #outage #tech #ai",
-        "published": "2026-11-21T04:00:20+00:00",
-        "views": 6481
+        "id": "fFeyE4nINqs",
+        "title": "Microsoft, The FAA And Even The NSA Had Outages In One Week. What Is Happening?",
+        "published": "2026-11-22T17:00:15+00:00",
+        "views": 52964
       },
       "daysSince": 0,
       "medianGap": 0.9,
@@ -237,19 +524,19 @@
       "avatar": "https://yt3.googleusercontent.com/ajVemEB89DAOemsbfuMY6ZOWXJAACx3cbty9z21jeqRKODaVkDBSRun1b1xfQJljEsziOWS_Mg=s88-c-k-c0x00ffffff-no-rj",
       "watched": 2,
       "latest": {
-        "id": "JNexz3Tbiu8",
-        "title": "Build the Workshop Before the Software Factory — Armin Ronacher, Earendil",
-        "published": "2026-11-22T20:00:27+00:00",
-        "views": 90645,
+        "id": "-NFMsM2y0Vk",
+        "title": "12 Rules for a Software Factory That Doesn't Ship Slop — Dex Horthy, Factory",
+        "published": "2026-11-23T20:00:40+00:00",
+        "views": 78453,
         "topic": "Agents",
         "topicIsBeat": true,
         "bullets": null
       },
       "prev": {
-        "id": "GKSQYbELDzw",
-        "title": "What Runs Where? Local AI in Production — Ahmad Osman, Osmantic",
-        "published": "2026-11-21T17:00:06+00:00",
-        "views": 11419
+        "id": "JNexz3Tbiu8",
+        "title": "Build the Workshop Before the Software Factory — Armin Ronacher, Earendil",
+        "published": "2026-11-22T20:00:27+00:00",
+        "views": 187808
       },
       "daysSince": 0,
       "medianGap": 0.8,
@@ -257,57 +544,28 @@
       "span": 15
     },
     {
-      "name": "Matthew Berman",
-      "channelId": "UCawZsQWqfGSbCI5yjkdVkTA",
-      "avatar": "https://yt3.googleusercontent.com/1X83USLZjNCWy21jOEP9rhsLujx6airwI-ANVsBhWMoErFuUkbx6-tDBjM-OAaIwxDv8MoUlHUk=s88-c-k-c0x00ffffff-no-rj",
-      "watched": 47,
+      "name": "Derek Cheung | AI Agents Automation",
+      "channelId": "UCINkul2kgQYqt4GuD-352DQ",
+      "avatar": "https://yt3.googleusercontent.com/pD4zIbKgDPxU0Vlln2nIlArU7GJQJbmsvTL2T9OmIybZUUsKiOL_QLCEeaoj6R2OReeumPCQyA=s88-c-k-c0x00ffffff-no-rj",
+      "watched": 3,
       "latest": {
-        "id": "I0Fasi1-teQ",
-        "title": "I’m Crashing Out About Anthropic",
-        "published": "2026-11-21T21:23:31+00:00",
-        "views": 142354,
-        "topic": "Claude",
-        "topicIsBeat": false,
-        "bullets": [
-          "Anthropic aggressively pursues recursive self-improvement while warning of a white-collar blood bath",
-          "The firm uses lobbying and restrictive terms of service to stifle open-source development and startups",
-          "Anthropic maintains model welfare teams based on the belief that AI will eventually become sentient"
-        ]
-      },
-      "prev": {
-        "id": "BoBe0tepch4",
-        "title": "Six Robots Worked a 24-Hour Shift at a Shanghai Convenience Store",
-        "published": "2026-11-20T22:53:25+00:00",
-        "views": 13906
-      },
-      "daysSince": 1,
-      "medianGap": 0.3,
-      "cadence": "Daily",
-      "span": 15
-    },
-    {
-      "name": "Austin Marchese",
-      "channelId": "UCFeFVytEkT8kaqPCJZGFswg",
-      "avatar": "https://yt3.googleusercontent.com/zSFaH5WiyCObmCfyslDM-lI3qVt7u18IqUfHlBsa6y8jKtx4AdkcrOn5S_T0JXtI4s_23IvEOA=s88-c-k-c0x00ffffff-no-rj",
-      "watched": 11,
-      "latest": {
-        "id": "UUg5oij7ptw",
-        "title": "How To Build Self-Improving AI Agents with Claude (Stanford's Method)",
-        "published": "2026-11-21T14:45:00+00:00",
-        "views": 62935,
-        "topic": "Claude",
+        "id": "FjPtjZfXpW4",
+        "title": "ChatGPT Video Editing: Turn a Long Video into a Short with CapCut",
+        "published": "2026-11-22T14:02:51+00:00",
+        "views": 3845,
+        "topic": "AI Coding",
         "topicIsBeat": false,
         "bullets": null
       },
       "prev": {
-        "id": "ZAe1nZKChfE",
-        "title": "Stop Building Claude Projects Nobody Wants. Copy Alexandr Wang Instead",
-        "published": "2026-11-17T16:00:17+00:00",
-        "views": 18509
+        "id": "rAAg3tSGYdY",
+        "title": "I Built a Competitor Price Tracker in n8n + ScrapingBee (Free)",
+        "published": "2026-11-19T12:16:18+00:00",
+        "views": 30445
       },
       "daysSince": 1,
-      "medianGap": 4,
-      "cadence": "~2x per week",
+      "medianGap": 1.3,
+      "cadence": "Daily",
       "span": 15
     },
     {
@@ -319,7 +577,7 @@
         "id": "oHLQj750M9U",
         "title": "I Built a Streaming Service Inside the Terminal",
         "published": "2026-11-21T15:00:16+00:00",
-        "views": 47118,
+        "views": 56385,
         "topic": "AI Coding",
         "topicIsBeat": false,
         "bullets": null
@@ -328,111 +586,11 @@
         "id": "mU8WKII1gpk",
         "title": "How to Actually Code with AI (ft. Matt Pocock)",
         "published": "2026-11-20T17:25:28+00:00",
-        "views": 452506
+        "views": 545558
       },
-      "daysSince": 1,
+      "daysSince": 2,
       "medianGap": 3.1,
       "cadence": "~2x per week",
-      "span": 15
-    },
-    {
-      "name": "Jay E | RoboNuggets",
-      "channelId": "UCgscS8mBsQZ5sFRkJIFWD7Q",
-      "avatar": "https://yt3.googleusercontent.com/mIeH8O3QffYUPITAAhUGoeUhN_4fTWnVRdZvSThNYyrXc4R17LPNclHNoQ6fEX68lTOIxRo-OQ=s88-c-k-c0x00ffffff-no-rj",
-      "watched": 10,
-      "latest": {
-        "id": "OMfU5iq8Eik",
-        "title": "Anthropic Just Dropped 7 MASSIVE Claude Features (Master them in 15 mins)",
-        "published": "2026-11-22T00:50:09+00:00",
-        "views": 408474,
-        "topic": "Claude",
-        "topicIsBeat": false,
-        "bullets": null
-      },
-      "prev": {
-        "id": "Qf0EzOEall8",
-        "title": "Anthropic Just Shipped Claude's BIGGEST Harness Change Yet (Code Mode)",
-        "published": "2026-11-20T03:10:32+00:00",
-        "views": 112965
-      },
-      "daysSince": 1,
-      "medianGap": 0.6,
-      "cadence": "Daily",
-      "span": 15
-    },
-    {
-      "name": "Jack Roberts",
-      "channelId": "UCxVxcTULO9cFU6SB9qVaisQ",
-      "avatar": "https://yt3.googleusercontent.com/DNqB1hIwioWT2PYkLGHuFtnfUnx11uE-35XmQqOXJBwyy7sZuBUiTQRySnHoCGP9Wj-0GNGaOQ=s88-c-k-c0x00ffffff-no-rj",
-      "watched": 3,
-      "latest": {
-        "id": "SNTZgpEhBzA",
-        "title": "This Claude Skill Replaced My GitHub Searches",
-        "published": "2026-11-21T21:00:37+00:00",
-        "views": 5152,
-        "topic": "Claude",
-        "topicIsBeat": false,
-        "bullets": null
-      },
-      "prev": {
-        "id": "S9JC3pzZfwA",
-        "title": "The 'ASD-STE100' trick explained",
-        "published": "2026-11-21T15:00:17+00:00",
-        "views": 9824
-      },
-      "daysSince": 1,
-      "medianGap": 0.3,
-      "cadence": "Daily",
-      "span": 15
-    },
-    {
-      "name": "Thinkverse AI",
-      "channelId": "UCOPF9JjEbqjGdD2cqSht1pw",
-      "avatar": "https://yt3.googleusercontent.com/CuRoZ_vLQjHh5aBM8F_x0s8DzDZ_NqJrurYOl4GEqVrOKReu7nr-kDzAPNhWeFsc2xNHgKdqoQ=s88-c-k-c0x00ffffff-no-rj",
-      "watched": 2,
-      "latest": {
-        "id": "fmuMztc9wYg",
-        "title": "He Posted Sleeping Videos for 30 Days Using AI to Make Generational Wealth",
-        "published": "2026-11-22T11:08:34+00:00",
-        "views": 8547,
-        "topic": "AI Coding",
-        "topicIsBeat": false,
-        "bullets": null
-      },
-      "prev": {
-        "id": "AiqfmoisZco",
-        "title": "How to Monetize Your AI Channel in 7 Days with Claude's Newest Updates",
-        "published": "2026-11-20T14:39:46+00:00",
-        "views": 13025
-      },
-      "daysSince": 1,
-      "medianGap": 2,
-      "cadence": "Every 2-3 days",
-      "span": 15
-    },
-    {
-      "name": "Google Cloud Tech",
-      "channelId": "UCJS9pqu9BzkAMNTmzNMNhvg",
-      "avatar": "https://yt3.googleusercontent.com/_XJ_FbhTDiTg7Zhr328vkGrw99p8-uQ3Y1nW2KZozueF_nkixmIhAbF2hUMFB9lUqMwSBo4etlY=s88-c-k-c0x00ffffff-no-rj",
-      "watched": 2,
-      "latest": {
-        "id": "0aUIWT6W_oU",
-        "title": "From prototype to real Firebase backend (no code)",
-        "published": "2026-11-21T16:00:29+00:00",
-        "views": 6695,
-        "topic": "Agents",
-        "topicIsBeat": true,
-        "bullets": null
-      },
-      "prev": {
-        "id": "1bpRQlLVDjU",
-        "title": "How to run and scale JAX on NVIDIA GPUs (Step-by-Step)",
-        "published": "2026-11-20T22:45:24+00:00",
-        "views": 0
-      },
-      "daysSince": 1,
-      "medianGap": 0.1,
-      "cadence": "Daily",
       "span": 15
     },
     {
@@ -444,7 +602,7 @@
         "id": "bj3JTd-ezYg",
         "title": "Riemann solved, unforced Navier-Stokes, realtime waifus, new GPT, Gemini Neon: AI NEWS",
         "published": "2026-11-22T03:30:59+00:00",
-        "views": 209509,
+        "views": 237391,
         "topic": "Models",
         "topicIsBeat": false,
         "bullets": null
@@ -453,9 +611,9 @@
         "id": "3FE-hBh1rsY",
         "title": "Gemini 4 Neon is on fire!",
         "published": "2026-11-20T03:26:03+00:00",
-        "views": 181333
+        "views": 186554
       },
-      "daysSince": 1,
+      "daysSince": 2,
       "medianGap": 3,
       "cadence": "Every 2-3 days",
       "span": 15
@@ -469,7 +627,7 @@
         "id": "ycF6TVRgawE",
         "title": "Gemini 4 Neon Is Disgustingly Good (And CHEAP)",
         "published": "2026-11-21T02:51:14+00:00",
-        "views": 91846,
+        "views": 103898,
         "topic": "Models",
         "topicIsBeat": false,
         "bullets": null
@@ -478,64 +636,10 @@
         "id": "CiiyMV4kiRI",
         "title": "Meta Just Gave Away Their Entire Design System (for free)",
         "published": "2026-11-20T20:30:33+00:00",
-        "views": 6553
+        "views": 8150
       },
-      "daysSince": 2,
+      "daysSince": 3,
       "medianGap": 0.4,
-      "cadence": "Daily",
-      "span": 15
-    },
-    {
-      "name": "Creator Magic",
-      "channelId": "UC08Fah8EIryeOZRkjBRohcQ",
-      "avatar": "https://yt3.googleusercontent.com/xLX2aDRXU0EgpfsfVh-45qHp6zkcJJvh3itsgoqqo1AsX0dm-UkzCDYh9LogceLaNfFmqQFA2D0=s88-c-k-c0x00ffffff-no-rj",
-      "watched": 14,
-      "latest": {
-        "id": "0iZ8k6E5zUI",
-        "title": "Claude Code Built My Newsletter: No More $169 Kit",
-        "published": "2026-11-20T15:00:16+00:00",
-        "views": 3655,
-        "topic": "Claude",
-        "topicIsBeat": false,
-        "bullets": null
-      },
-      "prev": {
-        "id": "boir-ugkm50",
-        "title": "I Cancelled My $99/mo Social Media Scheduler",
-        "published": "2026-11-13T15:00:09+00:00",
-        "views": 5400
-      },
-      "daysSince": 2,
-      "medianGap": 3.5,
-      "cadence": "~2x per week",
-      "span": 15
-    },
-    {
-      "name": "OpenAI",
-      "channelId": "UCXZCJLdBC09xxGZ6gcdrc6A",
-      "avatar": "https://yt3.googleusercontent.com/MopgmVAFV9BqlzOJ-UINtmutvEPcNe5IbKMmP_4vZZo3vnJXcZGtybUBsXaEVxkmxKyGqX9R=s88-c-k-c0x00ffffff-no-rj",
-      "watched": 6,
-      "latest": {
-        "id": "mX7wHNnsghs",
-        "title": "How to claim your business in ChatGPT with Shopify",
-        "published": "2026-11-20T20:48:27+00:00",
-        "views": 21337,
-        "topic": "Models",
-        "topicIsBeat": false,
-        "bullets": [
-          "Connect Shopify stores to ChatGPT to make product catalogs and business data searchable for AI users",
-          "Sync inventory and store information directly through the Shopify admin to improve recommendation accuracy",
-          "Capture traffic from natural language shopping queries by claiming a verified business presence in ChatGPT"
-        ]
-      },
-      "prev": {
-        "id": "X19Q12hmRjY",
-        "title": "An underrated way to use ChatGPT: Finding a doctor",
-        "published": "2026-11-20T17:22:23+00:00",
-        "views": 3942
-      },
-      "daysSince": 2,
-      "medianGap": 0.1,
       "cadence": "Daily",
       "span": 15
     },
@@ -548,7 +652,7 @@
         "id": "NfpqdDnK_kQ",
         "title": "OpenAI’s New Astra Is Messy But Gemini Neon Is... Good?",
         "published": "2026-11-20T14:45:02+00:00",
-        "views": 10083,
+        "views": 10909,
         "topic": "Models",
         "topicIsBeat": false,
         "bullets": null
@@ -557,90 +661,11 @@
         "id": "sQKvJbzgFRU",
         "title": "Claude Just Leveled Up AI Again. Nvidia CEO Jensen Huang Did Not.",
         "published": "2026-11-13T14:45:36+00:00",
-        "views": 13688
+        "views": 13957
       },
-      "daysSince": 2,
+      "daysSince": 3,
       "medianGap": 3,
       "cadence": "~2x per week",
-      "span": 15
-    },
-    {
-      "name": "Cole Medin",
-      "channelId": "UCMwVTLZIRRUyyVrkjDpn4pA",
-      "avatar": "https://yt3.googleusercontent.com/hypu_gAVvu_zrtDWjVw833AeSwI2OwJSJ5ZSy1QAhgbIPs1qmNnKreOnHMhaU55bBRLMA47E=s88-c-k-c0x00ffffff-no-rj",
-      "watched": 5,
-      "latest": {
-        "id": "IsWEWB-Ownk",
-        "title": "Watch My AI Software Factory Ship Your Ideas LIVE",
-        "published": "2026-11-20T23:08:43+00:00",
-        "views": 0,
-        "topic": "AI Coding",
-        "topicIsBeat": false,
-        "bullets": null
-      },
-      "prev": {
-        "id": "k87Iqft91j8",
-        "title": "The Most Dangerous AI Agent Is an Overly Helpful One (It's Not Why You Think)",
-        "published": "2026-11-20T15:14:53+00:00",
-        "views": 10770
-      },
-      "daysSince": 2,
-      "medianGap": 1.8,
-      "cadence": "Every 2-3 days",
-      "span": 15
-    },
-    {
-      "name": "Sandy Lee AI",
-      "channelId": "UCcrH_UUxL4KFjS3pwaXvMXA",
-      "avatar": "https://yt3.googleusercontent.com/UKXg15_RbE6H9WkIXbLu3MSOCKTUdyc9aOnsbkm5j2MtGqKVyghp3HvgEfTRR1I6kgnZaBl3vw=s88-c-k-c0x00ffffff-no-rj",
-      "watched": 3,
-      "latest": {
-        "id": "OMTHLX-1k_Y",
-        "title": "Anthropic will pay $73K in 4 months",
-        "published": "2026-11-20T17:29:57+00:00",
-        "views": 3709,
-        "topic": "Claude",
-        "topicIsBeat": false,
-        "bullets": null
-      },
-      "prev": {
-        "id": "E4SWMbUuXJY",
-        "title": "How I Automate 90% of Content With Codex",
-        "published": "2026-11-04T15:15:08+00:00",
-        "views": 2274
-      },
-      "daysSince": 2,
-      "medianGap": 5,
-      "cadence": "~2x per week",
-      "span": 15
-    },
-    {
-      "name": "Paul J Lipsky",
-      "channelId": "UCmeU2DYiVy80wMBGZzEWnbw",
-      "avatar": "https://yt3.googleusercontent.com/vvdXULk0z9-eMHaEV8y2hkduCb8cjcF5zQD6puFRPaaNnPHhbSFn8nKfkLPVSmiHcnfPxS093w=s88-c-k-c0x00ffffff-no-rj",
-      "watched": 2,
-      "latest": {
-        "id": "gxoKLsWRRxs",
-        "title": "Big AI News: OpenAI Fumbled but Google Won The Week (Again)",
-        "published": "2026-11-20T14:00:15+00:00",
-        "views": 119885,
-        "topic": "Models",
-        "topicIsBeat": false,
-        "bullets": [
-          "OpenAI released GPT 6.2 Astra and Soul, which testers criticize for lazy outputs and inconsistent logic",
-          "Google launched Gemini 4 Neon as its fastest model yet, outperforming Opus 5.5 and GPT 6.2 on benchmarks",
-          "Anthropic debuted as a public company with a 1.5 trillion dollar valuation and an 81 billion dollar IPO"
-        ]
-      },
-      "prev": {
-        "id": "ZTQ_c6Rq85o",
-        "title": "Gemini's New Personal Agent Is Here (Muse Killer?)",
-        "published": "2026-11-19T14:00:15+00:00",
-        "views": 300670
-      },
-      "daysSince": 2,
-      "medianGap": 1,
-      "cadence": "Daily",
       "span": 15
     },
     {
@@ -652,7 +677,7 @@
         "id": "4TnNitqm8uM",
         "title": "Claude is eating the world",
         "published": "2026-11-20T00:41:40+00:00",
-        "views": 138544,
+        "views": 145713,
         "topic": "Claude",
         "topicIsBeat": false,
         "bullets": null
@@ -661,9 +686,9 @@
         "id": "JePtqPwfD6M",
         "title": "GPT-6.2 Astra Just Dropped, And It's Not Great",
         "published": "2026-11-17T20:11:18+00:00",
-        "views": 142667
+        "views": 143486
       },
-      "daysSince": 3,
+      "daysSince": 4,
       "medianGap": 1,
       "cadence": "Daily",
       "span": 15
@@ -677,7 +702,7 @@
         "id": "aJHVtpozDbQ",
         "title": "Master the Art of Negotiation",
         "published": "2026-11-19T15:21:05+00:00",
-        "views": 35027,
+        "views": 36480,
         "topic": "Claude",
         "topicIsBeat": true,
         "bullets": null
@@ -686,9 +711,9 @@
         "id": "nipWCdLxJwM",
         "title": "You're Allowed to Say No",
         "published": "2026-11-18T23:00:34+00:00",
-        "views": 21061
+        "views": 21723
       },
-      "daysSince": 3,
+      "daysSince": 4,
       "medianGap": 1,
       "cadence": "Daily",
       "span": 15
@@ -702,7 +727,7 @@
         "id": "jfC6_biJ4Q8",
         "title": "This Skill Lets You Uncensor Any AI Model",
         "published": "2026-11-18T21:00:01+00:00",
-        "views": 21679,
+        "views": 22999,
         "topic": "Models",
         "topicIsBeat": false,
         "bullets": null
@@ -711,40 +736,11 @@
         "id": "5cZontQjBH4",
         "title": "Claude Fable 5.2 Can Do So Much More Than Build Apps",
         "published": "2026-11-13T00:15:11+00:00",
-        "views": 36263
-      },
-      "daysSince": 4,
-      "medianGap": 2.9,
-      "cadence": "Every 2-3 days",
-      "span": 15
-    },
-    {
-      "name": "Agrici Daniel",
-      "channelId": "UCuCpyjRfW157950O5VBaWlw",
-      "avatar": "https://yt3.googleusercontent.com/ucdfhbSc6wOnmm-39vppuGnduG5gHcddcTEvMC1q3A_9A1lPDRYZ4U46bCxoSHklzYF_RJQ4=s88-c-k-c0x00ffffff-no-rj",
-      "watched": 3,
-      "latest": {
-        "id": "EgO_HixdkYQ",
-        "title": "Block AI Training, Keep ChatGPT & Google Search Open",
-        "published": "2026-11-17T15:20:38+00:00",
-        "views": 435,
-        "topic": "Models",
-        "topicIsBeat": false,
-        "bullets": [
-          "Categorizes 18 AI bots into training crawlers to block and search agents to keep open for site traffic",
-          "States that named user-agent groups ignore global wildcard rules while 500 errors trigger a crawl block",
-          "Shows how to use the Claude SEO open-source tool to verify sitemap URLs and simulate WAF blocks"
-        ]
-      },
-      "prev": {
-        "id": "rvih1TVN5e4",
-        "title": "Claude SEO Hit 30K Stars, and It's All Thanks to You",
-        "published": "2026-11-17T01:24:39+00:00",
-        "views": 897
+        "views": 36593
       },
       "daysSince": 5,
-      "medianGap": 0.9,
-      "cadence": "Daily",
+      "medianGap": 2.9,
+      "cadence": "Every 2-3 days",
       "span": 15
     },
     {
@@ -756,7 +752,7 @@
         "id": "v87t3jZSQ1A",
         "title": "Claude Artifacts Are Amazing, Master Docs in 5 Minutes!",
         "published": "2026-11-17T12:00:37+00:00",
-        "views": 1198,
+        "views": 1264,
         "topic": "Claude",
         "topicIsBeat": false,
         "bullets": null
@@ -765,9 +761,9 @@
         "id": "R261I0mZXAM",
         "title": "How I Create INSANE Explainer Videos With Claude for $0!",
         "published": "2026-11-09T12:15:16+00:00",
-        "views": 1584
+        "views": 1622
       },
-      "daysSince": 5,
+      "daysSince": 6,
       "medianGap": 8,
       "cadence": "Weekly",
       "span": 15
@@ -781,7 +777,7 @@
         "id": "YWBabyKAeDk",
         "title": "Gemini AI's Multi-Modality: Video, Audio, Image & Text Inputs Explained",
         "published": "2026-10-16T19:02:36+00:00",
-        "views": 10359,
+        "views": 10448,
         "topic": "AI Coding",
         "topicIsBeat": false,
         "bullets": null
@@ -790,9 +786,9 @@
         "id": "8lbKuWwth2k",
         "title": "Fable 5.5: The Biggest Leap in AI Models Coming Soon",
         "published": "2026-10-16T17:03:24+00:00",
-        "views": 20966
+        "views": 20984
       },
-      "daysSince": 37,
+      "daysSince": 38,
       "medianGap": 0.1,
       "cadence": "Daily",
       "span": 15
@@ -806,7 +802,7 @@
         "id": "FiOTrxq9ckM",
         "title": "[Free on Github] My Jarvis AI Assistant",
         "published": "2026-08-20T15:00:02+00:00",
-        "views": 564807,
+        "views": 567072,
         "topic": "AI Business",
         "topicIsBeat": true,
         "bullets": [
@@ -819,9 +815,9 @@
         "id": "BeWeyhpzIBk",
         "title": "Making Money with AI",
         "published": "2026-08-19T06:00:45+00:00",
-        "views": 3702
+        "views": 3705
       },
-      "daysSince": 94,
+      "daysSince": 95,
       "medianGap": 0.9,
       "cadence": "Daily",
       "span": 15
